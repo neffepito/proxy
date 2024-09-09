@@ -1,0 +1,734 @@
+# Advertising
+# > General
+host-keyword,adservice,REJECT
+
+host-suffix,1phads.com,REJECT
+host-suffix,1rtb.com,REJECT
+host-suffix,1xl.co.uk,REJECT
+host-suffix,206ads.com,REJECT
+host-suffix,3cinteractive.com,REJECT
+host-suffix,4mads.com,REJECT
+host-suffix,5rocks.io,REJECT
+host-suffix,a.ki,REJECT
+host-suffix,a8.net,REJECT
+host-suffix,a9.com,REJECT
+host-suffix,a-ads.com,REJECT
+host-suffix,aarki.com,REJECT
+host-suffix,aarki.net,REJECT
+host-suffix,abtasty.com,REJECT
+host-suffix,acento.com,REJECT
+host-suffix,actionads.ru,REJECT
+host-suffix,actionpay.ru,REJECT
+host-suffix,ad.gt,REJECT
+host-suffix,ad1.ru,REJECT
+host-suffix,ad120m.com,REJECT
+host-suffix,ad127m.com,REJECT
+host-suffix,ad131m.com,REJECT
+host-suffix,ad132m.com,REJECT
+host-suffix,ad1data.com,REJECT
+host-suffix,ad2games.com,REJECT
+host-suffix,ad2iction.com,REJECT
+host-suffix,ad4.com.cn,REJECT
+host-suffix,ad4game.com,REJECT
+host-suffix,ad6media.co.uk,REJECT
+host-suffix,ad6media.com,REJECT
+host-suffix,ad6media.es,REJECT
+host-suffix,ad6media.fr,REJECT
+host-suffix,adacado.com,REJECT
+host-suffix,adadapted.com,REJECT
+host-suffix,adap.tv,REJECT
+host-suffix,adasiaholdings.com,REJECT
+host-suffix,adatrix.com,REJECT
+host-suffix,ad-balancer.at,REJECT
+host-suffix,adbecrsl.com,REJECT
+host-suffix,adblade.com,REJECT
+host-suffix,adblox.net,REJECT
+host-suffix,adbooth.com,REJECT
+host-suffix,ad-brix.com,REJECT
+host-suffix,adcamp.ru,REJECT
+host-suffix,adcdnx.com,REJECT
+host-suffix,adcel.co,REJECT
+host-suffix,ad-center.com,REJECT
+host-suffix,adcenter.io,REJECT
+host-suffix,adchina.com,REJECT
+host-suffix,adcloud.jp,REJECT
+host-suffix,ad-cloud.jp,REJECT
+host-suffix,adcloud.net,REJECT
+host-suffix,adcocktail.com,REJECT
+host-suffix,adcolony.com,REJECT
+host-suffix,adcomplete.ru,REJECT
+host-suffix,adcrowd.com,REJECT
+host-suffix,addapptr.com,REJECT
+host-suffix,addealing.com,REJECT
+host-suffix,addealsnetwork.com,REJECT
+host-suffix,ad-delivery.net,REJECT
+host-suffix,addict-mobile.net,REJECT
+host-suffix,addragon.com,REJECT
+host-suffix,adecorp.co.kr,REJECT
+host-suffix,adecosystems.net,REJECT
+host-suffix,adecosystems.tech,REJECT
+host-suffix,adelement.com,REJECT
+host-suffix,adelva.com,REJECT
+host-suffix,adentifi.com,REJECT
+host-suffix,adexchangemachine.com,REJECT
+host-suffix,adexprt.com,REJECT
+host-suffix,adextent.com,REJECT
+host-suffix,adfactor.nl,REJECT
+host-suffix,adfalcon.com,REJECT
+host-suffix,adflow.ru,REJECT
+host-suffix,adform.net,REJECT
+host-suffix,adinall.com,REJECT
+host-suffix,adkernel.com,REJECT
+host-suffix,ad-locus.com,REJECT
+host-suffix,adlooxtracking.com,REJECT
+host-suffix,admarvel.com,REJECT
+host-suffix,admaster.com.cn,REJECT
+host-suffix,ad-maven.com,REJECT
+host-suffix,admicro.vn,REJECT
+host-suffix,admob.com,REJECT
+host-suffix,ad-move.jp,REJECT
+host-suffix,adnetwork.vn,REJECT
+host-suffix,adnxs.com,REJECT
+host-suffix,adnyg.com,REJECT
+host-suffix,ad-plus.cn,REJECT
+host-suffix,adpushup.com,REJECT
+host-suffix,adroll.com,REJECT
+host-suffix,adsafeprotected.com,REJECT
+host-suffix,adsage.cn,REJECT
+host-suffix,adsage.com,REJECT
+host-suffix,ad-score.com,REJECT
+host-suffix,adsensor.org,REJECT
+host-suffix,adserve.work,REJECT
+host-suffix,adsmediabox.com,REJECT
+host-suffix,ads-pixiv.net,REJECT
+host-suffix,ad-srv.co,REJECT
+host-suffix,adsrvr.org,REJECT
+host-suffix,ad-stir.com,REJECT
+host-suffix,ads-twitter.com,REJECT
+host-suffix,adswizz.com,REJECT
+host-suffix,adsymptotic.com,REJECT
+host-suffix,ad-sys.com,REJECT
+host-suffix,adtarget.io,REJECT
+host-suffix,adtarget.me,REJECT
+host-suffix,adtdp.com,REJECT
+host-suffix,adthor.com,REJECT
+host-suffix,adtrace.org,REJECT
+host-suffix,advertising.com,REJECT
+host-suffix,adwhirl.com,REJECT
+host-suffix,adwo.com,REJECT
+host-suffix,adxadserv.com,REJECT
+host-suffix,adzerk.net,REJECT
+host-suffix,aiclk.com,REJECT
+host-suffix,airpush.com,REJECT
+host-suffix,algovid.com,REJECT
+host-suffix,amazon-adsystem.com,REJECT
+host-suffix,amoad.com,REJECT
+host-suffix,amobee.com,REJECT
+host-suffix,app-adforce.jp,REJECT
+host-suffix,appads.com,REJECT
+host-suffix,appcpi.net,REJECT
+host-suffix,appier.net,REJECT
+host-suffix,applift.com,REJECT
+host-suffix,applovin.com,REJECT
+host-suffix,applvn.com,REJECT
+host-suffix,appsflyer.com,REJECT
+host-suffix,apsalar.com,REJECT
+host-suffix,apxadtracking.net,REJECT
+host-suffix,aralego.com,REJECT
+host-suffix,atomhike.com,REJECT
+host-suffix,axonix.com,REJECT
+host-suffix,b2pk.com,REJECT
+host-suffix,bayimob.com,REJECT
+host-suffix,bjvvqu.cn,REJECT
+host-suffix,brightcom.com,REJECT
+host-suffix,bulldogcpi.com,REJECT
+host-suffix,bxsnews.com,REJECT
+host-suffix,carbonads.net,REJECT
+host-suffix,cdj99d.cn,REJECT
+host-suffix,clotfun.mobi,REJECT
+host-suffix,clotfun.online,REJECT
+host-suffix,cloudmobi.net,REJECT
+host-suffix,comscore.com,REJECT
+host-suffix,crispadvertising.com,REJECT
+host-suffix,criteo.com,REJECT
+host-suffix,criteo.net,REJECT
+host-suffix,crwdcntrl.net,REJECT
+host-suffix,ctrmi.com,REJECT
+host-suffix,domob.cn,REJECT
+host-suffix,dotomi.com,REJECT
+host-suffix,doubleverify.com,REJECT
+host-suffix,eroadvertising.com,REJECT
+host-suffix,ero-advertising.com,REJECT
+host-suffix,exdynsrv.com,REJECT
+host-suffix,exosrv.com,REJECT
+host-suffix,go2cloud.org,REJECT
+host-suffix,growingio.com,REJECT
+host-suffix,haloapps.com,REJECT
+host-suffix,hubcloud.com.cn,REJECT
+host-suffix,hypers.com,REJECT
+host-suffix,idealads.net,REJECT
+host-suffix,inmobi.cn,REJECT
+host-suffix,inmobi.com,REJECT
+host-suffix,inmobi.net,REJECT
+host-suffix,inmobicdn.cn,REJECT
+host-suffix,inmobicdn.net,REJECT
+host-suffix,inner-active.mobi,REJECT
+host-suffix,innovid.com,REJECT
+host-suffix,insurads.com,REJECT
+host-suffix,ironsrc.com,REJECT
+host-suffix,irs01.com,REJECT
+host-suffix,iskyworker.com,REJECT
+host-suffix,iyoowi.com,REJECT
+host-suffix,juicyads.com,REJECT
+host-suffix,leadboltmobile.net,REJECT
+host-suffix,lenzmx.com,REJECT
+host-suffix,liveadvert.com,REJECT
+host-suffix,lnk0.com,REJECT
+host-suffix,lnk8.cn,REJECT
+host-suffix,localytics.com,REJECT
+host-suffix,mdfull.com,REJECT
+host-suffix,measurementapi.com,REJECT
+host-suffix,medialytics.com,REJECT
+host-suffix,meetrics.com,REJECT
+host-suffix,meetrics.net,REJECT
+host-suffix,miaozhen.com,REJECT
+host-suffix,moatads.com,REJECT
+host-suffix,mobclix.com,REJECT
+host-suffix,mopub.com,REJECT
+host-suffix,nexage.com,REJECT
+host-suffix,o333o.com,REJECT
+host-suffix,okjhb.xyz,REJECT
+host-suffix,open-adx.com,REJECT
+host-suffix,openx.com,REJECT
+host-suffix,openx.net,REJECT
+host-suffix,outbrain.com,REJECT
+host-suffix,pubmatic.com,REJECT
+host-suffix,qchannel01.cn,REJECT
+host-suffix,rayjump.com,REJECT
+host-suffix,realsrv.com,REJECT
+host-suffix,restartad.com,REJECT
+host-suffix,revcontent.com,REJECT
+host-suffix,revjet.com,REJECT
+host-suffix,rubiconproject.com,REJECT
+host-suffix,runative-syndicate.com,REJECT
+host-suffix,sdkclick.com,REJECT
+host-suffix,serving-sys.com,REJECT
+host-suffix,sharethrough.com,REJECT
+host-suffix,shuzilm.cn,REJECT
+host-suffix,simpli.fi,REJECT
+host-suffix,sitemaji.com,REJECT
+host-suffix,smaato.net,REJECT
+host-suffix,smartadserver.com,REJECT
+host-suffix,smartnews-ads.com,REJECT
+host-suffix,snapads.com,REJECT
+host-suffix,socdm.com,REJECT
+host-suffix,sonobi.com,REJECT
+host-suffix,springserve.com,REJECT
+host-suffix,startappservice.com,REJECT
+host-suffix,steelhouse.com,REJECT
+host-suffix,steelhousemedia.com,REJECT
+host-suffix,steepto.com,REJECT
+host-suffix,stickyadstv.com,REJECT
+host-suffix,streamrail.com,REJECT
+host-suffix,streamrail.net,REJECT
+host-suffix,strikead.com,REJECT
+host-suffix,sumome.com,REJECT
+host-suffix,sunnyworks.co.kr,REJECT
+host-suffix,superad2.com.sg,REJECT
+host-suffix,superadbox.com,REJECT
+host-suffix,superads.cn,REJECT
+host-suffix,supersonic.com,REJECT
+host-suffix,supersonicads.com,REJECT
+host-suffix,synergy-e.com,REJECT
+host-suffix,tabmo.io,REJECT
+host-suffix,taboola.com,REJECT
+host-suffix,taboolasyndication.com,REJECT
+host-suffix,tacoda.net,REJECT
+host-suffix,tactilews.com,REJECT
+host-suffix,tagtic.cn,REJECT
+host-suffix,tamedia.com.tw,REJECT
+host-suffix,tanv.com,REJECT
+host-suffix,tanx.com,REJECT
+host-suffix,tapdaq.com,REJECT
+host-suffix,tapjoy.com,REJECT
+host-suffix,tapjoyads.com,REJECT
+host-suffix,tappx.com,REJECT
+host-suffix,tapresearch.com,REJECT
+host-suffix,taptapnetworks.com,REJECT
+host-suffix,taptica.com,REJECT
+host-suffix,targetspot.com,REJECT
+host-suffix,teads.tv,REJECT
+host-suffix,terraclicks.com,REJECT
+host-suffix,theadex.com,REJECT
+host-suffix,themoneytizer.com,REJECT
+host-suffix,theoremreach.com,REJECT
+host-suffix,thetrafficstat.net,REJECT
+host-suffix,tnkfactory.com,REJECT
+host-suffix,tns-counter.ru,REJECT
+host-suffix,traffichunt.com,REJECT
+host-suffix,trafficjunky.net,REJECT
+host-suffix,trafmag.com,REJECT
+host-suffix,traktum.com,REJECT
+host-suffix,tremorhub.com,REJECT
+host-suffix,tremormedia.com,REJECT
+host-suffix,tremorvideo.com,REJECT
+host-suffix,tresensa.com,REJECT
+host-suffix,trfmxt.com,REJECT
+host-suffix,trvdp.com,REJECT
+host-suffix,tubemogul.com,REJECT
+host-suffix,tuifish.com,REJECT
+host-suffix,tuitiger.com,REJECT
+host-suffix,turn.com,REJECT
+host-suffix,tutoads.tv,REJECT
+host-suffix,u-ad.info,REJECT
+host-suffix,uberads.com,REJECT
+host-suffix,uimserv.net,REJECT
+host-suffix,ultraadserver.com,REJECT
+host-suffix,undertone.com,REJECT
+host-suffix,unimhk.com,REJECT
+host-suffix,unrulymedia.com,REJECT
+host-suffix,upltv.com,REJECT
+host-suffix,uprivaladserver.net,REJECT
+host-suffix,upsight-api.com,REJECT
+host-suffix,upsnap.com,REJECT
+host-suffix,uri6.com,REJECT
+host-suffix,usekahuna.com,REJECT
+host-suffix,utarget.ru,REJECT
+host-suffix,vads.net.vn,REJECT
+host-suffix,vads.vn,REJECT
+host-suffix,vamaker.com,REJECT
+host-suffix,vdopia.com,REJECT
+host-suffix,veinteractive.com,REJECT
+host-suffix,vendimob.pl,REJECT
+host-suffix,vertamedia.com,REJECT
+host-suffix,verticalscope.com,REJECT
+host-suffix,vervemobile.com,REJECT
+host-suffix,videoadex.com,REJECT
+host-suffix,videohub.tv,REJECT
+host-suffix,vidoomy.com,REJECT
+host-suffix,viewdeos.com,REJECT
+host-suffix,vi-serve.com,REJECT
+host-suffix,vm5apis.com,REJECT
+host-suffix,voiceads.cn,REJECT
+host-suffix,voodoo-ads.io,REJECT
+host-suffix,vrtcal.com,REJECT
+host-suffix,vrtzads.com,REJECT
+host-suffix,vrvm.com,REJECT
+host-suffix,vserv.mobi,REJECT
+host-suffix,vungle.com,REJECT
+host-suffix,w55c.net,REJECT
+host-suffix,wapstart.ru,REJECT
+host-suffix,webads.eu,REJECT
+host-suffix,wedolook.com,REJECT
+host-suffix,widespace.com,REJECT
+host-suffix,wigetmedia.com,REJECT
+host-suffix,wordstream.com,REJECT
+host-suffix,wrinkads.com,REJECT
+host-suffix,wsod.com,REJECT
+host-suffix,xapads.com,REJECT
+host-suffix,xdrig.com,REJECT
+host-suffix,xmlwizard.com,REJECT
+host-suffix,xpanama.net,REJECT
+host-suffix,xy7elite.com,REJECT
+host-suffix,yandexadexchange.net,REJECT
+host-suffix,ybrantdigital.com,REJECT
+host-suffix,ydmob.com,REJECT
+host-suffix,yeahmobi.com,REJECT
+host-suffix,yhdichan.com,REJECT
+host-suffix,yicha.jp,REJECT
+host-suffix,yieldlove-ad-serving.net,REJECT
+host-suffix,yieldmo.com,REJECT
+host-suffix,yieldoptimizer.com,REJECT
+host-suffix,yllix.com,REJECT
+host-suffix,ymtrack6.co,REJECT
+host-suffix,ymtracking.com,REJECT
+host-suffix,yoc.com,REJECT
+host-suffix,yoc-performance.com,REJECT
+host-suffix,yomedia.vn,REJECT
+host-suffix,yomob.com.cn,REJECT
+host-suffix,yottos.com,REJECT
+host-suffix,youappi.com,REJECT
+host-suffix,youmi.net,REJECT
+host-suffix,yumimobi.com,REJECT
+host-suffix,yunqingugm.com,REJECT
+host-suffix,zapr.in,REJECT
+host-suffix,zemanta.com,REJECT
+host-suffix,zestads.com,REJECT
+host-suffix,zhiziyun.com,REJECT
+host-suffix,zu08e.cn,REJECT
+host-suffix,zucks.co.jp,REJECT
+host-suffix,zucks.net,REJECT
+host-suffix,zumobi.com,REJECT
+host-suffix,zwaar.org,REJECT
+host-suffix,zxrtb.com,REJECT
+
+host-suffix,ad.cmvideo.cn,REJECT
+host-suffix,ad.daum.net,REJECT
+host-suffix,ad.g.daum.net,REJECT
+
+host,ads.play.cbsi.video,REJECT
+host,abema-adx.ameba.jp,REJECT
+host,ad.12306.cn,REJECT
+host,ad.caiyunapp.com,REJECT
+host,ad.flurry.com,REJECT
+host,ad.huajiao.com,REJECT
+host,ad.hzyoka.com,REJECT
+host,ad.jiemian.com,REJECT
+host,ad.wappalyzer.com,REJECT
+host,ad-cn.jovcloud.com,REJECT
+host,ad-mediation.tuanguwen.com,REJECT
+host,ads.chinadaily.com.cn,REJECT
+host,ads.daydaycook.com.cn,REJECT
+host,ads.flurry.com,REJECT
+host,ads.storm8.com,REJECT
+host,ads.superawesome.tv,REJECT
+host,ads.weilitoutiao.net,REJECT
+host,adsapi.manhuaren.com,REJECT
+host,adsdk.dmzj.com,REJECT
+host,adserver.pandora.com,REJECT
+host,adservice.tohsoft.com,REJECT
+host,adshow.58.com,REJECT
+host,adui.tg.meitu.com,REJECT
+host,adv.bandi.so,REJECT
+host,adv.ettoday.net,REJECT
+host,api.ad.xiaomi.com,REJECT
+host,api.adnet.mob.com,REJECT
+host,api-ad.kajicam.com,REJECT
+host,appnext.hs.llnwd.net,REJECT
+host,appnext-a.akamaihd.net,REJECT
+host,business-cdn.shouji.sogou.com,REJECT
+host,g.ousns.net,REJECT
+host,ggs.myzaker.com,REJECT
+host,ggx.cmvideo.cn,REJECT
+host,itad.linetv.tw,REJECT
+host,ma-adx.ctrip.com,REJECT
+host,mads.suning.com,REJECT
+host,mobileads.msn.com,REJECT
+host,mopnativeadv.037201.com,REJECT
+host,nativeadv.dftoutiao.com,REJECT
+host,toots-a.akamaihd.net,REJECT
+
+# (0~9)
+# > 51wnl
+host,ad.51wnl-cq.com,REJECT
+host,adextra.51wnl-cq.com,REJECT
+host,log.51wnl-cq.com,REJECT
+host,r.51wnl-cq.com,REJECT
+
+# (A)
+# > Apple
+host-suffix,iadsdk.apple.com,REJECT
+host-suffix,ads.internal.unity3d.com,REJECT
+host-suffix,ads.prd.ie.internal.unity3d.com,REJECT
+host-suffix,unityads.unity3d.com,REJECT
+# --- (Alibaba) ---
+host,tunion-api.m.taobao.com,REJECT
+# > YOUKU
+host-suffix,atm.youku.com,REJECT
+host,ad.mobile.youku.com,REJECT
+host,iyes.youku.com,REJECT
+host,pl.cp31.ott.cibntv.net,REJECT
+# > AMap
+host,optimus-ads.amap.com,REJECT
+host,optimus-ads.amap.com.w.alikunlun.com,REJECT
+# ------
+# > Autohome
+host,adproxy.autohome.com.cn,REJECT
+host,rd.autohome.com.cn,REJECT
+host,al.autohome.com.cn,REJECT
+host,applogapi.autohome.com.cn,REJECT
+host,adm0.autoimg.cn,REJECT
+host,adm1.autoimg.cn,REJECT
+host,adm2.autoimg.cn,REJECT
+host,adm3.autoimg.cn,REJECT
+
+# (B)
+# --- (Baidu) ---
+host-suffix,duapps.com,REJECT
+host-suffix,cpro.baidu.com,REJECT
+host-suffix,pos.baidu.com,REJECT
+host,afd.baidu.com,REJECT
+host,als.baidu.com,REJECT
+host,duclick.baidu.com,REJECT
+host,mobads.baidu.com,REJECT
+host,mobads-logs.baidu.com,REJECT
+host,nadvideo2.baidu.com,REJECT
+host,nsclick.baidu.com,REJECT
+# > iQIYI
+host,t7z.cupid.iqiyi.com,REJECT
+host,t7z.cupid.ptqy.gitv.tv,REJECT
+ip-cidr,101.227.97.240/32,REJECT
+ip-cidr,101.227.200.11/32,REJECT
+ip-cidr,101.227.200.28/32,REJECT
+ip-cidr,124.192.153.42/32,REJECT
+# ------
+# > ByteDance
+host-suffix,pangolin-sdk-toutiao.com,REJECT
+host,ad.toutiao.com,REJECT
+host,pangolin.snssdk.com,REJECT
+# > baicizhan
+host,advertise.baicizhan.com,REJECT
+host,advertise.baicizhan.org,REJECT
+# > BitAuto
+host,adx.yiche.com,REJECT
+host,log.ycapp.yiche.com,REJECT
+# > Braze
+host-suffix,iad.appboy.com,REJECT
+host-suffix,iad-03.appboy.com,REJECT
+host-suffix,iad-01.braze.com,REJECT
+host-suffix,iad-02.braze.com,REJECT
+host-suffix,iad-03.braze.com,REJECT
+host-suffix,iad-04.braze.com,REJECT
+host-suffix,iad-05.braze.com,REJECT
+host-suffix,iad-06.braze.com,REJECT
+host-suffix,iad-08.braze.com,REJECT
+
+# (C)
+# > CNTV
+host,galaxy.bjcathay.com,REJECT
+host,mdrecv.app.cntvwb.cn,REJECT
+host,sdapprecv.app.cntvwb.cn,REJECT
+host,vdapprecv.app.cntvwb.cn,REJECT
+# > ChinaTelecom
+host,ad.21cn.com,REJECT
+host,ad.k.21cn.com,REJECT
+host,admarket.21cn.com,REJECT
+host,adshows.21cn.com,REJECT
+# > Chelaile
+host,atrace.chelaile.net.cn,REJECT
+host,logs.chelaile.net.cn,REJECT
+# > Camera360
+host,dispatcher.360in.com,REJECT
+host,ad.360in.com,REJECT
+host,exp.360in.com,REJECT
+
+# (G)
+# > Google
+host-suffix,doubleclick.net,REJECT
+host-suffix,googleadservices.com,REJECT
+host-suffix,googleadsserving.cn,REJECT
+host-suffix,googlesyndication.com,REJECT
+host-suffix,googletagservices.com,REJECT
+host,ads.youtube.com,REJECT
+
+# (H)
+# > HunanTV
+host-suffix,da.mgtv.com,REJECT
+host-suffix,da.hunantv.com,REJECT
+host-suffix,log.hunantv.com,REJECT
+host-suffix,v2.hunantv.com,REJECT
+# > Hupu
+host,adx.hupu.com,REJECT
+host,adx-api.hupu.com,REJECT
+host,goblin.hupu.com,REJECT
+# > happycast
+host,ad.hpplay.cn,REJECT
+host,adc.hpplay.cn,REJECT
+host,adcdn.hpplay.cn,REJECT
+host,adeng.hpplay.cn,REJECT
+host,pin.hpplay.cn,REJECT
+host,rp.hpplay.cn,REJECT
+host,rpt.hpplay.cn,REJECT
+
+# (J)
+# > Kingsoft
+host,ad-stat.ksosoft.com,REJECT
+host,img.auction-ads.wpscdn.cn,REJECT
+host,counter.kingsoft.com,REJECT
+host,counter.ksosoft.com,REJECT
+host,minfo.wps.cn,REJECT
+host,mobad.ijinshan.com,REJECT
+host,ups.ksmobile.net,REJECT
+host,ws.ksmobile.net,REJECT
+
+# (K)
+# > Kuaishou
+host-suffix,e.kuaishou.com,REJECT
+host,js-ad.a.yximgs.com,REJECT
+
+# (L)
+# > Le
+host-suffix,webp2p.letv.com,REJECT
+host,ark.letv.com,REJECT
+host,emma-414870e223.huodonghezi.com,REJECT
+host,g3.letv.com,REJECT
+host,n.mark.letv.com,REJECT
+# > LinkWiFi
+host,a.wkanx.com,REJECT
+host,cwx.lianwangtech.com,REJECT
+host,c1wx.lianwangtech.com,REJECT
+
+# (M)
+# > MojiWeather
+host,ad.api.moji.com,REJECT
+host,adlaunch.moji.com,REJECT
+host,ads.mojicdn.com,REJECT
+host,v1.log.moji.com,REJECT
+
+# (N)
+# > NetEase
+host-suffix,dsp.youdao.com,REJECT
+host-suffix,union.youdao.com,REJECT
+host,ad.bn.netease.com,REJECT
+host,ad.yixin.im,REJECT
+host,admusicpic.music.126.net,REJECT
+host,gorgon.youdao.com,REJECT
+host,iad.g.163.com,REJECT
+host,iadmat.nosdn.127.net,REJECT
+host,iadmusicmat.music.126.net,REJECT
+host,iadmusicmatvideo.music.126.net,REJECT
+host,impservice.dictapp.youdao.com,REJECT
+host,impservice.youdao.com,REJECT
+host,n.3g.163.com,REJECT
+host,nex.163.com,REJECT
+host,yt-adp.nosdn.127.net,REJECT
+host,yt-adp.ws.126.net,REJECT
+
+# (P)
+# > PPTV
+host,ads.aplus.pptv.com,REJECT
+host,ads.aplusapi.pptv.com,REJECT
+host,asimgs.pplive.cn,REJECT
+host,de.as.pptv.com,REJECT
+# > Photoable
+host,regist.fotoable.com,REJECT
+host,cdn.adapi.fotoable.com,REJECT
+# > PeanutWiFi
+host,adnew.wifi8.com,REJECT
+host,adfile.wifi8.com,REJECT
+# > PConline
+host,ad-analysis.pconline.com.cn,REJECT
+host,iad0ssl.pcauto.com.cn,REJECT
+host,iad0ssl.pconline.com.cn,REJECT
+host,imgad0.pcauto.com.cn,REJECT
+host,imgad0.pconline.com.cn,REJECT
+host,ivy.pchouse.com.cn,REJECT
+# > Phoenix New Media
+host-suffix,deliver.ifeng.com,REJECT
+host,api.newad.ifeng.com,REJECT
+host,ifengad.3g.ifeng.com,REJECT
+
+# (Q)
+# > QingTing
+host,ad.qingting.fm,REJECT
+host,adlaunch.qingting.fm,REJECT
+host,ad-cdn.qingting.fm,REJECT
+# > OPPO
+host-suffix,ads.oppomobile.com,REJECT
+host,adsfs.oppomobile.com,REJECT
+
+# (S)
+# > Sina
+host-suffix,alitui.weibo.com,REJECT
+host-suffix,beacon.sina.com.cn,REJECT
+host,adimg.uve.weibo.com,REJECT
+host,adimg.vue.weibo.com,REJECT
+host,u1.img.mobile.sina.cn,REJECT
+host,sax.sina.com.cn,REJECT
+host,saxs.sina.com.cn,REJECT
+host,saxn.sina.com.cn,REJECT
+# > SOHU
+host-suffix,ad.sohu.com,REJECT
+host-suffix,ads.sohu.com,REJECT
+host-suffix,aty.sohu.com,REJECT
+host,imp.optaim.com,REJECT
+host,v2.reachmax.cn,REJECT
+host,hui.sohu.com,REJECT
+
+# (T)
+# --- (Tencent) ---
+host-suffix,e.qq.com,REJECT
+host-suffix,gdt.qq.com,REJECT
+host-suffix,l.qq.com,REJECT
+host,adsmind.apdcdn.tc.qq.com,REJECT
+host,adsmind.gdtimg.com,REJECT
+host,adsmind.tc.qq.com,REJECT
+host,pgdt.gtimg.cn,REJECT
+host,pgdt.gtimg.com,REJECT
+host,pgdt.ugdtimg.com,REJECT
+host,splashqqlive.gtimg.com,REJECT
+host,wa.gtimg.com,REJECT
+host,wxsnsdy.wxs.qq.com,REJECT
+host,wxsnsdythumb.wxs.qq.com,REJECT
+# > Tencent Music (TME)
+host,ad.tencentmusic.com,REJECT
+host,adserviceretry.kugou.com,REJECT
+host,ads.service.kugou.com,REJECT
+host,adsfile.bssdlbig.kugou.com,REJECT
+host,g.koowo.com,REJECT
+host,kgmobilestat.kugou.com,REJECT
+host,kgmobilestatbak.kugou.com,REJECT
+host,mobilelog.kugou.com,REJECT
+host,mobilead.kuwo.cn,REJECT
+host,rich.kuwo.cn,REJECT
+# ------
+# > TongHuaShun
+host,adm.10jqka.com.cn,REJECT
+host,stat.10jqka.com.cn,REJECT
+# > The Paper
+host,admonitor.thepaper.cn,REJECT
+host,adpai.thepaper.cn,REJECT
+host,imgadpai.thepaper.cn,REJECT
+# > Thunder
+host,adsp.xunlei.com,REJECT
+host,etl.xlmc.sandai.net,REJECT
+
+# (V)
+# > VariFlight
+host,adv-adlog.variflight.com,REJECT
+host,adv-ads.variflight.com,REJECT
+host,app-ad.variflight.com,REJECT
+# > vivo
+host,adlog.vivo.com.cn,REJECT
+host,adreq.vivo.com.cn,REJECT
+host,ads-marketing-vivofs.vivo.com.cn,REJECT
+host,adsdk.vivo.com.cn,REJECT
+host,adsstatic.vivo.com.cn,REJECT
+host,adxlog.vivo.com.cn,REJECT
+host,vcardsdkservice.vivo.com.cn,REJECT
+host-keyword,stsdk.vivo.com.cn,REJECT
+host-keyword,stsdk.vivoglobal.com,REJECT
+# > Viber
+host,ads.viber.com,REJECT
+host,ads-d.viber.com,REJECT
+host,ads.aws.viber.com,REJECT
+
+# (X)
+# > Ximalaya
+host,ad.ximalaya.com,REJECT
+host,adbs.ximalaya.com,REJECT
+host,adse.ximalaya.com,REJECT
+host,adse.wsa.ximalaya.com,REJECT
+host,adbehavior.wsa.ximalaya.com,REJECT
+host,adbehavior.ximalaya.com,REJECT
+host,adsebs.ximalaya.com,REJECT
+# > Xiaohongshu
+host,ads-img-qc.xhscdn.com,REJECT
+host,ads-video-al.xhscdn.com,REJECT
+host,ads-video-qc.xhscdn.com,REJECT
+host,t-ads.xiaohongshu.com,REJECT
+
+# (Y)
+# > Yahoo
+host-suffix,adserver.yahoo.com,REJECT
+host-suffix,adspecs.yahoo.com,REJECT
+host-suffix,advertising.yahoo.com,REJECT
+host-suffix,gemini.yahoo.com,REJECT
+host,admarketing.yahoo.net,REJECT
+host,ads.auctions.yahoo.com,REJECT
+host,ads.finance.yahoo.com,REJECT
+host,ads.yahoo.com,REJECT
+host,ads.yahoo.de,REJECT
+
+# (Z)
+# > Zhihu
+USER-AGENT,AVOS*,REJECT
+host,appcloud2.in.zhihu.com,REJECT
+host,mqtt.zhihu.com,REJECT
+host,sugar.zhihu.com,REJECT
+host,118.89.204.198,REJECT
+ip-cidr,118.89.204.198/32,REJECT
+ip6-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# > ZOL
+host,apppv.zol.com.cn,REJECT
+host,pvnapp.zol.com.cn,REJECT

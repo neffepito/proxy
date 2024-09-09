@@ -1,0 +1,9 @@
+user-agent,WeChat*, WeChat
+user-agent,QQ*, WeChat
+host-keyword, wx, WeChat
+host-keyword, 80, WeChat
+host-keyword, servicewechat, WeChat
+host-suffix, qpic, WeChat
+host-suffix, qq, WeChat
+host-suffix,qq.com, Wechat
+host-keyword, weixin, WeChat

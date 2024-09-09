@@ -1,0 +1,65 @@
+# Privacy
+host-suffix,adjust.com,REJECT
+host-suffix,cpatrk.net,REJECT
+host-suffix,kochava.com,REJECT
+host-suffix,marketo.com,REJECT
+host-suffix,mobileapptracking.com,REJECT
+host-suffix,rtbasia.com,REJECT
+host-suffix,scorecardresearch.com,REJECT
+host-suffix,sumologic.com,REJECT
+host-suffix,survicate.com,REJECT
+host-suffix,tagcommander.com,REJECT
+host-suffix,tailtarget.com,REJECT
+host-suffix,talkingdata.net,REJECT
+host-suffix,tapad.com,REJECT
+host-suffix,tapfiliate.com,REJECT
+host-suffix,tapinfluence.com,REJECT
+host-suffix,tapstream.com,REJECT
+host-suffix,tealiumiq.com,REJECT
+host-suffix,tend.io,REJECT
+host-suffix,tpctrust.com,REJECT
+host-suffix,trackingio.com,REJECT
+host-suffix,tremormedia.com,REJECT
+host-suffix,woopra.com,REJECT
+host-suffix,wootric.com,REJECT
+host-suffix,wowanalytics.co.uk,REJECT
+host-suffix,zoomanalytics.co,REJECT
+
+host,track.tenjin.com,REJECT
+host,track.tenjin.io,REJECT
+host,api.talkingdata.com,REJECT
+host,track.tiara.daum.net,REJECT
+host,track.tiara.kakao.com,REJECT
+host,zgsdk.zhugeio.com,REJECT
+
+# > 51.LA
+host,js.users.51.la,REJECT
+host,mc.51.la,REJECT
+host,wc.51.la,REJECT
+# > 58
+host,track.58.com,REJECT
+host,tracklog.58.com,REJECT
+# > Baidu
+host,hm.baidu.com,REJECT
+host,hmma.baidu.com,REJECT
+# > ByteDance
+host,log.byteoversea.com,REJECT
+host,log.tiktokv.com,REJECT
+host,log-hl-ipv6.snssdk.com,REJECT
+host,log-lq.snssdk.com,REJECT
+host,log-va.tiktokv.com,REJECT
+host,xlog.snssdk.com,REJECT
+# > Google
+host-suffix,googletagmanager.com,REJECT
+host-suffix,google-analytics.com,REJECT
+host,safebrowsing.googleapis.com,REJECT
+# > MI
+host-suffix,tracking.miui.com,REJECT
+host,data.mistat.xiaomi.com,REJECT
+host,tracking.intl.miui.com,REJECT
+# > Tencent
+host-suffix,trace.qq.com,REJECT
+host,btrace.qq.com,REJECT
+host,btrace.video.qq.com,REJECT
+host,mtrace.qq.com,REJECT
+host,safebrowsing.urlsec.qq.com,REJECT

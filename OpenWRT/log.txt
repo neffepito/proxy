@@ -1,0 +1,521 @@
+NETDEV_CHANGE): br-lan: link becomes ready
+Tue Dec  5 00:37:25 2023 daemon.err odhcpd[1215]: Failed to send to ff02::1%lan@br-lan (Address not available)
+Tue Dec  5 00:37:25 2023 authpriv.warn dropbear[2028]: Failed listening on '22': Error listening: Address not available
+Tue Dec  5 00:37:25 2023 authpriv.info dropbear[2028]: Not backgrounding
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 logtail started
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 Program starting: v1.42.0-ERR-BuildInfo, Go 1.20.2: []string{"/usr/sbin/tailscaled", "--cleanup"}
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 LogID: c89d7b1a42c984e2194298368cb57de07802b38444702e271b8e4df5796d72d4
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 logpolicy: using system state directory "/var/lib/tailscale"
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: logpolicy.ConfigFromFile /var/lib/tailscale/tailscaled.log.conf: open /var/lib/tailscale/tailscaled.log.conf: no such file or directory
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: logpolicy.Config.Validate for /var/lib/tailscale/tailscaled.log.conf: config is nil
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 dns: [rc=unknown ret=direct]
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 dns: using "direct" mode
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 dns: using *dns.directManager
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 flushing log.
+Tue Dec  5 00:37:25 2023 daemon.notice procd: /etc/rc.d/S80tailscale: 2023/12/04 16:37:25 logger closing down
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 logtail started
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Program starting: v1.42.0-ERR-BuildInfo, Go 1.20.2: []string{"/usr/sbin/tailscaled", "--port", "41641", "--state", "/etc/tailscale/tailscaled.state"}
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 LogID: c89d7b1a42c984e2194298368cb57de07802b38444702e271b8e4df5796d72d4
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 logpolicy: using system state directory "/var/lib/tailscale"
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 router: v6nat = true
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: [rc=unknown ret=direct]
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: using "direct" mode
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: using *dns.directManager
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 link state: interfaces.State{defaultRoute= ifs={br-lan:[192.168.2.1/24 fd7f:31bf:e51c::1/60]} v4=true v6=true}
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 magicsock: disco key = d:14a781b6f9b601f5
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Creating WireGuard device...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Bringing WireGuard device up...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Bringing router up...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 external route: up
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Clearing router settings...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Starting network monitor...
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Engine created.
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 pm: migrating "_daemon" profile to new format
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 logpolicy: using system state directory "/var/lib/tailscale"
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 got LocalBackend in 82ms
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Start
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Backend: logs: be:c89d7b1a42c984e2194298368cb57de07802b38444702e271b8e4df5796d72d4 fe:
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/network reload dependency on /etc/config/dhcp
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 blockEngineUpdates(true)
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 health("overall"): error: state=NeedsLogin, wantRunning=false
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 wgengine: Reconfig: configuring router
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 wgengine: Reconfig: configuring DNS
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[]}
+Tue Dec  5 00:37:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:25 dns: OScfg: {Nameservers:[] SearchDomains:[] MatchDomains:[] Hosts:[]}
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/network reload dependency on /etc/config/radvd
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/wireless reload dependency on /etc/config/network
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/luci-splash
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/qos
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/miniupnpd
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/firewall reload dependency on /etc/config/sqm
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/dhcp reload dependency on /etc/config/odhcpd
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up non-init /etc/config/fstab reload handler: /sbin/block mount
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/system reload trigger for non-procd /etc/init.d/led
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/system reload dependency on /etc/config/luci_statistics
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/system reload dependency on /etc/config/dhcp
+Tue Dec  5 00:37:25 2023 user.notice ucitrack: Setting up /etc/config/cpufreq reload trigger for non-procd /etc/init.d/cpufreq
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/arpbind reload trigger for non-procd /etc/init.d/arpbind
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/cifs reload trigger for non-procd /etc/init.d/cifs
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/frp reload trigger for non-procd /etc/init.d/frp
+Tue Dec  5 00:37:26 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:26 monitor: RTM_NEWROUTE: src=, dst=fd7f:31bf:e51c::1/128, gw=, outif=9, table=255
+Tue Dec  5 00:37:26 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:26 monitor: RTM_NEWROUTE: src=, dst=fd7f:31bf:e51c::/128, gw=, outif=9, table=255
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/openclash reload trigger for non-procd /etc/init.d/openclash
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/passwall reload trigger for non-procd /etc/init.d/passwall
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/passwall_server reload trigger for non-procd /etc/init.d/passwall_server
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/serverchan reload trigger for non-procd /etc/init.d/serverchan
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/shadowsocksr reload trigger for non-procd /etc/init.d/shadowsocksr
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/turboacc reload trigger for non-procd /etc/init.d/turboacc
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/usb_printer reload trigger for non-procd /etc/init.d/usb_printer
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/vlmcsd reload trigger for non-procd /etc/init.d/kms
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/vsftpd reload trigger for non-procd /etc/init.d/vsftpd
+Tue Dec  5 00:37:26 2023 user.notice ucitrack: Setting up /etc/config/xlnetacc reload trigger for non-procd /etc/init.d/xlnetacc
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90kms: KMS Server has started.
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: uci: I/O error
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: net.ipv4.tcp_congestion_control = cubic
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: uci: I/O error
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: Network device 'eth0' link is up
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: Interface 'wan' has link connectivity
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: Interface 'wan' is setting up now
+Tue Dec  5 00:37:27 2023 kern.info kernel: [   14.815259] rk_gmac-dwmac ff540000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+Tue Dec  5 00:37:27 2023 kern.info kernel: [   14.816043] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: Interface 'wan6' has link connectivity
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: Interface 'wan6' is setting up now
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: killall: dnscache: no process killed
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: sh: you need to specify whom to kill
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: Stop DNS Caching
+Tue Dec  5 00:37:27 2023 daemon.notice procd: /etc/rc.d/S90turboacc: DNSMASQ change
+Tue Dec  5 00:37:27 2023 daemon.err odhcp6c[3115]: Failed to send RS (Address not available)
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: wan (3120): udhcpc: started, v1.36.0
+Tue Dec  5 00:37:27 2023 daemon.notice netifd: wan (3120): udhcpc: broadcasting discover
+Tue Dec  5 00:37:27 2023 daemon.err odhcp6c[3115]: Failed to send SOLICIT message to ff02::1:2 (Address not available)
+Tue Dec  5 00:37:28 2023 daemon.err odhcp6c[3115]: Failed to send SOLICIT message to ff02::1:2 (Address not available)
+Tue Dec  5 00:37:30 2023 daemon.notice netifd: wan (3120): udhcpc: broadcasting discover
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 logtail: dial "log.tailscale.io:443" failed: dial tcp: lookup log.tailscale.io on [::1]:53: read udp [::1]:51281->[::1]:53: read: connection refused (in 5.01s), trying bootstrap...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp2f.tailscale.com", "208.111.34.178") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp2f.tailscale.com", "208.111.34.178") for "log.tailscale.io" error: Get "https://derp2f.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 208.111.34.178:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp9.tailscale.com", "2001:19f0:6401:1d9c:5400:2ff:feef:bb82") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp9.tailscale.com", "2001:19f0:6401:1d9c:5400:2ff:feef:bb82") for "log.tailscale.io" error: Get "https://derp9.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2001:19f0:6401:1d9c:5400:2ff:feef:bb82]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp4e.tailscale.com", "134.122.74.153") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp4e.tailscale.com", "134.122.74.153") for "log.tailscale.io" error: Get "https://derp4e.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 134.122.74.153:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp8c.tailscale.com", "2a03:b0c0:1:d0::e1f:4001") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp8c.tailscale.com", "2a03:b0c0:1:d0::e1f:4001") for "log.tailscale.io" error: Get "https://derp8c.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2a03:b0c0:1:d0::e1f:4001]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp2e.tailscale.com", "192.73.252.134") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp2e.tailscale.com", "192.73.252.134") for "log.tailscale.io" error: Get "https://derp2e.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 192.73.252.134:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp12.tailscale.com", "2001:19f0:5c01:289:5400:3ff:fe8d:cb5e") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp12.tailscale.com", "2001:19f0:5c01:289:5400:3ff:fe8d:cb5e") for "log.tailscale.io" error: Get "https://derp12.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2001:19f0:5c01:289:5400:3ff:fe8d:cb5e]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp8c.tailscale.com", "206.189.16.32") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp8c.tailscale.com", "206.189.16.32") for "log.tailscale.io" error: Get "https://derp8c.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 206.189.16.32:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp12c.tailscale.com", "2001:19f0:5c01:2cb:5400:3ff:fe8d:cb60") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp12c.tailscale.com", "2001:19f0:5c01:2cb:5400:3ff:fe8d:cb60") for "log.tailscale.io" error: Get "https://derp12c.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2001:19f0:5c01:2cb:5400:3ff:fe8d:cb60]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp8d.tailscale.com", "178.62.44.132") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp8d.tailscale.com", "178.62.44.132") for "log.tailscale.io" error: Get "https://derp8d.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 178.62.44.132:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp4d.tailscale.com", "2a03:b0c0:3:d0::1501:b001") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp4d.tailscale.com", "2a03:b0c0:3:d0::1501:b001") for "log.tailscale.io" error: Get "https://derp4d.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2a03:b0c0:3:d0::1501:b001]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp1d.tailscale.com", "165.22.33.71") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp1d.tailscale.com", "165.22.33.71") for "log.tailscale.io" error: Get "https://derp1d.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp 165.22.33.71:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 trying bootstrapDNS("derp12.tailscale.com", "2001:19f0:5c01:289:5400:3ff:fe8d:cb5e") for "log.tailscale.io" ...
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 bootstrapDNS("derp12.tailscale.com", "2001:19f0:5c01:289:5400:3ff:fe8d:cb5e") for "log.tailscale.io" error: Get "https://derp12.tailscale.com/bootstrap-dns?q=log.tailscale.io": dial tcp [2001:19f0:5c01:289:5400:3ff:fe8d:cb5e]:443: connect: network is unreachable
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 logtail: upload: log upload of 520 bytes compressed failed: Post "https://log.tailscale.io/c/tailnode.log.tailscale.io/00987d5b3dc144dc2af3e1947137a4a5b79981d8f67feca4b32ac5b560ae2b66": failed to resolve "log.tailscale.io": no DNS fallback candidates remain for "log.tailscale.io"
+Tue Dec  5 00:37:30 2023 daemon.notice netifd: wan (3120): udhcpc: broadcasting select for 192.168.1.2, server 192.168.1.1
+Tue Dec  5 00:37:30 2023 daemon.notice netifd: wan (3120): udhcpc: lease of 192.168.1.2 obtained from 192.168.1.1, lease time 86400
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 monitor: RTM_NEWROUTE: src=192.168.1.2/0, dst=192.168.1.2/32, gw=, outif=2, table=255
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 monitor: RTM_NEWROUTE: src=192.168.1.2/0, dst=192.168.1.255/32, gw=, outif=2, table=255
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 monitor: RTM_NEWROUTE: src=192.168.1.2/0, dst=192.168.1.0/24, gw=, outif=2, table=254
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 [RATELIMIT] format("monitor: %s: src=%v, dst=%v, gw=%v, outif=%v, table=%v")
+Tue Dec  5 00:37:30 2023 daemon.notice netifd: Interface 'wan' is now up
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={br-lan:[192.168.2.1/24 fd7f:31bf:e51c::1/60] eth0:[192.168.1.2/24]} v4=true v6=true}
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[]}
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 dns: OScfg: {Nameservers:[] SearchDomains:[] MatchDomains:[] Hosts:[]}
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 wgengine: set DNS config again after major link change
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 Rebind; defIf="eth0", ips=[192.168.1.2/24 fe80::307d:2aff:fec8:70b3/64]
+Tue Dec  5 00:37:30 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:30 magicsock: 0 active derp conns
+Tue Dec  5 00:37:30 2023 user.notice firewall: Reloading firewall due to ifup of wan (eth0)
+Tue Dec  5 00:37:32 2023 kern.warn kernel: [   20.570363] EXT4-fs (mmcblk0p2): warning: mounting unchecked fs, running e2fsck is recommended
+Tue Dec  5 00:37:32 2023 kern.info kernel: [   20.572955] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null). Quota mode: none.
+Tue Dec  5 00:37:35 2023 daemon.notice netifd: Interface 'wan6' is now up
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={br-lan:[192.168.2.1/24 fd7f:31bf:e51c::1/60] eth0:[192.168.1.2/24 2409:8a55:4cf:61c0:307d:2aff:fec8:70b3/64 2409:8a55:4cf:61c0:327d:2aff:fec8:70b3/128]} v4=true v6=true}
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[]}
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 dns: OScfg: {Nameservers:[] SearchDomains:[] MatchDomains:[] Hosts:[]}
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 wgengine: set DNS config again after major link change
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 Rebind; defIf="eth0", ips=[192.168.1.2/24 2409:8a55:4cf:61c0:307d:2aff:fec8:70b3/64 2409:8a55:4cf:61c0:327d:2aff:fec8:70b3/128 fe80::307d:2aff:fec8:70b3/64]
+Tue Dec  5 00:37:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:35 magicsock: 0 active derp conns
+Tue Dec  5 00:37:35 2023 user.notice firewall: Reloading firewall due to ifup of wan6 (eth0)
+Tue Dec  5 00:37:36 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:37:36 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:36 [RATELIMIT] format("monitor: %s: src=%v, dst=%v, gw=%v, outif=%v, table=%v") (5 dropped)
+Tue Dec  5 00:37:36 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:36 monitor: RTM_NEWROUTE: src=, dst=2409:8a55:4cf:61c0:307d:2aff:fec8:70b3/128, gw=, outif=2, table=255
+Tue Dec  5 00:37:36 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:36 monitor: RTM_NEWROUTE: src=, dst=2409:8a55:4cf:61c0::/128, gw=, outif=2, table=255
+Tue Dec  5 00:37:36 2023 daemon.err tailscaled[2143]: 2023/12/04 16:37:36 [RATELIMIT] format("monitor: %s: src=%v, dst=%v, gw=%v, outif=%v, table=%v")
+Tue Dec  5 00:37:36 2023 daemon.notice procd: /etc/rc.d/S96led: setting up led WAN
+Tue Dec  5 00:37:36 2023 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN
+Tue Dec  5 00:37:36 2023 daemon.info aria2: Instance "main" disabled.
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 monitor: time jumped (probably wake from sleep); synthesizing major change event
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={br-lan:[192.168.2.1/24 fd7f:31bf:e51c::1/60] eth0:[192.168.1.2/24 2409:8a55:4cf:61c0:307d:2aff:fec8:70b3/64 2409:8a55:4cf:61c0:327d:2aff:fec8:70b3/128]} v4=true v6=true}
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[]}
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 dns: OScfg: {Nameservers:[] SearchDomains:[] MatchDomains:[] Hosts:[]}
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 wgengine: set DNS config again after major link change
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 Rebind; defIf="eth0", ips=[192.168.1.2/24 2409:8a55:4cf:61c0:307d:2aff:fec8:70b3/64 2409:8a55:4cf:61c0:327d:2aff:fec8:70b3/128 fe80::307d:2aff:fec8:70b3/64]
+Tue Dec  5 00:46:39 2023 daemon.err tailscaled[2143]: 2023/12/04 16:46:39 magicsock: 0 active derp conns
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: TIMEZONE: using strftime(): 'UTC'
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: TIMEZONE: fixed as 'UTC'
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: SIGNAL: Not enabling reaper
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: resources control: allowed file descriptors: soft = 1024, max = 4096
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: Adjusted my Out-Of-Memory (OOM) score from 0 to 1000.
+Tue Dec  5 00:46:46 2023 daemon.err netdata[5281]: Cannot adjust netdata scheduling policy to idle (5), with priority 0. Falling back to nice.
+Tue Dec  5 00:46:46 2023 daemon.err netdata[5281]: Cannot get my current process scheduling policy.
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: netdata started on pid 5281.
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: Initializing spawn client.
+Tue Dec  5 00:46:46 2023 daemon.info netdata[5281]: Executing /usr/lib/netdata/plugins.d/system-info.sh
+Tue Dec  5 00:46:46 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Restart...
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_NAME=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_ID=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_ID_LIKE=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_VERSION=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_VERSION_ID=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_OS_DETECTION=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_CONTAINER_IS_OFFICIAL_IMAGE=false
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_NAME=OpenWrt
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_ID=openwrt
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_ID_LIKE=lede openwrt
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_VERSION=SNAPSHOT
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_VERSION_ID=snapshot
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_OS_DETECTION=/etc/os-release
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_HOST_IS_K8S_NODE=false
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_KERNEL_NAME=Linux
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_KERNEL_VERSION=5.15.127
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_ARCHITECTURE=aarch64
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_VIRTUALIZATION=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_VIRT_DETECTION=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CONTAINER=unknown
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CONTAINER_DETECTION=none
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CPU_LOGICAL_CPU_COUNT=4
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CPU_VENDOR=
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CPU_MODEL=
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CPU_FREQ=1608000
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_CPU_DETECTION=sysfs procfs
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_TOTAL_RAM=1035370496
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_RAM_DETECTION=procfs
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_TOTAL_DISK_SIZE=0
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: NETDATA_SYSTEM_DISK_DETECTION=sysfs
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: SQLite database /var/cache/netdata/netdata-meta.db initialization
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: SQLite database initialization completed
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: CONFIG: cannot load user config '/etc/netdata/stream.conf'. Will try stock config.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Host 'OpenWrt' (at registry as 'OpenWrt') with guid 'b6ada400-92c4-11ee-92fb-327d2ac870b3' initialized, os 'linux', timezone 'UTC', tags '', program_name 'netdata', program_version '20200416-3722-g876ee0d18', update every 2, memory mode save, history entries 3996, streaming disabled (to '' with api key ''), health disabled, cache_dir '/var/cache/netdata', varlib_dir '/var/lib/netdata', health_log '/var/lib/netdata/health/health-log.db', alarms default handler '/usr/lib/netdata/plugins.d/alarm-notify.sh', alarms default recipient 'root'
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: PROCFILE: Cannot open file '/etc/netdata/.environment'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5505
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5505 to PLUGIN[idlejitt
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5507
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5507 to HEALTH
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5506
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5506 to GLOBAL_STATS
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing command server.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5510
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5510 to STATSD
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.idlejitter/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5517
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5517 to PLUGIN[proc]
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: netdata initialization completed. Enjoy real-time performance monitoring!
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5512
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5513
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5512 to EXPORTING
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5516
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5516 to PLUGIN[diskspac
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5509
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5511
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5509 to SERVICE
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5511 to BACKENDS
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5513 to WEB_SERVER[stat
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: cleaning up...
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5508
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5515
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5508 to PLUGINSD
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5515 to PLUGIN[tc]
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5520
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5520 to PLUGINSD[ioping
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5521
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread with task id 5511 finished
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: This agent doesn't have ACLK.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: CONFIG: cannot load user exporting config '/etc/netdata/exporting.conf'. Will try the stock version.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.idlejitter/min.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: starting worker 2
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5514
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: starting worker 3
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5514 to PLUGIN[timex]
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5521 to PLUGINSD[perf]
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.idlejitter/max.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: No connector instances to activate
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: starting worker 4
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: connected to '/usr/lib/netdata/plugins.d/ioping.plugin' running on pid 5523
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.idlejitter/average.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: connected to '/usr/lib/netdata/plugins.d/perf.plugin' running on pid 5526
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5525
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5527
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5524
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: EXPORTING: no exporting connectors configured
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: cleaning up...
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread with task id 5512 finished
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5525 to WEB_SERVER[stat
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5527 to STATSD_COLLECTO
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: STATSD collector thread started with taskid 5527
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: called DISABLE. Disabling it.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: PARSER ended
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 5526) disconnected after 0 successful data collections (ENDs).
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread created with task id 5528
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5528 to WEB_SERVER[stat
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'udp:[::1]:8125'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'udp:127.0.0.1:8125'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:[::1]:8125'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:127.0.0.1:8125'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: set name of thread 5524 to WEB_SERVER[stat
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/gauges.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/counters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/timers.db.
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: child pid 5526 exited with code 1.
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 5526) exited with error code 1 and haven't collected any data. Disabling it.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread with task id 5521 finished
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/meters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/histograms.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_metrics/sets.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/gauges.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/counters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/timers.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/meters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/histograms.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/sets.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/gauges.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/counters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/timers.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/meters.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/histograms.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/sets.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/unknown.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_events/errors.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_reads/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_reads/tcp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_reads/udp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: called DISABLE. Disabling it.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: PARSER ended
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 5523) disconnected after 0 successful data collections (ENDs).
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: child pid 5523 exited with code 1.
+Tue Dec  5 00:46:47 2023 daemon.err netdata[5281]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 5523) exited with error code 1 and haven't collected any data. Disabling it.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: thread with task id 5520 finished
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_bytes/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_bytes/tcp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_bytes/udp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_packets/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_packets/tcp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.statsd_packets/udp.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.tcp_connects/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.tcp_connects/connects.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.tcp_connects/disconnects.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.tcp_connected/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.tcp_connected/connected.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.private_charts/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.private_charts/charts.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/run_time.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.server_cpu/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.server_cpu/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.server_cpu/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.uptime/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.uptime/uptime.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._tmp/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.clients/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._tmp/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._tmp/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.clients/clients.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._tmp/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.requests/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/guest_nice.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._tmp/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.requests/requests.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/guest.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._tmp/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.net/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/steal.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._tmp/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/softirq.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.net/in.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/irq.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.net/out.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._tmp/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.response_time/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.response_time/average.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.response_time/max.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.compression_ratio/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/nice.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/netdata.compression_ratio/savings.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/iowait.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/system.cpu/idle.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/guest_nice.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/guest.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._dev/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/steal.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._dev/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/softirq.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._dev/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/irq.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._dev/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/user.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._dev/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/system.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._dev/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/nice.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._dev/used.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/iowait.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_inodes._dev/reserved_for_root.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu0/idle.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._mnt_mmcblk0p1/main.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/disk_space._mnt_mmcblk0p1/avail.db.
+Tue Dec  5 00:46:47 2023 daemon.info netdata[5281]: Initializing file /var/cache/netdata/cpu.cpu1/main.db.
+Tue Dec  5 00:46:51 2023 daemon.info procd: Instance oled::instance1 s in a crash loop 6 crashes, 0 seconds since last crash
+Tue Dec  5 00:46:51 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:46:52 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:46:54 2023 cron.err crond[7175]: crond (busybox 1.36.0) started, log level 5
+Tue Dec  5 00:46:54 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Already Stop!
+Tue Dec  5 00:46:54 2023 daemon.err collectd[1929]: Sleeping only 2s because the next interval is 509.652 seconds in the past!
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/memory/memory-free.rrd: expected 1 data source readings (got 0) from /tmp/rrd/OpenWrt/memory/memory-free.rrd:...
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/cpu-3/cpu-system.rrd: Not enough arguments
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/cpu-0/cpu-nice.rrd: Not enough arguments
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/cpu-1/cpu-nice.rrd: Not enough arguments
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/cpu-1/cpu-softirq.rrd: Not enough arguments
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: rrd_update_r failed: /tmp/rrd/OpenWrt/cpu-3/cpu-softirq.rrd: Not enough arguments
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: srrd_create: rrd_create (/tmp/rrd/OpenWrt/cpu-0/cpu-idle.rrd) failed: step size should be no less than one second
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: cu_rrd_create_file: srrd_create (/tmp/rrd/OpenWrt/cpu-0/cpu-idle.rrd) returned status -1.
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: rrdtool plugin: cu_rrd_create_file (/tmp/rrd/OpenWrt/cpu-0/cpu-idle.rrd) failed.
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: Filter subsystem: Built-in target `write': Dispatching value to all write plugins failed with status -1.
+Tue Dec  5 00:46:55 2023 daemon.err collectd[1929]: Filter subsystem: Built-in target `write': Some write plugin is back to normal operation. `write' succeeded.
+Tue Dec  5 00:46:56 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:46:56 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:01 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:01 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:09 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:09 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:11 2023 daemon.info procd: Instance haproxy::instance1 s in a crash loop 6 crashes, 0 seconds since last crash
+Tue Dec  5 00:47:13 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:14 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:17 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:17 2023 daemon.err tailscaled[2143]: 2023/12/04 16:47:17 logtail: upload succeeded after 1 failures and 48s
+Tue Dec  5 00:47:18 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:22 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:23 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:47:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:47:25 [RATELIMIT] format("monitor: %s: src=%v, dst=%v, gw=%v, outif=%v, table=%v") (1 dropped)
+Tue Dec  5 00:47:25 2023 daemon.err tailscaled[2143]: 2023/12/04 16:47:25 monitor: RTM_NEWROUTE: src=, dst=, gw=, outif=1, table=354
+Tue Dec  5 00:47:29 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Already Start!
+Tue Dec  5 00:47:33 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:48:29 2023 cron.err crond[9019]: crond (busybox 1.36.0) started, log level 5
+Tue Dec  5 00:48:33 2023 cron.err crond[9416]: crond (busybox 1.36.0) started, log level 5
+Tue Dec  5 00:48:33 2023 daemon.info qbittorrent: Instance "main" disabled.
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: Command failed: ubus call service set { } (Invalid argument)
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: Usage: ubus [<options>] <command> [arguments...]
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: Options:
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -s <socket>:		Set the unix domain socket to connect to
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -t <timeout>:		Set the timeout (in seconds) for a command to complete
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -S:			Use simplified output (for scripts)
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -v:			More verbose output
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -m <type>:		(for monitor): include a specific message type
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: 			(can be used more than once)
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  -M <r|t>		(for monitor): only capture received or transmitted traffic
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: Commands:
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - list [<path>]			List objects
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - call <path> <method> [<message>]	Call an object method
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - subscribe <path> [<path>...]	Subscribe to object(s) notifications
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - listen [<path>...]			Listen for events
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - send <type> [<message>]		Send an event
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - wait_for <object> [<object>...]	Wait for multiple objects to appear on ubus
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:  - monitor				Monitor ubus traffic
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent:
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99serverchan: serverchan is starting now ...
+Tue Dec  5 00:48:33 2023 daemon.notice procd: /etc/rc.d/S99sing-box: sing-box is started!
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3039] N: ttyd 1.6.3 (libwebsockets 4.3.2-20230609-154-g876ee0d18)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3040] N: tty configuration:
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3041] N:   start command: /bin/login
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3042] N:   close signal: SIGHUP (1)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3042] N:   terminal type: xterm-256color
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3123] N:    /usr/lib/libwebsockets-evlib_uv.so
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3125] N: lws_create_context: LWS: 4.3.2-20230609-154-g876ee0d18, NET CLI SRV H1 H2 WS ConMon IPV6-off
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3130] N: elops_init_pt_uv:  Using foreign event loop...
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3139] N: __lws_lc_tag:  ++ [wsi|0|pipe] (1)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3144] N: __lws_lc_tag:  ++ [vh|0|netlink] (1)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3150] N: __lws_lc_tag:  ++ [vh|1|default|br-lan|br-lan|7681] (2)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3161] N: [vh|1|default|br-lan|br-lan|7681]: lws_socket_bind: source ads 192.168.2.1
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3164] N: __lws_lc_tag:  ++ [wsi|1|listen|default|br-lan|7681] (2)
+Tue Dec  5 00:48:34 2023 daemon.notice ttyd[9744]: [2023/12/05 00:48:34:3166] N:  Listening on port: 7681
+Tue Dec  5 00:48:34 2023 daemon.info vnstatd[9887]: Info: vnStat daemon 1.18 started. (pid:9887 uid:0 gid:0)
+Tue Dec  5 00:48:34 2023 daemon.info vnstatd[9887]: Info: Monitoring: br-lan (1000 Mbit) eth0 (1000 Mbit)
+Tue Dec  5 00:48:34 2023 daemon.notice procd: /etc/rc.d/S99zerotier: disabled in config
+Tue Dec  5 00:48:34 2023 daemon.info procd: - init complete -
+Tue Dec  5 00:48:34 2023 daemon.err sing-box[9556]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:34 2023 cron.err crond[10035]: crond (busybox 1.36.0) started, log level 5
+Tue Dec  5 00:48:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:48:35 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:252 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5209 Table:354 Mark:4294967295 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+Tue Dec  5 00:48:35 2023 daemon.err tailscaled[2143]: 2023/12/04 16:48:35 monitor: RTM_DELROUTE: src=, dst=, gw=, outif=1, table=354
+Tue Dec  5 00:48:39 2023 daemon.err sing-box[11005]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:43 2023 daemon.err tailscaled[2143]: 2023/12/04 16:48:43 monitor: RTM_NEWROUTE: src=, dst=, gw=, outif=1, table=354
+Tue Dec  5 00:48:44 2023 daemon.err sing-box[11303]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:48 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:48:49 2023 daemon.err sing-box[11989]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:54 2023 daemon.err sing-box[12025]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:59 2023 daemon.err sing-box[12043]: [31mFATAL[0m[0000] read config at ./config.json: open ./config.json: no such file or directory
+Tue Dec  5 00:48:59 2023 daemon.info procd: Instance sing-box::instance1 s in a crash loop 6 crashes, 0 seconds since last crash
+Tue Dec  5 00:49:17 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:50:23 2023 daemon.warn odhcpd[1215]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Tue Dec  5 00:50:46 2023 daemon.err uhttpd[1622]: Collected errors:
+Tue Dec  5 00:50:46 2023 daemon.err uhttpd[1622]:  * opkg_conf_load: Could not lock /var/lock/opkg.lock: Resource temporarily unavailable.
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 tailscaled got signal terminated; shutting down
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 control: client.Shutdown()
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 control: client.Shutdown: inSendStatus=0
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 control: mapRoutine: quit
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 control: Client.Shutdown done.
+Tue Dec  5 00:51:06 2023 daemon.notice ttyd[9744]: [2023/12/05 00:51:06:0605] N: rops_handle_POLLIN_netlink: DELADDR
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: RTM_DELROUTE: src=, dst=fe80::/64, gw=, outif=12, table=254
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: RTM_DELROUTE: src=, dst=fe80::/128, gw=, outif=12, table=255
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: RTM_DELROUTE: src=, dst=fe80::63d8:5fbc:2d40:7274/128, gw=, outif=12, table=255
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: RTM_DELROUTE: src=, dst=ff00::/8, gw=, outif=12, table=255
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 flushing log.
+Tue Dec  5 00:51:06 2023 daemon.err tailscaled[2143]: 2023/12/04 16:51:06 logger closing down
+Tue Dec  5 00:51:28 2023 kern.notice kernel: [  316.380314] EXT4-fs (mmcblk0p2): error count since last fsck: 1
+Tue Dec  5 00:51:28 2023 kern.notice kernel: [  316.380863] EXT4-fs (mmcblk0p2): initial error at time 1700252046: __ext4_new_inode:1281
+Tue Dec  5 00:51:28 2023 kern.notice kernel: [  316.381581] EXT4-fs (mmcblk0p2): last error at time 1700252046: __ext4_new_inode:1281

@@ -1,0 +1,19 @@
+# Wise
+host-keyword,wise,Wise
+user-agent,wise*,Wise
+host-suffix,wise.com,Wise
+host-wildcard,wise.*,Wise
+host-wildcard,wise.*.*,Wise
+host-suffix,api.authy.com,Wise
+host-suffix,sdk.fra-01.braze.eu,Wise
+host-suffix,api.wise.com,Wise
+host-suffix,sdk-api-v1.singular.net,Wise
+host-suffix,firebaselogging-pa.googleapis.com,Wise
+host-suffix,loki-v42zc5nx3sj7swjbm6zacmssmtcs2gck.wise.com,Wise
+host-suffix,api.mixpanel.com,Wise
+
+
+
+
+
+

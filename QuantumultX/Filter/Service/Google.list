@@ -1,0 +1,114 @@
+# >> Google
+host-keyword,google
+host-suffix,google.com
+host-suffix,265.com
+
+# > Alphabet Websites 
+host-suffix,abc.xyz
+host-suffix,capitalg.com
+
+# > Android
+host-suffix,android.com
+host-suffix,androidify.com
+
+# > Appspot
+host-keyword,appspot
+
+# > Chrome & Chromium
+host-suffix,chrome.com
+host-suffix,chromeexperiments.com
+host-suffix,chromestatus.com
+host-suffix,chromium.org
+host-suffix,whatbrowser.org
+
+# > Google AI
+host-suffix,autodraw.com
+host-suffix,deepmind.com
+host-suffix,tensorflow.org
+host-suffix,tfhub.dev
+
+# > Google APIs
+host-suffix,googleapis.com
+
+# > Google Blogger
+host-keyword,blogspot
+host-suffix,blogger.com
+host-suffix,googleblog.com
+
+# > Google Cloud Platform
+host-suffix,dialogflow.com
+host-suffix,gcp.gvt2.com
+
+# > Google Developer
+host-keyword,googlesource
+host-suffix,godoc.org
+host-suffix,golang.org
+host-suffix,googlemashups.com
+host-suffix,gwtproject.org
+host-suffix,itasoftware.com
+host-suffix,pkg.go.dev
+host-suffix,shattered.io
+host-suffix,waveprotocol.org
+host-suffix,webmproject.org
+host-suffix,webrtc.org
+host-suffix,withgoogle.com
+
+# > Google Education
+host-suffix,madewithcode.com
+
+# > Google Enterprise
+host-suffix,synergyse.com
+
+# > Gmail
+# host-keyword,gmail
+
+# > Google Recaptcha
+host-keyword,recaptcha
+
+# > Google Static Files
+host-keyword,gstatic
+host-suffix,gmodules.com
+host-suffix,googleusercontent.com
+host-suffix,gvt0.com
+host-suffix,gvt1.com
+host-suffix,gvt3.com
+
+# > Google VR
+host-suffix,tiltbrush.com
+
+# > Material Design
+host-suffix,getmdl.io
+host-suffix,material.io
+
+# > Other
+host-suffix,certificate-transparency.org
+host-suffix,certificate-transparency.dev
+host-suffix,creativelab5.com
+host-suffix,debug.com
+host-suffix,gv.com
+host-suffix,polymer-project.org
+host-suffix,waymo.com
+host-suffix,widevine.com
+host-suffix,x.company
+
+# > Google IP-CIDR
+ip-cidr,173.194.0.0/16
+ip-cidr,74.125.0.0/16
+
+# > Google Domestic CDNs
+host,fonts.googleapis.com
+host,fonts.gstatic.com
+host,ocsp.pki.goog
+host,crl.pki.goog
+host,redirector.c.bigcache.googleapis.com
+host,redirector.gvt1.com
+host,safebrowsing.googleapis.com
+host,safebrowsing-cache.google.com
+host,translate.googleapis.com
+host-suffix,dl.google.com
+host-suffix,dl.l.google.com
+host-suffix,google.cn
+host-suffix,ssl.gstatic.com
+host-suffix,tools.google.com
+host-suffix,tools.l.google.com
+host-suffix,update.googleapis.com
