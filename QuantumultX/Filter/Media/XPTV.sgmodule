@@ -2,6 +2,8 @@
 #!name=XPTV规则
 #!desc=仅直连
 [Rule]
+#LIBVIO
+DOMAIN-KEYWORD, libvio, DIRECT
 #玩偶哥哥（直连）
 DOMAIN-KEYWORD, wogg, DIRECT
 DOMAIN-SUFFIX, wogg.link, DIRECT
