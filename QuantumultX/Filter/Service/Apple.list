@@ -1,35 +1,35 @@
-# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
-# > Apple
-host-keyword,apple
-host-keyword,icloud
-host-suffix,aaplimg.com
-host-suffix,apple.co
-host-suffix,apple.com
-host-suffix,xp.apple.com
-host-suffix,appstore.com
-host-suffix,cdn-apple.com
-host-suffix,crashlytics.com
-host-suffix,configuration.ls.apple.com
-host-suffix,amp-api.podcasts.apple.com
-host-suffix,play.itunes.apple.com
-host-suffix,me.com
-host-suffix,mzstatic.com
-host-keyword,icloud
-host-suffix,icloud
-host-suffix,icloud.com
-host-suffix,gateway.icloud.com
-host-suffix,icloud-content.com
-host,www-cdn.icloud.com.akadns.net
-host-keyword,apple.com.akadns.net
-host-keyword,icloud.com.akadns.net
-host-suffix,apple.com.cn
-host-suffix,apple-cloudkit.com
-host-suffix,icloud.com.cn
-IP-CIDR,17.0.0.0/8
-IP-CIDR,63.92.224.0/19
-IP-CIDR,65.199.22.0/23
-IP-CIDR,139.178.128.0/18
-IP-CIDR,144.178.0.0/19
-IP-CIDR,192.35.50.0/24
-IP-CIDR,198.183.17.0/24
-IP-CIDR,205.180.175.0/24
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题, Apple
+# > Apple, Apple
+host-keyword,apple, Apple
+host-keyword,icloud, Apple
+host-suffix,aaplimg.com, Apple
+host-suffix,apple.co, Apple
+host-suffix,apple.com, Apple
+host-suffix,xp.apple.com, Apple
+host-suffix,appstore.com, Apple
+host-suffix,cdn-apple.com, Apple
+host-suffix,crashlytics.com, Apple
+host-suffix,configuration.ls.apple.com, Apple
+host-suffix,amp-api.podcasts.apple.com, Apple
+host-suffix,play.itunes.apple.com, Apple
+host-suffix,me.com, Apple
+host-suffix,mzstatic.com, Apple
+host-keyword,icloud, Apple
+host-suffix,icloud, Apple
+host-suffix,icloud.com, Apple
+host-suffix,gateway.icloud.com, Apple
+host-suffix,icloud-content.com, Apple
+host,www-cdn.icloud.com.akadns.net, Apple
+host-keyword,apple.com.akadns.net, Apple
+host-keyword,icloud.com.akadns.net, Apple
+host-suffix,apple.com.cn, Apple
+host-suffix,apple-cloudkit.com, Apple
+host-suffix,icloud.com.cn, Apple
+IP-CIDR,17.0.0.0/8, Apple
+IP-CIDR,63.92.224.0/19, Apple
+IP-CIDR,65.199.22.0/23, Apple
+IP-CIDR,139.178.128.0/18, Apple
+IP-CIDR,144.178.0.0/19, Apple
+IP-CIDR,192.35.50.0/24, Apple
+IP-CIDR,198.183.17.0/24, Apple
+IP-CIDR,205.180.175.0/24, Apple
