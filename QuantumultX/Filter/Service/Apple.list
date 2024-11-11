@@ -1,5 +1,5 @@
-# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题, Apple
-# > Apple, Apple
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
+# > Apple
 host-keyword,apple, Apple
 host-keyword,icloud, Apple
 host-suffix,aaplimg.com, Apple

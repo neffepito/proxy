@@ -1,45 +1,36 @@
-# >> Google, Google
+# >> Google
 host-keyword,google, Google
 host-suffix,google.com, Google
 host-suffix,265.com, Google
-, Google
-# > Alphabet Websites , Google
+# > Alphabet Websites 
 host-suffix,abc.xyz, Google
 host-suffix,capitalg.com, Google
-, Google
-# > Android, Google
+# > Android
 host-suffix,android.com, Google
 host-suffix,androidify.com, Google
-, Google
-# > Appspot, Google
+# > Appspot
 host-keyword,appspot, Google
-, Google
-# > Chrome & Chromium, Google
+# > Chrome & Chromium
 host-suffix,chrome.com, Google
 host-suffix,chromeexperiments.com, Google
 host-suffix,chromestatus.com, Google
 host-suffix,chromium.org, Google
 host-suffix,whatbrowser.org, Google
-, Google
-# > Google AI, Google
+# > Google AI
 host-suffix,autodraw.com, Google
 host-suffix,deepmind.com, Google
 host-suffix,tensorflow.org, Google
 host-suffix,tfhub.dev, Google
-, Google
-# > Google APIs, Google
+# > Google APIs
 host-suffix,googleapis.com, Google
-, Google
-# > Google Blogger, Google
+# > Google Blogger
 host-keyword,blogspot, Google
 host-suffix,blogger.com, Google
 host-suffix,googleblog.com, Google
-, Google
-# > Google Cloud Platform, Google
+# > Google Cloud Platform
 host-suffix,dialogflow.com, Google
 host-suffix,gcp.gvt2.com, Google
-, Google
-# > Google Developer, Google
+# > Google Developer
 host-keyword,googlesource, Google
 host-suffix,godoc.org, Google
 host-suffix,golang.org, Google
@@ -52,35 +43,27 @@ host-suffix,waveprotocol.org, Google
 host-suffix,webmproject.org, Google
 host-suffix,webrtc.org, Google
 host-suffix,withgoogle.com, Google
-, Google
-# > Google Education, Google
+# > Google Education
 host-suffix,madewithcode.com, Google
-, Google
-# > Google Enterprise, Google
+# > Google Enterprise
 host-suffix,synergyse.com, Google
-, Google
-# > Gmail, Google
-# host-keyword,gmail, Google
-, Google
-# > Google Recaptcha, Google
+# > Gmail
+# host-keyword,gmail
+# > Google Recaptcha
 host-keyword,recaptcha, Google
-, Google
-# > Google Static Files, Google
+# > Google Static Files
 host-keyword,gstatic, Google
 host-suffix,gmodules.com, Google
 host-suffix,googleusercontent.com, Google
 host-suffix,gvt0.com, Google
 host-suffix,gvt1.com, Google
 host-suffix,gvt3.com, Google
-, Google
-# > Google VR, Google
+# > Google VR
 host-suffix,tiltbrush.com, Google
-, Google
-# > Material Design, Google
+# > Material Design
 host-suffix,getmdl.io, Google
 host-suffix,material.io, Google
-, Google
-# > Other, Google
+# > Other
 host-suffix,certificate-transparency.org, Google
 host-suffix,certificate-transparency.dev, Google
 host-suffix,creativelab5.com, Google
@@ -90,12 +73,10 @@ host-suffix,polymer-project.org, Google
 host-suffix,waymo.com, Google
 host-suffix,widevine.com, Google
 host-suffix,x.company, Google
-, Google
-# > Google IP-CIDR, Google
+# > Google IP-CIDR
 ip-cidr,173.194.0.0/16, Google
 ip-cidr,74.125.0.0/16, Google
-, Google
-# > Google Domestic CDNs, Google
+# > Google Domestic CDNs
 host,fonts.googleapis.com, Google
 host,fonts.gstatic.com, Google
 host,ocsp.pki.goog, Google
