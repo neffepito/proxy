@@ -12,3 +12,6 @@ HOST-SUFFIX,notion.new,Notion
 HOST-SUFFIX,notion.site,Notion
 HOST-SUFFIX,notion.so,Notion
 HOST-KEYWORD,notion,Notion
+
+# Customization
+HOST-SUFFIX,ingest.sentry.io,Notion
