@@ -524,9 +524,3 @@ DOMAIN, img.jisuimage.com, DIRECT
 DOMAIN, pic.wujinpp.com, DIRECT
 DOMAIN, suboimage.com, DIRECT
 DOMAIN, img.ffzy888.com, DIRECT
-
-#Customization
-#ぎりぎり動漫
-DOMAIN-KEYWORD, girigirilove, DIRECT
-#LIBVIO
-DOMAIN-KEYWORD, libvio, DIRECT
