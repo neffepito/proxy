@@ -6,8 +6,8 @@
 #XPTV主站-部分地区可以直连自行尝试
 #host, infuseku.xyz, DIRECT
 #iCloud同步
-host, gateway.icloud.com, DIRECT
-host, metrics.icloud.com, DIRECT
+#host, gateway.icloud.com, DIRECT
+#host, metrics.icloud.com, DIRECT
 #XPTV封面来源
 #小海报
 host-SUFFIX, doubanio.com, DIRECT
