@@ -1,529 +1,529 @@
 #!url=https://raw.githubusercontent.com/fangkuia/XPTV/main/X/xptv.sgmodule
 #!name=XPTV规则
 #!desc=仅直连
-[Rule]
+#[Rule]
 #已标注了大部分可直连的地址,遇到无法直连的情况自行调整
 #XPTV主站-部分地区可以直连自行尝试
-#host, infuseku.xyz, DIRECT
+#host, infuseku.xyz, XPTV
 #iCloud同步
-#host, gateway.icloud.com, DIRECT
-#host, metrics.icloud.com, DIRECT
+#host, gateway.icloud.com, XPTV
+#host, metrics.icloud.com, XPTV
 #XPTV封面来源
 #小海报
-host-SUFFIX, doubanio.com, DIRECT
+host-SUFFIX, doubanio.com, XPTV
 #大封面
-host-SUFFIX, tmdb.org, DIRECT
+host-SUFFIX, tmdb.org, XPTV
 #弹幕
-host, dandanplay.net, DIRECT
+host, dandanplay.net, XPTV
 #网盘规则
 #阿里
-host-SUFFIX, aliyundrive.com, DIRECT
-host-SUFFIX, voicehub.top, DIRECT
+host-SUFFIX, aliyundrive.com, XPTV
+host-SUFFIX, voicehub.top, XPTV
 #夸克
-host-SUFFIX, quark.cn, DIRECT
+host-SUFFIX, quark.cn, XPTV
 #天翼
-host-SUFFIX, 189.cn, DIRECT
-host-SUFFIX, ctyunxs.cn, DIRECT
+host-SUFFIX, 189.cn, XPTV
+host-SUFFIX, ctyunxs.cn, XPTV
 #115
-host-SUFFIX, 115.com, DIRECT
+host-SUFFIX, 115.com, XPTV
 #uc
-host-SUFFIX, uc.cn, DIRECT
+host-SUFFIX, uc.cn, XPTV
 #小雅
-host-SUFFIX, xiaoya.pro, DIRECT
+host-SUFFIX, xiaoya.pro, XPTV
 #网盘源
 #小米
-host, mihdr.top, DIRECT
+host, mihdr.top, XPTV
 #木偶
-host-SUFFIX, mogg.top, DIRECT
+host-SUFFIX, mogg.top, XPTV
 #玩偶
-host-SUFFIX, wogg.net, DIRECT
+host-SUFFIX, wogg.net, XPTV
 #雷鲸
-host, www.leijing.xyz, DIRECT
+host, www.leijing.xyz, XPTV
 #校长
-host, xzys.fun, DIRECT
+host, xzys.fun, XPTV
 #蜡笔
-host-SUFFIX, duopan.fun, DIRECT
+host-SUFFIX, duopan.fun, XPTV
 #南风
-host, www.nanf.cc, DIRECT
+host, www.nanf.cc, XPTV
 #多多
-host, yydsys.top, DIRECT
+host, yydsys.top, XPTV
 #欧歌
-host, woog.nxog.eu.org, DIRECT
+host, woog.nxog.eu.org, XPTV
 #云盘吧
-host, yunpan8.cc, DIRECT
+host, yunpan8.cc, XPTV
 #nmlive相关
-host-SUFFIX, bilivideo.com, DIRECT
-host, slink.ltd, DIRECT
-host-SUFFIX, douyincdn.com, DIRECT
-host-SUFFIX, douyinpic.com, DIRECT
-host-SUFFIX, douyucdn.cn, DIRECT
-host-SUFFIX, douyucdn2.cn, DIRECT
-host-SUFFIX, huya.com, DIRECT
-host-SUFFIX, msstatic.com, DIRECT
-host, lemonlive.deno.dev, DIRECT
+host-SUFFIX, bilivideo.com, XPTV
+host, slink.ltd, XPTV
+host-SUFFIX, douyincdn.com, XPTV
+host-SUFFIX, douyinpic.com, XPTV
+host-SUFFIX, douyucdn.cn, XPTV
+host-SUFFIX, douyucdn2.cn, XPTV
+host-SUFFIX, huya.com, XPTV
+host-SUFFIX, msstatic.com, XPTV
+host, lemonlive.deno.dev, XPTV
 #VOD源
 #低端主页与播放
-host-SUFFIX, ddys.pro, DIRECT
+host-SUFFIX, ddys.pro, XPTV
 #AGE主页
-host-SUFFIX, agedm.org, DIRECT
+host-SUFFIX, agedm.org, XPTV
 #ギリギリ主页
-host-keyword, girigirilove, DIRECT
+host-keyword, girigirilove, XPTV
 #播放
-host, love.girigirilove.com, DIRECT
-host, m3u8.girigirilove.com, DIRECT
+host, love.girigirilove.com, XPTV
+host, m3u8.girigirilove.com, XPTV
 #瓜子主页
-host, api.9cec79d.com, DIRECT
+host, api.9cec79d.com, XPTV
 #播放
-host, wjm.kemfsj.com, DIRECT
+host, wjm.kemfsj.com, XPTV
 #4k-av播放
-host, www.4k-av.com, DIRECT
+host, www.4k-av.com, XPTV
 #囧动漫主页
-IP-CIDR, 43.142.232.217/32, DIRECT, no-resolve
+IP-CIDR, 43.142.232.217/32, XPTV, no-resolve
 #播放
-host-SUFFIX, fanchenstatic.com, DIRECT
-host, i0.hdslb.com, DIRECT
-host-SUFFIX, bsgslb.cn, DIRECT
-host-SUFFIX, bytetos.com, DIRECT
-host-SUFFIX, douyinvod.com, DIRECT
-host-SUFFIX, byteimg.com, DIRECT
-IP-CIDR, 110.41.171.181/32, DIRECT, no-resolve
-IP-CIDR, 49.235.143.104/32, DIRECT, no-resolve
-host-SUFFIX, xhscdn.com, DIRECT
-host-SUFFIX, bdxiguastatic.com, DIRECT
-host-SUFFIX, zshtys888.com, DIRECT
+host-SUFFIX, fanchenstatic.com, XPTV
+host, i0.hdslb.com, XPTV
+host-SUFFIX, bsgslb.cn, XPTV
+host-SUFFIX, bytetos.com, XPTV
+host-SUFFIX, douyinvod.com, XPTV
+host-SUFFIX, byteimg.com, XPTV
+IP-CIDR, 110.41.171.181/32, XPTV, no-resolve
+IP-CIDR, 49.235.143.104/32, XPTV, no-resolve
+host-SUFFIX, xhscdn.com, XPTV
+host-SUFFIX, bdxiguastatic.com, XPTV
+host-SUFFIX, zshtys888.com, XPTV
 #libvio主页
-host-keyword, libvio, DIRECT
+host-keyword, libvio, XPTV
 #播放
-host-SUFFIX, mcloud.139.com, DIRECT
-host-SUFFIX, libvio.cloud, DIRECT
+host-SUFFIX, mcloud.139.com, XPTV
+host-SUFFIX, libvio.cloud, XPTV
 #anfuns相关
-host-SUFFIX, anfuns.org, DIRECT
-host-SUFFIX, bytegiftia.top, DIRECT
-host-SUFFIX, lenovo.com.cn, DIRECT
-host, image.zhihuishu.com, DIRECT
-host, presale.111.com.cn, DIRECT
+host-SUFFIX, anfuns.org, XPTV
+host-SUFFIX, bytegiftia.top, XPTV
+host-SUFFIX, lenovo.com.cn, XPTV
+host, image.zhihuishu.com, XPTV
+host, presale.111.com.cn, XPTV
 #hdmoli主页
-host, hdmoli.pro, DIRECT
+host, hdmoli.pro, XPTV
 #播放
-host, v.damoli.pro, DIRECT
+host, v.damoli.pro, XPTV
 #哔嘀影视主页
-host, www.xlys01.com, DIRECT
+host, www.xlys01.com, XPTV
 #播放
-host-SUFFIX, bytetos.com, DIRECT
+host-SUFFIX, bytetos.com, XPTV
 #烧火影视主页
-host, saohuo.tv, DIRECT
+host, saohuo.tv, XPTV
 #播放
-host, hhjx.hhplayer.comundefined, DIRECT
-host-SUFFIX, video.iqiyi.com, DIRECT
-host-SUFFIX, qitu-zuida.com, DIRECT
-host, om.tc.qq.com, DIRECT
-host-SUFFIX, ibytedtos.com, DIRECT
-host-SUFFIX, 1ljx.com, DIRECT
-host-SUFFIX, smtcdns.com, DIRECT
-host, cme-video.vod-qcloud.com, DIRECT
-host, hhjx.hhplayer.com, DIRECT
+host, hhjx.hhplayer.comundefined, XPTV
+host-SUFFIX, video.iqiyi.com, XPTV
+host-SUFFIX, qitu-zuida.com, XPTV
+host, om.tc.qq.com, XPTV
+host-SUFFIX, ibytedtos.com, XPTV
+host-SUFFIX, 1ljx.com, XPTV
+host-SUFFIX, smtcdns.com, XPTV
+host, cme-video.vod-qcloud.com, XPTV
+host, hhjx.hhplayer.com, XPTV
 #NO視頻主页
-host, www.novipnoad.net, DIRECT
+host, www.novipnoad.net, XPTV
 #播放
-host-SUFFIX, novipnoad.net, DIRECT
+host-SUFFIX, novipnoad.net, XPTV
 #韩剧看看主页
-host, www.hanjukankan.com, DIRECT
-host, glzx.thekutv.com, DIRECT
+host, www.hanjukankan.com, XPTV
+host, glzx.thekutv.com, XPTV
 #播放
-host-SUFFIX, thehanju.com, DIRECT
-host-SUFFIX, vvddoo.com, DIRECT
+host-SUFFIX, thehanju.com, XPTV
+host-SUFFIX, vvddoo.com, XPTV
 #星芽主页
-host, qiniu.rongjuwh.cn, DIRECT
-host, app.whjzjx.cn, DIRECT
-host, u.shytkjgs.com, DIRECT
+host, qiniu.rongjuwh.cn, XPTV
+host, app.whjzjx.cn, XPTV
+host, u.shytkjgs.com, XPTV
 #播放
-IP-CIDR, 218.22.23.189/32, DIRECT, no-resolve
-IP-CIDR, 117.68.35.135/32, DIRECT, no-resolve
-IP-CIDR, 218.22.23.229/32, DIRECT, no-resolve
-host-SUFFIX, qnqcdn.net, DIRECT
-host-SUFFIX, xingya.com.cn, DIRECT
-IP-CIDR, 117.68.35.139/32, DIRECT, no-resolve
+IP-CIDR, 218.22.23.189/32, XPTV, no-resolve
+IP-CIDR, 117.68.35.135/32, XPTV, no-resolve
+IP-CIDR, 218.22.23.229/32, XPTV, no-resolve
+host-SUFFIX, qnqcdn.net, XPTV
+host-SUFFIX, xingya.com.cn, XPTV
+IP-CIDR, 117.68.35.139/32, XPTV, no-resolve
 #小苹果播放
-IP-CIDR, 163.123.192.184/32, DIRECT, no-resolve
-IP-CIDR, 148.59.74.50/32, DIRECT, no-resolve
-IP-CIDR, 205.178.182.17/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.169/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.68/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.182/32, DIRECT, no-resolve
-IP-CIDR, 205.178.182.8/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.108/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.29/32, DIRECT, no-resolve
-IP-CIDR, 205.178.182.52/32, DIRECT, no-resolve
-IP-CIDR, 163.123.192.17/32, DIRECT, no-resolve
-host, c.xpgtv.net, DIRECT
+IP-CIDR, 163.123.192.184/32, XPTV, no-resolve
+IP-CIDR, 148.59.74.50/32, XPTV, no-resolve
+IP-CIDR, 205.178.182.17/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.169/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.68/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.182/32, XPTV, no-resolve
+IP-CIDR, 205.178.182.8/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.108/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.29/32, XPTV, no-resolve
+IP-CIDR, 205.178.182.52/32, XPTV, no-resolve
+IP-CIDR, 163.123.192.17/32, XPTV, no-resolve
+host, c.xpgtv.net, XPTV
 #厂长主页
-host, www.czzyvideo.com, DIRECT
+host, www.czzyvideo.com, XPTV
 #播放
-host, qimgs.qunarzz.com, DIRECT
-host, lf16-fe.resso.me, DIRECT
-host-SUFFIX, akamaized.net, DIRECT
-host, t001.czzy.fun, DIRECT
-host, vunyundun.czys.art, DIRECT
-host-SUFFIX, larksuitecdn.com, DIRECT
-host, dc.xhscdn.com, DIRECT
-host, mdn.alipayobjects.com, DIRECT
+host, qimgs.qunarzz.com, XPTV
+host, lf16-fe.resso.me, XPTV
+host-SUFFIX, akamaized.net, XPTV
+host, t001.czzy.fun, XPTV
+host, vunyundun.czys.art, XPTV
+host-SUFFIX, larksuitecdn.com, XPTV
+host, dc.xhscdn.com, XPTV
+host, mdn.alipayobjects.com, XPTV
 #天天主页
-host, op.ysdqjs.cn, DIRECT
+host, op.ysdqjs.cn, XPTV
 #在线之家主页--播放地址是ctyunxs.cn,在天翼里有
-host-SUFFIX, zxzja.com, DIRECT
+host-SUFFIX, zxzja.com, XPTV
 #素白白主页--播放地址是dc.xhscdn.com,在厂长里有
-host, www.subaibaiys.com, DIRECT
+host, www.subaibaiys.com, XPTV
 #CMS源
 #360主页
-host, 360zy.com, DIRECT
+host, 360zy.com, XPTV
 #播放
-host, vod.lyhuicheng.com, DIRECT
+host, vod.lyhuicheng.com, XPTV
 #非凡主页和播放
-host-KEYWORD, ffzy, DIRECT
+host-KEYWORD, ffzy, XPTV
 #墨斗主页
-host, www.mdzyapi.com, DIRECT
+host, www.mdzyapi.com, XPTV
 #黑木耳主页
-host-SUFFIX, heimuer.tv, DIRECT
-host-SUFFIX, heimuer.xyz, DIRECT
+host-SUFFIX, heimuer.tv, XPTV
+host-SUFFIX, heimuer.xyz, XPTV
 #播放
-host, 2bzfvku2xwu7.com, DIRECT
-host, n9ihkvv1ytjr.com, DIRECT
-host, 0cicgw0mte7y.com, DIRECT
-host, r5oa1oqwh6gz.com, DIRECT
-host, knfuzimvbmwr.com, DIRECT
-host, ucul8pjt6v6h.com, DIRECT
-host, 5pvheva17etb.com, DIRECT
-host, k6qgunhk9wuk.com, DIRECT
-host, 0uxzzy8thov3.com, DIRECT
-host, 5dagx9am9sai.com, DIRECT
-host, omgyesityyhl.com, DIRECT
-host, eucjzvub6vhr.com, DIRECT
-host, tficf2xx0qxr.com, DIRECT
-host, zqmdvefdijjx.com, DIRECT
-host, jzuqfavoibww.com, DIRECT
-host, in1eab44tnda.com, DIRECT
-host, nfysfaemv1m2.com, DIRECT
-host, rfjyb3bu5j0r.com, DIRECT
-host, wjmgijixqcbc.com, DIRECT
-host, jvgcazuedspp.com, DIRECT
-host, fmxjkp6ekzcg.com, DIRECT
-host, zea35s3nhdbn.com, DIRECT
-host, zehnaxihujfi.com, DIRECT
-host, 0nzuqy0k3c35.com, DIRECT
-host, yvocwep63nev.com, DIRECT
-host, navogkbbnjl4.com, DIRECT
-host, xgwr4phkkafo.com, DIRECT
-host, om43531gxybq.com, DIRECT
-host, 3lky1u69bdx2.com, DIRECT
-host, 438pnr4dyywt.com, DIRECT
-host, mdghhsgc4iiy.com, DIRECT
-host, m3u8.hmrvideo.com, DIRECT
+host, 2bzfvku2xwu7.com, XPTV
+host, n9ihkvv1ytjr.com, XPTV
+host, 0cicgw0mte7y.com, XPTV
+host, r5oa1oqwh6gz.com, XPTV
+host, knfuzimvbmwr.com, XPTV
+host, ucul8pjt6v6h.com, XPTV
+host, 5pvheva17etb.com, XPTV
+host, k6qgunhk9wuk.com, XPTV
+host, 0uxzzy8thov3.com, XPTV
+host, 5dagx9am9sai.com, XPTV
+host, omgyesityyhl.com, XPTV
+host, eucjzvub6vhr.com, XPTV
+host, tficf2xx0qxr.com, XPTV
+host, zqmdvefdijjx.com, XPTV
+host, jzuqfavoibww.com, XPTV
+host, in1eab44tnda.com, XPTV
+host, nfysfaemv1m2.com, XPTV
+host, rfjyb3bu5j0r.com, XPTV
+host, wjmgijixqcbc.com, XPTV
+host, jvgcazuedspp.com, XPTV
+host, fmxjkp6ekzcg.com, XPTV
+host, zea35s3nhdbn.com, XPTV
+host, zehnaxihujfi.com, XPTV
+host, 0nzuqy0k3c35.com, XPTV
+host, yvocwep63nev.com, XPTV
+host, navogkbbnjl4.com, XPTV
+host, xgwr4phkkafo.com, XPTV
+host, om43531gxybq.com, XPTV
+host, 3lky1u69bdx2.com, XPTV
+host, 438pnr4dyywt.com, XPTV
+host, mdghhsgc4iiy.com, XPTV
+host, m3u8.hmrvideo.com, XPTV
 #华为吧主页
-host, hw8.live, DIRECT
+host, hw8.live, XPTV
 #播放
-host, selfcdn.simaguo.com, DIRECT
-host, m3u.nikanba.live, DIRECT
+host, selfcdn.simaguo.com, XPTV
+host, m3u.nikanba.live, XPTV
 #腐剧主页
-host, www.fuju2024.cc, DIRECT
+host, www.fuju2024.cc, XPTV
 #播放
-host-SUFFIX, yishihui.com, DIRECT
+host-SUFFIX, yishihui.com, XPTV
 #金鹰主页
-host, image.jinyingimage.com, DIRECT
-host, jinyingzy.com, DIRECT
+host, image.jinyingimage.com, XPTV
+host, jinyingzy.com, XPTV
 #播放
-host, c.baisiweiting.com, DIRECT
-host, hd.ijycnd.com, DIRECT
+host, c.baisiweiting.com, XPTV
+host, hd.ijycnd.com, XPTV
 #OK主页
-host, pic.okzy.xyz, DIRECT
-host, wakdj.com, DIRECT
+host, pic.okzy.xyz, XPTV
+host, wakdj.com, XPTV
 #播放
-host-SUFFIX, noop44.com, DIRECT
-host-SUFFIX, bxgbnet.com, DIRECT
-host-SUFFIX, xxya88.com, DIRECT
+host-SUFFIX, noop44.com, XPTV
+host-SUFFIX, bxgbnet.com, XPTV
+host-SUFFIX, xxya88.com, XPTV
 #宝片主页
-host, zpsps.com, DIRECT
+host, zpsps.com, XPTV
 #播放
-host-KEYWORD, bbffvip.com, DIRECT
-host-KEYWORD, rrcdnbf, DIRECT
+host-KEYWORD, bbffvip.com, XPTV
+host-KEYWORD, rrcdnbf, XPTV
 #小黄人主页
-host, iqyi.xiaohuangrentv.com, DIRECT
+host, iqyi.xiaohuangrentv.com, XPTV
 #播放
-host-KEYWORD, .jisu.com, DIRECT
+host-KEYWORD, .jisu.com, XPTV
 #牛牛主页
-host, pic.niuniuzy.info, DIRECT
+host, pic.niuniuzy.info, XPTV
 #播放
-host-SUFFIX, qrstt.com, DIRECT
-host-SUFFIX, stuuvwy.com, DIRECT
-host-SUFFIX, xingchongwang.com, DIRECT
+host-SUFFIX, qrstt.com, XPTV
+host-SUFFIX, stuuvwy.com, XPTV
+host-SUFFIX, xingchongwang.com, XPTV
 #丫丫主页
-host-SUFFIX, uvvv77.com, DIRECT
+host-SUFFIX, uvvv77.com, XPTV
 #播放
-host-SUFFIX, jklnopq.com, DIRECT
-host, cj.yayazy.net, DIRECT
-host-SUFFIX, qdhdcate.com, DIRECT
+host-SUFFIX, jklnopq.com, XPTV
+host, cj.yayazy.net, XPTV
+host-SUFFIX, qdhdcate.com, XPTV
 #影图主页
-host, cj.vodimg.top, DIRECT
+host, cj.vodimg.top, XPTV
 #播放
-host-SUFFIX, ghij11.com, DIRECT
-host-SUFFIX, tlkqc.com, DIRECT
-host, pic.picturecdn.com, DIRECT
-host, tlkqc.com, DIRECT
-host-SUFFIX, xaab57.com, DIRECT
+host-SUFFIX, ghij11.com, XPTV
+host-SUFFIX, tlkqc.com, XPTV
+host, pic.picturecdn.com, XPTV
+host, tlkqc.com, XPTV
+host-SUFFIX, xaab57.com, XPTV
 #U酷主页
-host, api.ukuapi.com, DIRECT
+host, api.ukuapi.com, XPTV
 #播放
-host-KEYWORD, ukzy.ukubf, DIRECT
+host-KEYWORD, ukzy.ukubf, XPTV
 #豪华主页
-host, hhzyapi.com, DIRECT
+host, hhzyapi.com, XPTV
 #播放
-host, play.hhuus.com, DIRECT
-host, p.hhwenjian.com, DIRECT
+host, play.hhuus.com, XPTV
+host, p.hhwenjian.com, XPTV
 #极速主页
-host, jszyapi.com, DIRECT
+host, jszyapi.com, XPTV
 #索尼主页
-host, snzypic.vip, DIRECT
+host, snzypic.vip, XPTV
 #播放
-host-KEYWORD, .hiij, DIRECT
-host-SUFFIX, nopqq.vip, DIRECT
-host-SUFFIX, uvwwx.vip, DIRECT
-host-SUFFIX, pqqrs.vip, DIRECT
-host-SUFFIX, qrssv.com, DIRECT
+host-KEYWORD, .hiij, XPTV
+host-SUFFIX, nopqq.vip, XPTV
+host-SUFFIX, uvwwx.vip, XPTV
+host-SUFFIX, pqqrs.vip, XPTV
+host-SUFFIX, qrssv.com, XPTV
 #ikun主页
-host, www.imgikzy.com, DIRECT
+host, www.imgikzy.com, XPTV
 #播放
-host, kkzycdn.com, DIRECT
-host, bfikuncdn.com, DIRECT
+host, kkzycdn.com, XPTV
+host, bfikuncdn.com, XPTV
 #量子主页
-host, cj.lziapi.com, DIRECT
-host, img.lzzyimg.com, DIRECT
+host, cj.lziapi.com, XPTV
+host, img.lzzyimg.com, XPTV
 #播放
-host-KEYWORD, v.cdnlz, DIRECT
+host-KEYWORD, v.cdnlz, XPTV
 #暴风主页
-host-SUFFIX, bfzypic.com, DIRECT
-host, bfzyapi.com, DIRECT
+host-SUFFIX, bfzypic.com, XPTV
+host, bfzyapi.com, XPTV
 #播放
-host-SUFFIX, bfllvip.com, DIRECT
+host-SUFFIX, bfllvip.com, XPTV
 #红牛主页
-host, www.hongniuzy2.com, DIRECT
+host, www.hongniuzy2.com, XPTV
 #播放
-host, hn.bfvvs.com, DIRECT
-host, hnts.ymuuy.com, DIRECT
+host, hn.bfvvs.com, XPTV
+host, hnts.ymuuy.com, XPTV
 #快车主页
-host, caijl.kczyapi.com, DIRECT
+host, caijl.kczyapi.com, XPTV
 #播放
-host-SUFFIX, fghjklm.com, DIRECT
-host-SUFFIX, ijkklmn.com, DIRECT
-host-SUFFIX, longshengtea.com, DIRECT
-host-SUFFIX, stuuv.vip, DIRECT
+host-SUFFIX, fghjklm.com, XPTV
+host-SUFFIX, ijkklmn.com, XPTV
+host-SUFFIX, longshengtea.com, XPTV
+host-SUFFIX, stuuv.vip, XPTV
 #闪电主页
-host, sdzyapi.com, DIRECT
+host, sdzyapi.com, XPTV
 #播放
-host-SUFFIX, qrrs56.com, DIRECT
-host-SUFFIX, wwxy0.com, DIRECT
-host-SUFFIX, fentvoss.com, DIRECT
+host-SUFFIX, qrrs56.com, XPTV
+host-SUFFIX, wwxy0.com, XPTV
+host-SUFFIX, fentvoss.com, XPTV
 #樱花主页
-host, m3u8.apiyhzy.com, DIRECT
+host, m3u8.apiyhzy.com, XPTV
 #播放
-host-SUFFIX, ijkkl.vip, DIRECT
-host-SUFFIX, abcce.vip, DIRECT
-host-SUFFIX, mmnn34.com, DIRECT
-host-SUFFIX, vwxx78.com, DIRECT
-host-SUFFIX, stttu.vip, DIRECT
-host-SUFFIX, tuvvv.vip, DIRECT
-host-SUFFIX, ijkmnno.com, DIRECT
-host-SUFFIX, deefg.vip, DIRECT
-host-SUFFIX, lmnoprs.com, DIRECT
-host-KEYWORD, shes, DIRECT
-host-SUFFIX, yhzybf.com, DIRECT
-host-SUFFIX, wgslsw.com, DIRECT
-host, pic.jegms.com, DIRECT
+host-SUFFIX, ijkkl.vip, XPTV
+host-SUFFIX, abcce.vip, XPTV
+host-SUFFIX, mmnn34.com, XPTV
+host-SUFFIX, vwxx78.com, XPTV
+host-SUFFIX, stttu.vip, XPTV
+host-SUFFIX, tuvvv.vip, XPTV
+host-SUFFIX, ijkmnno.com, XPTV
+host-SUFFIX, deefg.vip, XPTV
+host-SUFFIX, lmnoprs.com, XPTV
+host-KEYWORD, shes, XPTV
+host-SUFFIX, yhzybf.com, XPTV
+host-SUFFIX, wgslsw.com, XPTV
+host, pic.jegms.com, XPTV
 #卧龙主页
-host, collect.wolongzyw.com, DIRECT
-host, pic.wlongimg.com, DIRECT
+host, collect.wolongzyw.com, XPTV
+host, pic.wlongimg.com, XPTV
 #播放
-host-KEYWORD, cdn.wls, DIRECT
-host-KEYWORD, cdn.wlcdn, DIRECT
+host-KEYWORD, cdn.wls, XPTV
+host-KEYWORD, cdn.wlcdn, XPTV
 #虎牙主页与播放
-host-KEYWORD, .huya, DIRECT
+host-KEYWORD, .huya, XPTV
 #飘零主页
-host, p2100.net, DIRECT
+host, p2100.net, XPTV
 #无尽主页
-host, api.wujinapi.com, DIRECT
+host, api.wujinapi.com, XPTV
 #播放
-host-SUFFIX, stuv67.com, DIRECT
-host-SUFFIX, hjjk22.com, DIRECT
-host-SUFFIX, jkkl23.com, DIRECT
-host, v5.xyaa88.com, DIRECT
+host-SUFFIX, stuv67.com, XPTV
+host-SUFFIX, hjjk22.com, XPTV
+host-SUFFIX, jkkl23.com, XPTV
+host, v5.xyaa88.com, XPTV
 #速博主页
-host-KEYWORD, subo, DIRECT
+host-KEYWORD, subo, XPTV
 #播放
-host, play.subokk.com, DIRECT
-host-SUFFIX, xlzyd.com, DIRECT
+host, play.subokk.com, XPTV
+host-SUFFIX, xlzyd.com, XPTV
 #魔都主页
-host, caiji.moduapi.cc, DIRECT
-host, www.mdzypic.com, DIRECT
+host, caiji.moduapi.cc, XPTV
+host, www.mdzypic.com, XPTV
 #播放
-host-KEYWORD, play.modujx, DIRECT
+host-KEYWORD, play.modujx, XPTV
 #最大主页
-host, ok.zuidapic.com, DIRECT
-host, zuidazy.me, DIRECT
+host, ok.zuidapic.com, XPTV
+host, zuidazy.me, XPTV
 #播放
-host-SUFFIX, daayee.com, DIRECT
+host-SUFFIX, daayee.com, XPTV
 #新浪主页
-host, xinlangtupian.com, DIRECT
+host, xinlangtupian.com, XPTV
 #播放
-host, play.xluuss.com, DIRECT
+host, play.xluuss.com, XPTV
 #八戒播放
-host-SUFFIX, monidai.com, DIRECT
-host-SUFFIX, hdslb.pro, DIRECT
+host-SUFFIX, monidai.com, XPTV
+host-SUFFIX, hdslb.pro, XPTV
 #XPAV源
 #Hanime1播放
-host, vdownload.hembed.com, DIRECT
+host, vdownload.hembed.com, XPTV
 #MISSAV播放
-host, surrit.com, DIRECT
+host, surrit.com, XPTV
 #SupJav-ST播放
-host, streamtape.com, DIRECT
-host-SUFFIX, tapecontent.net, DIRECT
+host, streamtape.com, XPTV
+host-SUFFIX, tapecontent.net, XPTV
 #秋名山见主页
-host, api.maiyoux.com, DIRECT
+host, api.maiyoux.com, XPTV
 #播放
-host-SUFFIX, xinzhisoft.xyz, DIRECT
-host-SUFFIX, zhenyidaoxinxi.top, DIRECT
-host-SUFFIX, xinzhitushu.xyz, DIRECT
-host-SUFFIX, dmtmax.cn, DIRECT
-host-SUFFIX, anfangmart.cn, DIRECT
-host-SUFFIX, dapengjiaoyu.top, DIRECT
-host-SUFFIX, aliyuncs.com, DIRECT
-host-SUFFIX, kdfwz.top, DIRECT
+host-SUFFIX, xinzhisoft.xyz, XPTV
+host-SUFFIX, zhenyidaoxinxi.top, XPTV
+host-SUFFIX, xinzhitushu.xyz, XPTV
+host-SUFFIX, dmtmax.cn, XPTV
+host-SUFFIX, anfangmart.cn, XPTV
+host-SUFFIX, dapengjiaoyu.top, XPTV
+host-SUFFIX, aliyuncs.com, XPTV
+host-SUFFIX, kdfwz.top, XPTV
 #91AV播放
-host-SUFFIX, knzaol.cn, DIRECT
-host-SUFFIX, bndmpsjx.com, DIRECT
+host-SUFFIX, knzaol.cn, XPTV
+host-SUFFIX, bndmpsjx.com, XPTV
 #CMS源
 #森林主页
-host, slapibf.com, DIRECT
+host, slapibf.com, XPTV
 #播放
-host, fmtu.sltututu.com, DIRECT
-host-SUFFIX, bbffsl.com, DIRECT
+host, fmtu.sltututu.com, XPTV
+host-SUFFIX, bbffsl.com, XPTV
 #探探主页
-host, apittzy.com, DIRECT
+host, apittzy.com, XPTV
 #播放
-host, vod1.ttbfp2.com, DIRECT
+host, vod1.ttbfp2.com, XPTV
 #奥斯卡主页
-host, aosikazy.com, DIRECT
+host, aosikazy.com, XPTV
 #播放
-host, bfaskcdn.com, DIRECT
-host, uqetyzxa.com, DIRECT
+host, bfaskcdn.com, XPTV
+host, uqetyzxa.com, XPTV
 #老鸭主页
-host, api.apilyzy.com, DIRECT
-host, img.lytuchuang91.com, DIRECT
+host, api.apilyzy.com, XPTV
+host, img.lytuchuang91.com, XPTV
 #播放
-host-SUFFIX, laoyacdn.com, DIRECT
+host-SUFFIX, laoyacdn.com, XPTV
 #91麻豆主页
-host, 666529.xyz, DIRECT
-host, 91md.me, DIRECT
+host, 666529.xyz, XPTV
+host, 91md.me, XPTV
 #播放
-host-SUFFIX, 97img.com, DIRECT
-host, cctv123456.com, DIRECT
-host-SUFFIX, cdn2020.com, DIRECT
+host-SUFFIX, 97img.com, XPTV
+host, cctv123456.com, XPTV
+host-SUFFIX, cdn2020.com, XPTV
 #易看主页
-host, img.yikanimg.top, DIRECT
-host, api.yikanapi.com, DIRECT
+host, img.yikanimg.top, XPTV
+host, api.yikanapi.com, XPTV
 #播放
-host, v.ykv3.com, DIRECT
+host, v.ykv3.com, XPTV
 #番号主页
-host, fm.fhpicpic.com, DIRECT
-host, fhapi9.com, DIRECT
+host, fm.fhpicpic.com, XPTV
+host, fhapi9.com, XPTV
 #播放
-host, v2024.fhbbff.com, DIRECT
+host, v2024.fhbbff.com, XPTV
 #鲨鱼主页
-host, sycdn.ddljsytt.com, DIRECT
+host, sycdn.ddljsytt.com, XPTV
 #播放
-host, v2024.sysybf.com, DIRECT
+host, v2024.sysybf.com, XPTV
 #Alvin主页
-host, fm.lbpicpic.com, DIRECT
-host, lbapiby.com, DIRECT
+host, fm.lbpicpic.com, XPTV
+host, lbapiby.com, XPTV
 #播放
-host, vip3.lbbf9.com, DIRECT
+host, vip3.lbbf9.com, XPTV
 #黄瓜播放
-host, player.hgplayer00.com, DIRECT
-host, img.hgimg00.com, DIRECT
+host, player.hgplayer00.com, XPTV
+host, img.hgimg00.com, XPTV
 #玉兔主页
-host, sbzytpimg2.com, DIRECT
-host, apiyutu.com, DIRECT
+host, sbzytpimg2.com, XPTV
+host, apiyutu.com, XPTV
 #播放
-host, yutubf.lsbbf3.com, DIRECT
+host, yutubf.lsbbf3.com, XPTV
 #辣椒播放
-host-SUFFIX, newljlj.com, DIRECT
-host, ljcdn.ddljsytt.com, DIRECT
+host-SUFFIX, newljlj.com, XPTV
+host, ljcdn.ddljsytt.com, XPTV
 #奶香香主页
-host, guzwiayz.com, DIRECT
-host, naixxzy.com, DIRECT
+host, guzwiayz.com, XPTV
+host, naixxzy.com, XPTV
 #播放
-host, nxxplayurl.com, DIRECT
+host, nxxplayurl.com, XPTV
 #精品主页
-host, jinpinxm.com, DIRECT
-host-KEYWORD, jingpinx.com, DIRECT
+host, jinpinxm.com, XPTV
+host-KEYWORD, jingpinx.com, XPTV
 #播放
-host, 05hao.top, DIRECT
+host, 05hao.top, XPTV
 #草榴主页
-host, www.caoliuzyw.com, DIRECT
-host-SUFFIX, comodoca.com, DIRECT
-host-SUFFIX, usertrust.com, DIRECT
-host-SUFFIX, sectigo.com, DIRECT
-host-SUFFIX, caoliuzywimg.com, DIRECT
+host, www.caoliuzyw.com, XPTV
+host-SUFFIX, comodoca.com, XPTV
+host-SUFFIX, usertrust.com, XPTV
+host-SUFFIX, sectigo.com, XPTV
+host-SUFFIX, caoliuzywimg.com, XPTV
 #播放
-host, player.cl9987.com, DIRECT
+host, player.cl9987.com, XPTV
 #老色逼主页
-host, apilsbzy1.com, DIRECT
+host, apilsbzy1.com, XPTV
 #杂七杂八的网站封面
-host, img.kuaichezy.net, DIRECT
-host, puui.qpic.cn, DIRECT
-host-SUFFIX, jisuimage.com, DIRECT
-host-SUFFIX, toutiaoimg.com, DIRECT
-host-SUFFIX, yzzyimages.com, DIRECT
-host, hhmage.com, DIRECT
-host, wework.qpic.cn, DIRECT
-host, pic.rmb.bdstatic.com, DIRECT
-host-SUFFIX, alicdn.com, DIRECT
-host-SUFFIX, ykimg.com, DIRECT
-host-SUFFIX, netease.com, DIRECT
-host-SUFFIX, gtimg.cn, DIRECT
-host-SUFFIX, meituan.net, DIRECT
-host, mdn.alipay.com, DIRECT
-host, fc.sinaimg.cn, DIRECT
-host, img.moegirl.org.cn, DIRECT
-host, pic8.iqiyipic.com, DIRECT
-host, p0.qhimg.com, DIRECT
-host-SUFFIX, iqiyipic.com, DIRECT
-host, api.zaqohu.com, DIRECT
-host, images.67c6c7a.com, DIRECT
-host, pic7.58cdn.com.cn, DIRECT
-host, help-ol.bj.bcebos.com, DIRECT
-host-SUFFIX, loli.net, DIRECT
-host-SUFFIX, 360buyimg.com, DIRECT
-host, pic1.imgyzzy.com, DIRECT
-host, get.sogou.com, DIRECT
-host, open.bigmodel.cn, DIRECT
-host, vcover-vt-pic.puui.qpic.cn, DIRECT
-host, img.lzzyimg.com, DIRECT
-host, fs-im-kefu.7moor-fs1.com, DIRECT
-host, img.image8899.net, DIRECT
-host, img.picgo.net, DIRECT
-host, pic3.yzzyimages.com, DIRECT
-host, 647bc185.szrtcpa.com, DIRECT
-host, img.98ha.com, DIRECT
-host, challenge.rivers.chaitin.cn, DIRECT
-host, image.maimn.com, DIRECT
-host-SUFFIX, baidu.com, DIRECT
-host, img.liangzipic.com, DIRECT
-host, imagev2.xmcdn.com, DIRECT
-host, pic.imgdb.cn, DIRECT
-host, pic3.yzzyimg.online, DIRECT
-host, wx4.sinaimg.cn, DIRECT
-host, img.jisuimage.com, DIRECT
-host, pic.wujinpp.com, DIRECT
-host, suboimage.com, DIRECT
-host, img.ffzy888.com, DIRECT
+host, img.kuaichezy.net, XPTV
+host, puui.qpic.cn, XPTV
+host-SUFFIX, jisuimage.com, XPTV
+host-SUFFIX, toutiaoimg.com, XPTV
+host-SUFFIX, yzzyimages.com, XPTV
+host, hhmage.com, XPTV
+host, wework.qpic.cn, XPTV
+host, pic.rmb.bdstatic.com, XPTV
+host-SUFFIX, alicdn.com, XPTV
+host-SUFFIX, ykimg.com, XPTV
+host-SUFFIX, netease.com, XPTV
+host-SUFFIX, gtimg.cn, XPTV
+host-SUFFIX, meituan.net, XPTV
+host, mdn.alipay.com, XPTV
+host, fc.sinaimg.cn, XPTV
+host, img.moegirl.org.cn, XPTV
+host, pic8.iqiyipic.com, XPTV
+host, p0.qhimg.com, XPTV
+host-SUFFIX, iqiyipic.com, XPTV
+host, api.zaqohu.com, XPTV
+host, images.67c6c7a.com, XPTV
+host, pic7.58cdn.com.cn, XPTV
+host, help-ol.bj.bcebos.com, XPTV
+host-SUFFIX, loli.net, XPTV
+host-SUFFIX, 360buyimg.com, XPTV
+host, pic1.imgyzzy.com, XPTV
+host, get.sogou.com, XPTV
+host, open.bigmodel.cn, XPTV
+host, vcover-vt-pic.puui.qpic.cn, XPTV
+host, img.lzzyimg.com, XPTV
+host, fs-im-kefu.7moor-fs1.com, XPTV
+host, img.image8899.net, XPTV
+host, img.picgo.net, XPTV
+host, pic3.yzzyimages.com, XPTV
+host, 647bc185.szrtcpa.com, XPTV
+host, img.98ha.com, XPTV
+host, challenge.rivers.chaitin.cn, XPTV
+host, image.maimn.com, XPTV
+host-SUFFIX, baidu.com, XPTV
+host, img.liangzipic.com, XPTV
+host, imagev2.xmcdn.com, XPTV
+host, pic.imgdb.cn, XPTV
+host, pic3.yzzyimg.online, XPTV
+host, wx4.sinaimg.cn, XPTV
+host, img.jisuimage.com, XPTV
+host, pic.wujinpp.com, XPTV
+host, suboimage.com, XPTV
+host, img.ffzy888.com, XPTV
 
 #兩個BT
-host-KEYWORD, bttwo, DIRECT
+host-KEYWORD, bttwo, XPTV
