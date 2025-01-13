@@ -313,26 +313,6 @@ IP-CIDR,103.2.30.0/23,no-resolve
 IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
-# > Meta
-host-suffix,accountkit.com
-host-suffix,f8.com
-host-suffix,facebookmail.com
-host-suffix,fb.com
-host-suffix,fb.me
-host-suffix,fb.watch
-host-suffix,fbaddins.com
-host-suffix,fbcdn.net
-host-suffix,fbsbx.com
-host-suffix,fbworkmail.com
-host-suffix,m.me
-host-suffix,messenger.com
-host-suffix,oculus.com
-host-suffix,oculuscdn.com
-host-suffix,readyatdawn.com
-host-suffix,rocksdb.org
-host-suffix,whatsapp.com
-host-suffix,whatsapp.net
-host-KEYWORD,.facebook.
 # > Pinterest
 host-suffix,pinimg.com
 host-KEYWORD,.pinterest.
@@ -351,28 +331,6 @@ host-suffix,reutersmedia.net
 # > Steam
 host-suffix,steamcommunity.com
 # host,store.steampowered.com
-# > Telegram
-host-suffix,legra.ph
-host-suffix,t.me
-host-suffix,tdesktop.com
-host-suffix,telegra.ph
-host-suffix,telegram.me
-host-suffix,telegram.org
-host-suffix,telesco.pe
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
 # > The Economist
 host-suffix,economist.com
 host-suffix,static-economist.com
@@ -385,17 +343,6 @@ host-suffix,nytimg.com
 host-suffix,nytlog.com
 host-suffix,nytstyle.com
 host-suffix,tmagazine.com
-# > Twitter
-host-suffix,periscope.tv
-host-suffix,pscp.tv
-host-suffix,t.co
-host-suffix,tweetdeck.com
-host-suffix,twimg.co
-host-suffix,twimg.com
-host-suffix,twitpic.com
-host-suffix,twitter.com
-host-suffix,twitter.jp
-host-suffix,vine.co
 # > Wikimedia Foundation
 host-suffix,mediawiki.org
 host-suffix,wikibooks.org
@@ -410,9 +357,6 @@ host-suffix,wikisource.org
 host-suffix,wikiversity.org
 host-suffix,wikivoyage.org
 host-suffix,wiktionary.org
-# > Yahoo
-host-suffix,yahoo.com
-host,search.yahoo.co.jp
 # > Yandex
 host-suffix,yadi.sk
 host,disk.yandex.com
@@ -429,14 +373,6 @@ host,wego.here.com
 # > Alphabet
 host-suffix,go.dev
 host-suffix,golang.org
-# ---(Apple)---
-host-suffix,appsto.re // Apple URL Shortener
-host-suffix,smoot.apple.com // Spotlight
-host,amp-api.podcasts.apple.com // Podcasts
-host,beta.music.apple.com // Apple Music Web
-host,books.itunes.apple.com // iBooks Store download
-host,lookup-api.apple.com // Look Up
-host,radio.itunes.apple.com // Apple Music Radio
 # > Web Preview
 host,apps.apple.com
 host,books.apple.com
@@ -451,10 +387,3 @@ host,news-client-search.apple.com
 host,news-edge.apple.com
 host,news-events.apple.com
 host,apple.comscoreresearch.com
-# ------
-# > Microsoft
-#   OMAIN-SUFFIX,bing.com
-#   host-suffix,linkedin.com
-#   host-suffix,licdn.com
-#   host-suffix,msn.com
-#   host-suffix,skype.com

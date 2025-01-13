@@ -3,7 +3,7 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-07-03 16:14:51
 # HOST: 14
-# HOST-KEYWORD: 5
+# HOST-WILDCARD: 5
 # HOST-SUFFIX: 708
 # IP-CIDR: 4
 # IP6-CIDR: 1
@@ -731,11 +731,11 @@ HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
 HOST-SUFFIX,googledrive.com,Google
 HOST-SUFFIX,googleusercontent.com,Google
-HOST-KEYWORD,appspot,Google
-HOST-KEYWORD,blogspot,Google
-HOST-KEYWORD,gmail,Google
-HOST-KEYWORD,google,Google
-HOST-KEYWORD,recaptcha,Google
+HOST-WILDCARD,*.appspot.*,Google
+HOST-WILDCARD,*.blogspot.*,Google
+HOST-WILDCARD,*.gmail.*,Google
+HOST-WILDCARD,*.google.*,Google
+HOST-WILDCARD,*.recaptcha.*,Google
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google
 USER-AGENT,*com.google.Drive*,Google
 USER-AGENT,Google.Drive*,Google

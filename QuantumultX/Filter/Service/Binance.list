@@ -4,8 +4,8 @@
 # UPDATED: 2024-04-29 13:36:26
 # HOST-SUFFIX: 12
 # TOTAL: 12
-HOST-KEYWORD,binance,Binance
-HOST-KEYWORD,mokexapp,Binance
+HOST-WILDCARD,*.binance.*,Binance
+HOST-WILDCARD,*.mokexapp.*,Binance
 HOST-SUFFIX,appsflayer.com,Binance
 HOST-SUFFIX,binance.cloud,Binance
 HOST-SUFFIX,binance.com,Binance

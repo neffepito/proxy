@@ -2,7 +2,7 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-07-03 16:16:11
-# HOST-KEYWORD: 2
+# HOST-WILDCARD: 2
 # HOST-SUFFIX: 544
 # IP-ASN: 1
 # IP-CIDR: 23
@@ -551,8 +551,8 @@ HOST-SUFFIX,wwwmfacebook.com,Facebook
 HOST-SUFFIX,yogalayout.com,Facebook
 HOST-SUFFIX,zuckerberg.com,Facebook
 HOST-SUFFIX,zuckerberg.net,Facebook
-HOST-KEYWORD,facebook,Facebook
-HOST-KEYWORD,fbcdn,Facebook
+HOST-WILDCARD,*.facebook.*,Facebook
+HOST-WILDCARD,*.fbcdn.*,Facebook
 IP-CIDR,108.168.176.192/26,Facebook
 IP-CIDR,108.168.177.0/27,Facebook
 IP-CIDR,108.168.180.96/27,Facebook

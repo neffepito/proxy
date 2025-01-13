@@ -712,10 +712,10 @@ HOST-SUFFIX,sharepoint.com,Microsoft
 HOST-SUFFIX,sharepointonline.com,Microsoft
 HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
 HOST-WILDCARD,onedrive.*,Microsoft
-HOST-KEYWORD,microsoft,Microsoft
-HOST-KEYWORD,1drv,Microsoft
-HOST-KEYWORD,onedrive,Microsoft
-HOST-KEYWORD,skydrive,Microsoft
+HOST-WILDCARD,*.microsoft.*,Microsoft
+HOST-WILDCARD,*.1drv.*,Microsoft
+HOST-WILDCARD,*.onedrive.*,Microsoft
+HOST-WILDCARD,*.skydrive.*,Microsoft
 USER-AGENT,Microsoft*,Microsoft
 USER-AGENT,OneDrive*,Microsoft
 USER-AGENT,OneDriveiOSApp*,Microsoft

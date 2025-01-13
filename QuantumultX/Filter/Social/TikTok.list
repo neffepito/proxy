@@ -33,5 +33,5 @@ HOST-SUFFIX,tiktokv.com,TikTok
 HOST-SUFFIX,tiktokv.us,TikTok
 HOST-SUFFIX,ttwebview.com,TikTok
 HOST-KEYWORD,musical.ly,TikTok
-HOST-KEYWORD,tiktok,TikTok
+HOST-WILDCARD,*.tiktok.*,TikTok
 USER-AGENT,TikTok*,TikTok
