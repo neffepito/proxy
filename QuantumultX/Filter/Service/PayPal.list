@@ -252,5 +252,5 @@ HOST-SUFFIX,xoom.io,PayPal
 HOST-SUFFIX,xoom.net.cn,PayPal
 HOST-SUFFIX,xoom.us,PayPal
 HOST-SUFFIX,xoomcom.com,PayPal
-HOST-WILDCARD,*.paypal.*,PayPal
+HOST-KEYWORD,paypal,PayPal
 USER-AGENT,PayPal*,PayPal

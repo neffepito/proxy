@@ -1,5 +1,5 @@
 # Wise
-host-wildcard,*.wise.*,Wise
+host-keyword,wise,Wise
 user-agent,wise*,Wise
 host-suffix,wise.com,Wise
 host-wildcard,wise.*,Wise

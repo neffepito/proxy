@@ -33,7 +33,7 @@ HOST-SUFFIX,telesco.pe,Telegram
 HOST-SUFFIX,tg.dev,Telegram
 HOST-SUFFIX,tx.me,Telegram
 HOST-SUFFIX,usercontent.dev,Telegram
-HOST-WILDCARD,*.nicegram.*,Telegram
+HOST-KEYWORD,nicegram,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
 IP-CIDR,5.28.192.0/18,Telegram

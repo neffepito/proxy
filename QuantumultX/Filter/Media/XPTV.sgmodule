@@ -526,4 +526,4 @@ host, suboimage.com, XPTV
 host, img.ffzy888.com, XPTV
 
 #兩個BT
-host-KEYWORD, bttwo, XPTV
+host-wildcard, bttwo, XPTV

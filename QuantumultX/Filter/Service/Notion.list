@@ -11,7 +11,7 @@ HOST-SUFFIX,notion.com,Notion
 HOST-SUFFIX,notion.new,Notion
 HOST-SUFFIX,notion.site,Notion
 HOST-SUFFIX,notion.so,Notion
-HOST-WILDCARD,*.notion.*,Notion
+HOST-KEYWORD,notion,Notion
 
 # Customization
 HOST-SUFFIX,ingest.sentry.io,Notion
