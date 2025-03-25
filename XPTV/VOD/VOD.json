@@ -1,5 +1,22 @@
 {
     "sites": [
+        { 
+            "name": "LIBVIO", 
+            "type": 3, 
+            "api": "csp_libvio" 
+        },
+        { 
+            "name": "ギリギリ动漫", 
+            "type": 3, 
+            "api": "csp_ai",
+            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/ai.js",
+            "ext2": "https://ghp.ci/https://gist.githubusercontent.com/occupy-pluto/5185fa59944d5b8af625b2c83604d397/raw/72a08d19b0df289e749f3534e7a012e1d9e126f4/girl.js"
+        },
+        { 
+            "name": "在线之家", 
+            "type": 3, 
+            "api": "csp_Zxzj" 
+        },
         {
             "name": "厂长资源",
             "type": 3,
@@ -18,27 +35,10 @@
             "api": "csp_Olevod" 
         },
         { 
-            "name": "在线之家", 
-            "type": 3, 
-            "api": "csp_Zxzj" 
-        },
-        { 
-            "name": "LIBVIO", 
-            "type": 3, 
-            "api": "csp_libvio" 
-        },
-        { 
             "name": "低端影视", 
             "type": 3, 
             "api": "csp_ddys",
             "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/ddys.js"
-        },
-         { 
-            "name": "ギリギリ动漫", 
-            "type": 3, 
-            "api": "csp_ai",
-            "ext": "https://ghp.ci/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/ai.js",
-            "ext2": "https://ghp.ci/https://gist.githubusercontent.com/occupy-pluto/5185fa59944d5b8af625b2c83604d397/raw/72a08d19b0df289e749f3534e7a012e1d9e126f4/girl.js"
         },
         { 
             "name": "独播库", 
