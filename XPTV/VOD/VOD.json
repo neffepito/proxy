@@ -49,14 +49,14 @@
             "type": 3, 
             "api": "csp_Zxzj",
             "ext": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/fangkuia/XPTV/refs/heads/main/js/zxzj.js",
-            "ext2": "https://ghp.xptvhelper.link/https://gist.githubusercontent.com/occupy-pluto/13a199a1a85c619f948d40e6c5a12c21/raw/zxzj.js",
-            "ext3": "https://raw.githubusercontent.com/neffepito/proxy/refs/heads/main/XPTV/JSON/hdmoli"
-        },
+            "ext2": "https://ghp.xptvhelper.link/https://gist.githubusercontent.com/occupy-pluto/13a199a1a85c619f948d40e6c5a12c21/raw/zxzj.js"
+         },
         {
             "name": "hdmoli",
             "type": 3,
             "api": "csp_hdmoli",
-            "ext": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/Yswag/xptv-extensions/refs/heads/main/js/hdmoli.js"
+            "ext": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/Yswag/xptv-extensions/refs/heads/main/js/hdmoli.js",
+            "ext3": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/neffepito/proxy/refs/heads/main/XPTV/JSON/hdmoli"
         },
         {
             "name": "影视天堂",
