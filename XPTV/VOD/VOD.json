@@ -56,7 +56,7 @@
             "type": 3,
             "api": "csp_hdmoli",
             "ext": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/Yswag/xptv-extensions/refs/heads/main/js/hdmoli.js",
-            "ext2": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/neffepito/proxy/refs/heads/main/XPTV/JSON/hdmoli"
+            "ext2": "https://ghp.xptvhelper.link/https://raw.githubusercontent.com/neffepito/proxy/refs/heads/main/XPTV/JSON/hdmoli.js"
         },
         {
             "name": "影视天堂",
