@@ -1,0 +1,41 @@
+# NAME: X
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:10
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 25
+# IP-CIDR: 6
+# TOTAL: 32
+HOST-SUFFIX,ads-twitter.com,X
+HOST-SUFFIX,cms-twdigitalassets.com,X
+HOST-SUFFIX,periscope.tv,X
+HOST-SUFFIX,pscp.tv,X
+HOST-SUFFIX,t.co,X
+HOST-SUFFIX,tellapart.com,X
+HOST-SUFFIX,tweetdeck.com,X
+HOST-SUFFIX,twimg.co,X
+HOST-SUFFIX,twimg.com,X
+HOST-SUFFIX,twimg.org,X
+HOST-SUFFIX,twitpic.com,X
+HOST-SUFFIX,twitter.biz,X
+HOST-SUFFIX,twitter.com,X
+HOST-SUFFIX,twitter.jp,X
+HOST-SUFFIX,twittercommunity.com,X
+HOST-SUFFIX,twitterflightschool.com,X
+HOST-SUFFIX,twitterinc.com,X
+HOST-SUFFIX,twitteroauth.com,X
+HOST-SUFFIX,twitterstat.us,X
+HOST-SUFFIX,twtrdns.net,X
+HOST-SUFFIX,twttr.com,X
+HOST-SUFFIX,twttr.net,X
+HOST-SUFFIX,twvid.com,X
+HOST-SUFFIX,vine.co,X
+HOST-SUFFIX,x.com,X
+HOST-SUFFIX,grok.com,X
+HOST-KEYWORD,twitter,X
+IP-CIDR,192.133.76.0/22,X
+IP-CIDR,199.59.148.0/22,X
+IP-CIDR,199.96.56.0/21,X
+IP-CIDR,202.160.128.0/22,X
+IP-CIDR,209.237.192.0/19,X
+IP-CIDR,69.195.160.0/19,X
