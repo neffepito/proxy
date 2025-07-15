@@ -23,6 +23,7 @@ HOST,translate.googleapis.com,Google
 HOST,voice.telephony.goog,Google
 HOST,www.googleapis.com,Google
 HOST,lens.l.google.com,Google
+HOST-KEYWORD,google,Google
 HOST-SUFFIX,0emm.com,Google
 HOST-SUFFIX,1e100.net,Google
 HOST-SUFFIX,1ucrs.com,Google
