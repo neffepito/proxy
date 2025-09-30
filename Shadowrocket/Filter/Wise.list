@@ -1,0 +1,12 @@
+# Wise
+USER-AGENT,wise*,WISE
+DOMAIN-SUFFIX,wise.com,WISE
+DOMAIN-WILDCARD,*wise*,WISE
+DOMAIN-WILDCARD,wise.*.*,WISE
+DOMAIN-SUFFIX,api.authy.com,WISE
+DOMAIN-SUFFIX,sdk.fra-01.braze.eu,WISE
+DOMAIN-SUFFIX,api.wise.com,WISE
+DOMAIN-SUFFIX,sdk-api-v1.singular.net,WISE
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,WISE
+DOMAIN-SUFFIX,loki-v42zc5nx3sj7swjbm6zacmssmtcs2gck.wise.com,WISE
+DOMAIN-SUFFIX,api.mixpanel.com,WISE
