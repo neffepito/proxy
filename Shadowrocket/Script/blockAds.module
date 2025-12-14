@@ -412,7 +412,7 @@ URL-REGEX, "^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config", REJ
 URL-REGEX, "^https?:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/", REJECT-TINYGIF
 URL-REGEX, "^https?:\/\/web-mmap-pay\.line-apps\.com\/tw\/liff\/campaign\/v1\/aggregate\/ad\/banner\/", REJECT-TINYGIF
 URL-REGEX, "^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/", REJECT-DROP
-URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
+# URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
 
 [URL Rewrite]
 ^(^https?:\/\/www\.vgtime\.com\/app\/topic\/\d+\.jhtml\?.*?&close_ad=)false(&page=\d&sign=\w+&timestamp=\d+&font_size=\d$) $1true$2 302
@@ -1138,8 +1138,8 @@ URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
 ^https?:\/\/cn-mall\.dreame\.tech\/dreame-mall\/api\/v1\/tag\/list$ - reject-dict
 ^https?:\/\/cn-wxmall\.dreame\.tech\/main\/goods\/get-topgoods$ - reject-dict
 ^https?:\/\/cn\.iot\.dreame\.tech:13267\/dreame-product\/public\/advertisement\/ - reject-dict
-^https?:\/\/color\.jddj\.com\/client\.action\?functionId=search_recommendRanking$ - reject-dict
-^https?:\/\/color\.jddj\.com\/client\.action\?functionId=uniformRecommend - reject-dict
+# ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=search_recommendRanking$ - reject-dict
+# ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=uniformRecommend - reject-dict
 ^https?:\/\/common-sc\.miguvideo\.com\/videoActivity\/activityList\/ - reject-dict
 ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising\/getStartupAdvertising - reject-dict
 ^https?:\/\/conf-darwin\.xycdn\.com - reject-dict
@@ -2157,8 +2157,8 @@ http-request ^https?:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Acc
 http-request ^https?:\/\/github\.com\/ header-replace Accept-Language en-us
 
 [Body Rewrite]
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush pushData SUCCEED
-http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising jdLiteAdvertisingVO SUCCEED
+# http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush pushData SUCCEED
+# http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising jdLiteAdvertisingVO SUCCEED
 http-response ^https?:\/\/api\.swiftgram\.app\/v0\/settings announcements_data random_body
 http-response ^https?:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\? "recommend_queries":\{.+\} "recommend_queries":{}
 http-response ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
@@ -2357,12 +2357,12 @@ http-response-jq ^https?:\/\/api\.ksedt\.com\/api\/config\/ 'delpaths([["result"
 http-response-jq ^https?:\/\/api\.ksedt\.com\/api\/config\/ 'delpaths([["result","launchApp"]])'
 http-response-jq ^https?:\/\/api\.ksedt\.com\/api\/config\/ 'delpaths([["result","mainLiveConfig"]])'
 http-response-jq ^https?:\/\/api\.live\.bilibili\.com\/xlive\/(app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(Room|User))\? '.data |= (del(.play_together_info, .play_together_info_v2, .activity_banner_info) | if .function_card then .function_card[] = null end | if .new_tab_info.outer_list then .new_tab_info.outer_list |= map(select(.biz_id != 33)) end | if .card_list then .card_list |= map(select(.card_type | IN("banner_v2", "activity_card_v1") | not)) end | reduce ([["show_reserve_status"], false], [["reserve_info", "show_reserve_status"], false], [["shopping_info", "is_show"], 0]) as [$path, $value] (.; if getpath($path) then setpath($path; $value) end))'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ '.data.tabList |= (map(select(.code == "recommendation" or .code == "find_food")) | map(if .code == "recommendation" then .dpHomeFeedTabResultDTOList = .dpHomeFeedTabResultDTOList[0:2] else . end | .dpHomeBannerResultDTOList = []))'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ 'delpaths([["data","searchDTO","searchWords"]])'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ 'delpaths([["data","wishlistDTO","bubbleTip"]])'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDHttpToolKit","httpdns"]) | has("httpdns")) then (setpath(["data","JDHttpToolKit","httpdns","httpdns"]; "0")) else . end'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketEstablishedAhead")) then (setpath(["data","JDMessage","socketmonitor","isSocketEstablishedAhead"]; "0")) else . end'
-http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketReport")) then (setpath(["data","JDMessage","socketmonitor","isSocketReport"]; "0")) else . end'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ '.data.tabList |= (map(select(.code == "recommendation" or .code == "find_food")) | map(if .code == "recommendation" then .dpHomeFeedTabResultDTOList = .dpHomeFeedTabResultDTOList[0:2] else . end | .dpHomeBannerResultDTOList = []))'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ 'delpaths([["data","searchDTO","searchWords"]])'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action$ 'delpaths([["data","wishlistDTO","bubbleTip"]])'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDHttpToolKit","httpdns"]) | has("httpdns")) then (setpath(["data","JDHttpToolKit","httpdns","httpdns"]; "0")) else . end'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketEstablishedAhead")) then (setpath(["data","JDMessage","socketmonitor","isSocketEstablishedAhead"]; "0")) else . end'
+# http-response-jq ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig 'if (getpath(["data","JDMessage","socketmonitor"]) | has("isSocketReport")) then (setpath(["data","JDMessage","socketmonitor","isSocketReport"]; "0")) else . end'
 http-response-jq ^https?:\/\/api\.meiyan\.com\/operation\/get_config\.json\? 'delpaths([["response","bubble"]])'
 http-response-jq ^https?:\/\/api\.meiyan\.com\/operation\/get_config\.json\? 'delpaths([["response","person_center"]])'
 http-response-jq ^https?:\/\/api\.meiyan\.com\/operation\/get_config\.json\? 'delpaths([["response","time_limit"]])'
@@ -2506,8 +2506,8 @@ http-response-jq ^https?:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\
 http-response-jq ^https?:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\? 'delpaths([["kv_pair","activity_tab"]])'
 http-response-jq ^https?:\/\/cards\.iqiyi\.com\/views_search\/3\.0\/hot_query_search\? '.cards |= map(select(.alias_name as $name | $name != "ad_trueview" and $name != "ad_mobile_flow" and $name != "search_mid_text_ad")) | if .base.statistics.ad_str? then del(.base.statistics) else . end'
 http-response-jq ^https?:\/\/cards\.iqiyi\.com\/waterfall(-plt)?\/3\.0\/feed\? 'del(.base.statistics | select(.ad_str)) | del(.. | select(.block_class?))'
-http-response-jq ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=hours_home$ 'del(.result.config.searchFloor.data[].searchWords) | .result.data |= map(if .tnConfigVO?.businessCode == "nearby_HourlyGo_Operation_Tags" then empty else . end)'
-http-response-jq ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=wmHome$ '(.floors |= map(del(.data.tnData.newsInfo?))) | .floors |= (map(select(.mId != "newWalletIdFloor" and .mId != "recommendfloor"))) | .floors |= (map(.data |= (if .tnData? then del(.tnData.cardList, .tnData.cardListStatic, .tnData.walletList) else . end)))'
+# http-response-jq ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=hours_home$ 'del(.result.config.searchFloor.data[].searchWords) | .result.data |= map(if .tnConfigVO?.businessCode == "nearby_HourlyGo_Operation_Tags" then empty else . end)'
+# http-response-jq ^https?:\/\/color\.jddj\.com\/client\.action\?functionId=wmHome$ '(.floors |= map(del(.data.tnData.newsInfo?))) | .floors |= (map(select(.mId != "newWalletIdFloor" and .mId != "recommendfloor"))) | .floors |= (map(.data |= (if .tnData? then del(.tnData.cardList, .tnData.cardListStatic, .tnData.walletList) else . end)))'
 http-response-jq ^https?:\/\/comment-card\.iqiyi\.com\/views_comment\/3\.0\/long_video_comments\? '.cards |= map(select(has("alias_name")))'
 http-response-jq ^https?:\/\/comment\.mgtv\.com\/v\d\/comment\/getCommentList\? '.data.list |= map(select(.type == 0))'
 http-response-jq ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v5\/usercenter\/layout$ '.data.instances.center_wallet_finance_card.data.view_info |= map(select(.title == "优惠卡券" or .title == "余额" or .title == "福利金"))'
@@ -2873,8 +2873,8 @@ haier =type=http-response, pattern=^https?:\/\/oss-zjrs\.haier\.net\/resource\/c
 haier =type=http-response, pattern=^https?:\/\/zj\.haier\.net\/omsappapi\/resource\/v\d\/get\/resourceBag$, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/haier.js, requires-body=true, max-size=0
 ithome =type=http-response, pattern=^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds), script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/ithome.js, requires-body=true, max-size=0
 javdb =type=http-response, pattern=^https?:\/\/api\.btyjscl\.com\/api\/v\d\/(?:ads|startup|users|movies), script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/javdb.js, requires-body=true, max-size=0
-jd =type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/jd.js, requires-body=true, max-size=0
-jingxiAd =type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/jingxiAd.js, requires-body=true, max-size=0
+# jd =type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/jd.js, requires-body=true, max-size=0
+# jingxiAd =type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/jingxiAd.js, requires-body=true, max-size=0
 kkmh =type=http-response, pattern=^https?:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/kkmh.js, requires-body=true, max-size=0
 kkmh =type=http-response, pattern=^https?:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/discovery_v\d\/tab_list_v\d, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/kkmh.js, requires-body=true, max-size=0
 kkmh =type=http-response, pattern=^https?:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/homepage\/comicVideo\/v\d\/configs, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/kkmh.js, requires-body=true, max-size=0
