@@ -101,7 +101,7 @@ DOMAIN, csc-apm.sgcc.com.cn, REJECT,pre-matching
 DOMAIN, da.bridgeturbo.com, REJECT,pre-matching
 DOMAIN, ddfs-public.ddimg.mobi, REJECT,pre-matching
 DOMAIN, dflow.bz.mgtv.com, REJECT,pre-matching
-DOMAIN, dpmtpush.dianping.com, REJECT,pre-matching
+# DOMAIN, dpmtpush.dianping.com, REJECT,pre-matching
 DOMAIN, dr-danmu.youku.com, REJECT,pre-matching
 DOMAIN, dsp-ad.yy.com, REJECT,pre-matching
 DOMAIN, dwtracking.jk.cn, REJECT,pre-matching
@@ -169,7 +169,7 @@ DOMAIN, open-pixon.ads-pixiv.net, REJECT,pre-matching
 DOMAIN, popup.dushu365.com, REJECT,pre-matching
 DOMAIN, pp-cdnfile2pcdn.msstatic.com, REJECT,pre-matching
 DOMAIN, pre-acs.youku.com, REJECT,pre-matching
-DOMAIN, r.dianping.com, REJECT,pre-matching
+# DOMAIN, r.dianping.com, REJECT,pre-matching
 DOMAIN, rc-topic-api.bz.mgtv.com, REJECT,pre-matching
 DOMAIN, richmanapi.jxedt.com, REJECT,pre-matching
 DOMAIN, richmanmain.jxedt.com, REJECT,pre-matching
@@ -1073,8 +1073,8 @@ URL-REGEX, "^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/", REJECT-DROP
 ^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade - reject-dict
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase - reject
-^https?:\/\/catdot\.dianping\.com\/broker-service\/hijack - reject
-^https?:\/\/catfront\.dianping\.com\/api\/metric\?v=\d&p=rn_gcbu_mrn-joy-poidetail - reject
+# ^https?:\/\/catdot\.dianping\.com\/broker-service\/hijack - reject
+# ^https?:\/\/catfront\.dianping\.com\/api\/metric\?v=\d&p=rn_gcbu_mrn-joy-poidetail - reject
 ^https?:\/\/cc\.163\.com\/act\/m\/daily\/ad_ - reject
 ^https?:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject-dict
@@ -1539,9 +1539,9 @@ URL-REGEX, "^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/", REJECT-DROP
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm - reject-dict
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject-img
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config - reject-200
-^https?:\/\/m\.dianping\.com\/an\/gear\/dpmapp\/api\/readLionConfig\/config - reject-dict
-^https?:\/\/m\.dianping\.com\/mapi\/mgw\/growth\/queryhaima - reject-dict
-^https?:\/\/m\.dianping\.com\/wxmapi\/shop\/friendslike - reject-dict
+# ^https?:\/\/m\.dianping\.com\/an\/gear\/dpmapp\/api\/readLionConfig\/config - reject-dict
+# ^https?:\/\/m\.dianping\.com\/mapi\/mgw\/growth\/queryhaima - reject-dict
+# ^https?:\/\/m\.dianping\.com\/wxmapi\/shop\/friendslike - reject-dict
 ^https?:\/\/m\.fqfin\.cn\/cls\/leshuapay\/preCredit\.json$ - reject-dict
 ^https?:\/\/m\.ibuscloud\.com\/v\d\/app\/getStartPage - reject
 ^https?:\/\/m\.ly\.com\/visa\/fetch\/home\/getAdvDialogData - reject-dict
@@ -1590,11 +1590,11 @@ URL-REGEX, "^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/", REJECT-DROP
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v - reject-200
 ^https?:\/\/mapi\.chaogejiaoyu\.com\/api\/ad\/adCheck - reject-dict
 ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
-^https?:\/\/mapi\.dianping\.com\/adshopping - reject
-^https?:\/\/mapi\.dianping\.com\/mapi\/intelliindex - reject-dict
-^https?:\/\/mapi\.dianping\.com\/mapi\/mgw\/growth\/clipboardquery - reject-dict
-^https?:\/\/mapi\.dianping\.com\/mapi\/operating\/(?:indexopsmodules|loadsplashconfig) - reject
-^https?:\/\/mapi\.dianping\.com\/wdrpreload\/userprediction - reject
+# ^https?:\/\/mapi\.dianping\.com\/adshopping - reject
+# ^https?:\/\/mapi\.dianping\.com\/mapi\/intelliindex - reject-dict
+# ^https?:\/\/mapi\.dianping\.com\/mapi\/mgw\/growth\/clipboardquery - reject-dict
+# ^https?:\/\/mapi\.dianping\.com\/mapi\/operating\/(?:indexopsmodules|loadsplashconfig) - reject
+# ^https?:\/\/mapi\.dianping\.com\/wdrpreload\/userprediction - reject
 ^https?:\/\/mapi\.mafengwo\.cn\/user\/growth\/get_growth_tip\/v1\? - reject-dict
 ^https?:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.* - reject
 ^https?:\/\/mapi\.sichuanair\.com\/zt\/tribeport\/encrypt_translate_key - reject-200
@@ -2852,8 +2852,8 @@ chaoge =type=http-response, pattern=^https?:\/\/mapi\.chaogejiaoyu\.com\/api\/ad
 chaoge =type=http-response, pattern=^https?:\/\/mapi\.chaogejiaoyu\.com\/api\/outline\/getAppBanner, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/chaoge.js, requires-body=true, max-size=0
 cmschina =type=http-response, pattern=^https?:\/\/marketing\.cmschina\.com\/mkt\/api\/v1\?.*, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/cmschina.js, requires-body=true, max-size=0
 cotti =type=http-request, pattern=^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list$, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/cotti.js, requires-body=true, max-size=0, binary-body-mode=true
-dianping =type=http-response, pattern=^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/picassovc, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dianping.js, requires-body=true, max-size=0
-dianping =type=http-response, pattern=^https?:\/\/img\.meituan\.net\/(?:dpmobile|goodsawardpic)\/, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dianping.js, requires-body=true, max-size=0
+# dianping =type=http-response, pattern=^https?:\/\/ddplus\.meituan\.net\/v\d\/mss_\w+\/picassovc, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dianping.js, requires-body=true, max-size=0
+# dianping =type=http-response, pattern=^https?:\/\/img\.meituan\.net\/(?:dpmobile|goodsawardpic)\/, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dianping.js, requires-body=true, max-size=0
 dushu365 =type=http-response, pattern=^https?:\/\/g(.*)\.dushu365\.com\/abtest-front\/banner-modular\/get, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dushu365.js, requires-body=true, max-size=0
 dushu365 =type=http-response, pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dushu365.js, requires-body=true, max-size=0
 dushu365 =type=http-response, pattern=^https?:\/\/g(.*)\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp, script-path=https://xiangwanguan.github.io/Shadowrocket/JavaScript/dushu365.js, requires-body=true, max-size=0
