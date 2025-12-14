@@ -782,8 +782,8 @@ URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
 ^https?:\/\/api\.kurobbs\.com\/forum\/app\/topic\/hotlist\? - reject-dict
 ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? - reject-dict
-^https?:\/\/api\.m\.jd\.com\/\?loginType=11 - reject-dict
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style|jdaPreDownload) - reject-200
+# ^https?:\/\/api\.m\.jd\.com\/\?loginType=11 - reject-dict
+# ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|xview2Config|stationPullService|getWidget|widget|hybrid|jdDiscoveryRedPoint|queryMaterialAdverts|apollo_style|jdaPreDownload) - reject-200
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/popup_info$ - reject-dict
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject-200
 ^https?:\/\/api\.m\.mi\.com\/v\d\/home\/page_feed(_v5)?$ - reject-dict
@@ -1469,8 +1469,8 @@ URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
 ^https?:\/\/j5\.dfcfw\.com\/WG\/(app)?conf\/202[0-9]{5}/.*.(?:jpg|png) - reject-200
 ^https?:\/\/jad-api\.jin10\.com\/ad - reject
 ^https?:\/\/japi\.233\.com\/ess-ecms-api\/advert - reject-200
-^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens - reject-200
-^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject-200
+# ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens - reject-200
+# ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup - reject-200
 ^https?:\/\/jiakao-misc\.kakamobi\.cn\/api\/open\/my-tab-config\/(?:banner|selection)-list - reject-dict
 ^https?:\/\/jiaxiao-awd\.kakamobi\.cn\/api\/h5\/v\d\/home-lead-advertise\/abtest - reject-dict
 ^https?:\/\/jiguang\.sptcc\.com\/smartop\/\d/getEvent - reject
@@ -1513,12 +1513,12 @@ URL-REGEX, "^https?:\/\/w{32}\.jddebug\.com\/diagnose\?", REJECT
 ^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= - reject-img
 ^https?:\/\/lofter\.lf127\.net\/ad\-material - reject-200
 ^https?:\/\/log.+?baidu\.com - reject
-^https?:\/\/lop-proxy\.jd\.com\/BeaconFireApi\/queryMarketingRecommendRuleConfigInfo - reject-dict
-^https?:\/\/lop-proxy\.jd\.com\/csat\/getNPSQuestionnaire - reject-dict
-^https?:\/\/lop-proxy\.jd\.com\/home\/banner - reject-dict
-^https?:\/\/lop-proxy\.jd\.com\/index\/queryTabBubble - reject
-^https?:\/\/lop-proxy\.jd\.com\/order\/getCarbonIntegral - reject-dict
-^https?:\/\/lop-proxy\.jd\.com\/search\/getQuestionnaireByOrderInfo - reject-dict
+# ^https?:\/\/lop-proxy\.jd\.com\/BeaconFireApi\/queryMarketingRecommendRuleConfigInfo - reject-dict
+# ^https?:\/\/lop-proxy\.jd\.com\/csat\/getNPSQuestionnaire - reject-dict
+# ^https?:\/\/lop-proxy\.jd\.com\/home\/banner - reject-dict
+# ^https?:\/\/lop-proxy\.jd\.com\/index\/queryTabBubble - reject
+# ^https?:\/\/lop-proxy\.jd\.com\/order\/getCarbonIntegral - reject-dict
+# ^https?:\/\/lop-proxy\.jd\.com\/search\/getQuestionnaireByOrderInfo - reject-dict
 ^https?:\/\/luckman\.suning\.com\/luck-web\/policy\/v\d\/msf\/index\.do - reject-200
 ^https?:\/\/m.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/ - reject-200
 ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} - reject-img
