@@ -1,4 +1,5 @@
 # Apple Push Notification Service policy
+
 DOMAIN,identity.apple.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-KEYWORD,apple.akadns.net
