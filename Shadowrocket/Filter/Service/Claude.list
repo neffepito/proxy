@@ -1,5 +1,5 @@
 # 核心域名（DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）
-DOMAIN-SUFFIX,anthropic.com
+DOMAIN-KEYWORD,anthropic
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
