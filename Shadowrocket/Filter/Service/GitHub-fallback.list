@@ -4,6 +4,7 @@
 # 用法: 规则集 → 类型选 RULE-SET，策略选你的代理节点
 
 # ======= 域名规则 =======
+DOMAIN-KEYWORD,gist
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,gist.github.com
 DOMAIN-SUFFIX,githubusercontent.com
