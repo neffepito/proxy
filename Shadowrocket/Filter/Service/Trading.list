@@ -1,0 +1,30 @@
+# Trading Services
+
+# TradingView
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,tradingview-widget.com
+DOMAIN-SUFFIX,tvcdn.com
+DOMAIN-SUFFIX,tvstat.com
+DOMAIN-KEYWORD,tradingview
+
+# Polymarket
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,polymarket.market
+DOMAIN-SUFFIX,polymarket.us
+DOMAIN-SUFFIX,polymarketexchange.com
+DOMAIN-KEYWORD,polymarket
+
+# Kraken
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.app
+DOMAIN-KEYWORD,kraken
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybits.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycui.com
+DOMAIN-KEYWORD,bybit
