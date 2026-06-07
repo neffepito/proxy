@@ -1,10 +1,43 @@
-# IBKR
+# IBKR (Interactive Brokers)
 
+# Main Domains
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,ibllc.com
+
+# Client Portal & Support
+DOMAIN-SUFFIX,clientam.com
+DOMAIN-SUFFIX,clientam.com.hk
+DOMAIN-SUFFIX,ibkr.info
+DOMAIN-SUFFIX,ibkrguides.com
+
+# Regional Web Portals
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,interactivebrokers.com.sg
+DOMAIN-SUFFIX,interactivebrokers.com.au
+DOMAIN-SUFFIX,interactivebrokers.co.uk
+DOMAIN-SUFFIX,interactivebrokers.co.jp
+DOMAIN-SUFFIX,interactivebrokers.co.in
+DOMAIN-SUFFIX,interactivebrokers.ca
+DOMAIN-SUFFIX,interactivebrokers.ie
+DOMAIN-SUFFIX,interactivebrokers.hu
+DOMAIN-SUFFIX,interactivebrokers.lu
+DOMAIN-SUFFIX,interactivebrokers.com.cn
+
+# Regional Short Domains
+DOMAIN-SUFFIX,ibkr.com.hk
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,ibkr.co.uk
+DOMAIN-SUFFIX,ibkr.co.jp
+DOMAIN-SUFFIX,ibkr.ie
+DOMAIN-SUFFIX,ibkr.com.au
+DOMAIN-SUFFIX,ibkr.com.sg
+DOMAIN-SUFFIX,ibkr.hu
+
+# Third-Party Widgets & Analytics (Legitimate integration on client portal)
 DOMAIN-SUFFIX,widgets.tipranks.com
 DOMAIN-SUFFIX,c.go-mpulse.net
-DOMAIN-SUFFIX,ibkr.com
-DOMAIN-SUFFIX,ibkr.com.hk
+
+# Keywords
 DOMAIN-KEYWORD,ibkr
-DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-KEYWORD,interactivebrokers
