@@ -93,7 +93,8 @@ DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,bdxiguastatic.com
 DOMAIN-SUFFIX,zshtys888.com
 # libvio主页
-DOMAIN,www.libvio.cc
+DOMAIN-KEYWORD,libvio
+DOMAIN-KEYWORD,libvios
 # 播放
 DOMAIN-SUFFIX,mcloud.139.com
 DOMAIN-SUFFIX,libvio.cloud
@@ -108,7 +109,7 @@ DOMAIN,hdmoli.pro
 # 播放
 DOMAIN,v.damoli.pro
 # 哔嘀影视主页
-DOMAIN,www.xlys01.com
+DOMAIN,www.xl01.de
 # 播放
 DOMAIN-SUFFIX,bytetos.com
 # 烧火影视主页
