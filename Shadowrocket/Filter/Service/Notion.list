@@ -1,0 +1,19 @@
+# NAME: Notion
+# AUTHOR: Antigravity
+# UPDATED: 2026-06-22
+# 包含 Notion 核心服务、静态资源及用户上传内容分流
+
+# 核心与分发域名
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.xyz
+DOMAIN-SUFFIX,notion.space
+
+# 静态资源与用户上传文件 (解决图片、头像、附件无法加载的问题)
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion-static.com
+
+# 分析与日志服务 (可选)
+DOMAIN,http-inputs-notion.splunkcloud.com
