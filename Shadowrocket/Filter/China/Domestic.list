@@ -1,0 +1,26 @@
+# Domestic
+
+# Alibaba Group
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibabachengdun.com
+DOMAIN-SUFFIX,alibabagroup.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,tbcache.com
+DOMAIN-SUFFIX,tbcdn.cn
+IP-CIDR,163.181.0.0/16,no-resolve
+
+# Others
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,yunso.net
+DOMAIN-SUFFIX,aipanso.com
+DOMAIN-SUFFIX,axure.com
+DOMAIN-SUFFIX,axure.cn
+DOMAIN-KEYWORD,axure
+DOMAIN-SUFFIX,xclient.info
+
+# OuO subscription service
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,oss5-china-south-bucket.selectgroup.click
