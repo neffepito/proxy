@@ -1,0 +1,194 @@
+#!name=China & TikTok DNS
+#!desc=国内域名 DNS 分流解析优化（阿里/腾讯 DoH）及 TikTok 境外安全解析。提升国内域名解析速度与 CDN 选点。
+#!system=ios
+
+[Host]
+# 1. 国别及中文根域名（安全优先，走双 DoH）
+*.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.com.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xn--fiqs8s = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xn--55qx5d = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xn--io0a7i = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# 2. 金融与支付核心安全域名（安全优先，走双 DoH）
+*.95516.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.alipay.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alipayobjects.com = server:223.5.5.5,server:119.29.29.29
+*.weixin.qq.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.tenpay.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+
+# 3. 腾讯系
+*.qq.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.tencent.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.wechat.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.gtimg.cn = server:119.29.29.29,server:223.5.5.5
+*.myqcloud.com = server:119.29.29.29,server:223.5.5.5
+
+# 4. 阿里巴巴系
+*.taobao.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.tmall.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alibaba.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.aliyun.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alicdn.com = server:223.5.5.5,server:119.29.29.29
+*.tbcache.com = server:223.5.5.5,server:119.29.29.29
+*.tbcdn.cn = server:223.5.5.5,server:119.29.29.29
+*.alibabachengdun.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alibabagroup.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alibabacloud.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.alibaba-inc.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# 5. 字节跳动系
+*.douyin.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bytedance.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.snssdk.com = server:223.5.5.5,server:119.29.29.29
+*.pstatp.com = server:223.5.5.5,server:119.29.29.29
+*.byteimg.com = server:223.5.5.5,server:119.29.29.29
+
+# 6. 电商与生活服务（京东/拼多多/美团）
+*.jd.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.pinduoduo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.meituan.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.dpfile.com = server:223.5.5.5,server:119.29.29.29
+*.yangkeduo.com = server:223.5.5.5,server:119.29.29.29
+
+# 7. 社交与内容平台（新浪微博/小红书/哔哩哔哩/快手/知乎）
+*.weibo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xiaohongshu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bilibili.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.kuaishou.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zhihu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.sina.com.cn = server:223.5.5.5,server:119.29.29.29
+*.kuaishoupay.com = server:223.5.5.5,server:119.29.29.29
+*.xhslink.com = server:223.5.5.5,server:119.29.29.29
+*.hdslb.com = server:223.5.5.5,server:119.29.29.29
+*.zhimg.com = server:223.5.5.5,server:119.29.29.29
+
+# 8. 地图导航（高德）
+*.amap.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.autonavi.com = server:223.5.5.5,server:119.29.29.29
+
+# 9. 百度系
+*.baidu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bdstatic.com = server:223.5.5.5,server:119.29.29.29
+
+# 10. 网易系
+*.163.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.126.net = server:119.29.29.29,server:223.5.5.5
+
+# 11. 小米与智能家居
+*.mi.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xiaomi.com = server:223.5.5.5,server:119.29.29.29
+
+# 12. 国内视频与娱乐（爱奇艺/优酷/芒果TV/斗鱼/虎牙）
+*.iqiyi.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.qiyi.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.qy.net = server:223.5.5.5,server:119.29.29.29
+*.iqiyipic.com = server:223.5.5.5,server:119.29.29.29
+*.youku.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.ykimg.com = server:223.5.5.5,server:119.29.29.29
+*.tudou.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.mgtv.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.hunantv.com = server:223.5.5.5,server:119.29.29.29
+*.douyu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.douyutv.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.huya.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.miguvideo.com = server:223.5.5.5,server:119.29.29.29
+
+# 13. 国内音乐与音频（喜马拉雅/酷狗/网易云CDN）
+*.ximalaya.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xmcdn.com = server:223.5.5.5,server:119.29.29.29
+*.kugou.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.wesing.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.music.126.net = server:223.5.5.5,server:119.29.29.29
+*.music.163.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+
+# 14. 电商、生活服务与物流（大众点评/闲鱼/饿了么/盒马/飞猪/菜鸟/得物/唯品会/顺丰/货运物流）
+*.dianping.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.idlefish.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.ele.me = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.elemecdn.com = server:223.5.5.5,server:119.29.29.29
+*.freshhema.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.fliggy.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.cainiao.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.cainiao-inc.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.dewu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.vip.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.vipstatic.com = server:223.5.5.5,server:119.29.29.29
+*.360buyimg.com = server:223.5.5.5,server:119.29.29.29
+*.sf-express.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.sf-gy.com = server:223.5.5.5,server:119.29.29.29
+*.zto.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.yundaex.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# 15. 出行与旅游（12306/滴滴/携程/去哪儿）
+*.12306.org = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.didichuxing.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.didialift.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.udache.com = server:223.5.5.5,server:119.29.29.29
+*.ctrip.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.c-ctrip.com = server:223.5.5.5,server:119.29.29.29
+*.qunarzz.com = server:223.5.5.5,server:119.29.29.29
+
+# 16. 协同办公与工具（钉钉/飞书CDN/腾讯会议/金山/有道/工具搜索）
+*.dingtalk.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.dingtalkapps.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.feishucdn.com = server:223.5.5.5,server:119.29.29.29
+*.tencentmeeting.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.kingsoft.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.sogou.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.sogo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.sogoucdn.com = server:223.5.5.5,server:119.29.29.29
+*.360safe.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.qhimg.com = server:223.5.5.5,server:119.29.29.29
+*.qhres.com = server:223.5.5.5,server:119.29.29.29
+*.so.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.csdn.net = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.gitee.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.youdao.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+*.ydstatic.com = server:119.29.29.29,server:223.5.5.5
+
+# 17. 云服务、设备厂商与基础 CDN（华为/七牛云/百度网盘/网易）
+*.huawei.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.huaweicloud.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.vmall.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.dbank.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.dbankcdn.com = server:223.5.5.5,server:119.29.29.29
+*.oppo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.oppomobile.com = server:223.5.5.5,server:119.29.29.29
+*.oppoer.me = server:223.5.5.5,server:119.29.29.29
+*.vivo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.vivoglobal.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.oneplus.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.tuya.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.tuyacn.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.mi-img.com = server:223.5.5.5,server:119.29.29.29
+*.xiaomiyoupin.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.qiniu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.qiniucdn.com = server:223.5.5.5,server:119.29.29.29
+*.qiniudn.com = server:223.5.5.5,server:119.29.29.29
+*.baidubce.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.baidupcs.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.baidustatic.com = server:223.5.5.5,server:119.29.29.29
+*.netease.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
+
+# 18. 游戏厂商与常用内容（米哈游/完美世界）
+*.mihoyo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.genshin.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bh3.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.wanmei.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# 19. 国内主要银行及银联核心安全域名
+*.cmbchina.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.cmbimg.com = server:223.5.5.5,server:119.29.29.29
+*.ccb.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.pingan.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.citicbank.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.ecitic.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.cebbank.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.unionpay.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# TikTok 专属境外服务域名，强制使用海外安全 DNS 解析，防 DNS 污染和分流指向混乱
+*.tiktok.com = server:1.1.1.1,server:8.8.8.8
+*.tiktokv.com = server:1.1.1.1,server:8.8.8.8
+*.byteoversea.com = server:1.1.1.1,server:8.8.8.8
+*.ibytedtos.com = server:1.1.1.1,server:8.8.8.8
