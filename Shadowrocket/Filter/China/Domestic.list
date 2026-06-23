@@ -11,6 +11,18 @@ DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tbcdn.cn
 IP-CIDR,163.181.0.0/16,no-resolve
+# Alibaba Cloud International / Singapore IP Blocks (Bypass GeoIP misclassifications)
+IP-CIDR,43.109.0.0/16,no-resolve
+IP-CIDR,47.246.0.0/16,no-resolve
+IP-CIDR,8.210.0.0/16,no-resolve
+IP-CIDR,8.212.0.0/16,no-resolve
+IP-CIDR,8.217.0.0/16,no-resolve
+IP-CIDR,8.218.0.0/16,no-resolve
+IP-CIDR,8.219.0.0/16,no-resolve
+IP-CIDR,47.235.0.0/16,no-resolve
+IP-CIDR,47.91.0.0/16,no-resolve
+IP-CIDR,47.88.0.0/16,no-resolve
+IP-CIDR,47.89.0.0/16,no-resolve
 
 # Others
 DOMAIN-SUFFIX,xhslink.com
