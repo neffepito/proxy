@@ -188,7 +188,7 @@
 *.unionpay.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 
 # TikTok 专属境外服务域名，强制使用海外安全 DNS 解析，防 DNS 污染和分流指向混乱
-*.tiktok.com = server:1.1.1.1,server:8.8.8.8
-*.tiktokv.com = server:1.1.1.1,server:8.8.8.8
-*.byteoversea.com = server:1.1.1.1,server:8.8.8.8
-*.ibytedtos.com = server:1.1.1.1,server:8.8.8.8
+*.tiktok.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokv.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.byteoversea.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.ibytedtos.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
