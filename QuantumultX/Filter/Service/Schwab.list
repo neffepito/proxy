@@ -1,0 +1,42 @@
+# Charles Schwab (嘉信理财)
+
+# Main Domains
+HOST-SUFFIX,schwab.com,Schwab
+HOST-SUFFIX,schwabassets.com,Schwab
+HOST-SUFFIX,schwabassetmanagement.com,Schwab
+HOST-SUFFIX,schwabrt.com,Schwab
+HOST-SUFFIX,schwabtob.com,Schwab
+HOST-SUFFIX,schwabsafe.com,Schwab
+HOST-SUFFIX,schwab-financial.com,Schwab
+HOST-SUFFIX,schwabcontent.com,Schwab
+HOST-SUFFIX,schwabmoneywise.com,Schwab
+HOST-SUFFIX,schwab-global.com,Schwab
+
+# Regional Domains
+HOST-SUFFIX,schwab.co.uk,Schwab
+HOST-SUFFIX,schwab.com.hk,Schwab
+HOST-SUFFIX,schwab.sg,Schwab
+HOST-SUFFIX,schwab.ca,Schwab
+HOST-SUFFIX,schwab.eu,Schwab
+HOST-SUFFIX,schwab.ch,Schwab
+
+# TD Ameritrade & Thinkorswim (Acquired & fully integrated by Schwab)
+HOST-SUFFIX,tdameritrade.com,Schwab
+HOST-SUFFIX,ameritrade.com,Schwab
+HOST-SUFFIX,thinkorswim.com,Schwab
+HOST-SUFFIX,tdameritrade.com.sg,Schwab
+HOST-SUFFIX,tdameritrade.com.hk,Schwab
+HOST-SUFFIX,tdameritrade.co.jp,Schwab
+HOST-SUFFIX,tdameritrade.ca,Schwab
+HOST-SUFFIX,amtd.com,Schwab
+HOST-SUFFIX,optionsxpress.com,Schwab
+
+# Statement & Shareholder Services (Commonly used by Schwab)
+HOST-SUFFIX,proxyvote.com,Schwab
+HOST-SUFFIX,icsdelivery.com,Schwab
+HOST-SUFFIX,investordelivery.com,Schwab
+
+# Keywords
+HOST-KEYWORD,schwab,Schwab
+HOST-KEYWORD,ameritrade,Schwab
+HOST-KEYWORD,thinkorswim,Schwab

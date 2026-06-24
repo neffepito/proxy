@@ -1,0 +1,42 @@
+# Charles Schwab (嘉信理财)
+
+# Main Domains
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwabassets.com
+DOMAIN-SUFFIX,schwabassetmanagement.com
+DOMAIN-SUFFIX,schwabrt.com
+DOMAIN-SUFFIX,schwabtob.com
+DOMAIN-SUFFIX,schwabsafe.com
+DOMAIN-SUFFIX,schwab-financial.com
+DOMAIN-SUFFIX,schwabcontent.com
+DOMAIN-SUFFIX,schwabmoneywise.com
+DOMAIN-SUFFIX,schwab-global.com
+
+# Regional Domains
+DOMAIN-SUFFIX,schwab.co.uk
+DOMAIN-SUFFIX,schwab.com.hk
+DOMAIN-SUFFIX,schwab.sg
+DOMAIN-SUFFIX,schwab.ca
+DOMAIN-SUFFIX,schwab.eu
+DOMAIN-SUFFIX,schwab.ch
+
+# TD Ameritrade & Thinkorswim (Acquired & fully integrated by Schwab)
+DOMAIN-SUFFIX,tdameritrade.com
+DOMAIN-SUFFIX,ameritrade.com
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,tdameritrade.com.sg
+DOMAIN-SUFFIX,tdameritrade.com.hk
+DOMAIN-SUFFIX,tdameritrade.co.jp
+DOMAIN-SUFFIX,tdameritrade.ca
+DOMAIN-SUFFIX,amtd.com
+DOMAIN-SUFFIX,optionsxpress.com
+
+# Statement & Shareholder Services (Commonly used by Schwab)
+DOMAIN-SUFFIX,proxyvote.com
+DOMAIN-SUFFIX,icsdelivery.com
+DOMAIN-SUFFIX,investordelivery.com
+
+# Keywords
+DOMAIN-KEYWORD,schwab
+DOMAIN-KEYWORD,ameritrade
+DOMAIN-KEYWORD,thinkorswim

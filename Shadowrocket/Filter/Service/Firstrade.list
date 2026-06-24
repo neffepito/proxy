@@ -1,0 +1,27 @@
+# Firstrade (第一证券)
+
+# Main Domains
+DOMAIN-SUFFIX,firstrade.com
+DOMAIN-SUFFIX,firstrade.com.tw
+DOMAIN-SUFFIX,firstrade.com.hk
+DOMAIN-SUFFIX,firstrade.com.cn
+DOMAIN-SUFFIX,firstradeapi.com
+DOMAIN-SUFFIX,firstrade-api.com
+DOMAIN-SUFFIX,firstradesec.com
+DOMAIN-SUFFIX,ftcsec.com
+DOMAIN-SUFFIX,ftcsec.com.tw
+DOMAIN-SUFFIX,ftcsec.com.cn
+
+# Clearing & Statement Delivery (Firstrade uses Apex Clearing)
+DOMAIN-SUFFIX,apexclearing.com
+DOMAIN-SUFFIX,apexfintech.com
+DOMAIN-SUFFIX,apexfintechdocuments.com
+DOMAIN-SUFFIX,digital-delivery.com
+DOMAIN-SUFFIX,proxyvote.com
+DOMAIN-SUFFIX,icsdelivery.com
+DOMAIN-SUFFIX,investordelivery.com
+DOMAIN-SUFFIX,postedge.documentmailbox.com
+
+# Keywords
+DOMAIN-KEYWORD,firstrade
+DOMAIN-KEYWORD,ftcsec
