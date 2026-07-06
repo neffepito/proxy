@@ -24,6 +24,23 @@ IP-CIDR,47.91.0.0/16,no-resolve
 IP-CIDR,47.88.0.0/16,no-resolve
 IP-CIDR,47.89.0.0/16,no-resolve
 
+# Streaming Media
+DOMAIN-SUFFIX,yiys01.com
+DOMAIN-SUFFIX,yiys02.com
+DOMAIN-SUFFIX,yiys03.com
+DOMAIN-SUFFIX,yiys04.com
+DOMAIN-SUFFIX,yiys05.com
+DOMAIN-SUFFIX,yiys06.com
+DOMAIN-SUFFIX,yiys07.com
+DOMAIN-SUFFIX,yiys08.com
+DOMAIN-SUFFIX,yiys09.com
+DOMAIN-SUFFIX,yiys10.com
+DOMAIN-SUFFIX,3688baihuo.com
+DOMAIN-SUFFIX,pomdns.com
+DOMAIN-SUFFIX,blbtgg.com
+DOMAIN-SUFFIX,dandanplay.net
+DOMAIN-SUFFIX,dandanplay.com
+
 # Express & Logistics (国内快递与物流)
 DOMAIN-SUFFIX,fcbox.com
 DOMAIN-SUFFIX,fcbox.com.cn
