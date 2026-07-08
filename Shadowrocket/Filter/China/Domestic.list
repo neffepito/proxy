@@ -108,6 +108,18 @@ DOMAIN-SUFFIX,jddj.com
 DOMAIN-SUFFIX,daojia.com
 DOMAIN-SUFFIX,imdada.cn
 
+# ByteDance / Douyin (字节跳动/国内抖音)
+DOMAIN-SUFFIX,snssdk.com
+
+# Dousheng / Doushengsheng (抖省/抖省省)
+DOMAIN-SUFFIX,aolinuoke.com
+DOMAIN-SUFFIX,doushengsheng.com
+DOMAIN-SUFFIX,doushengsheng.cn
+DOMAIN-SUFFIX,doushengapp.com
+DOMAIN-SUFFIX,doushengapp.cn
+IP-CIDR,129.211.11.206/32,no-resolve
+IP-CIDR,120.24.71.98/32,no-resolve
+
 # Others
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,yunso.net
