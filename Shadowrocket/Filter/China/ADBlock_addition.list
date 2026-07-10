@@ -1,0 +1,18 @@
+# AdBlock Addition
+# Generated on: 2026-07-10
+
+# UBiX Ad-tech (广告联盟/移动广告SDK)
+DOMAIN-SUFFIX,ubixioe.com
+
+# Bridge Information Technology (移动端广告与数据统计SDK)
+DOMAIN-SUFFIX,bridgeoos.com
+
+# Statistilinks (酷盈广告平台 typo/变体)
+DOMAIN-SUFFIX,statistilinks.com
+DOMAIN-SUFFIX,statisticslinks.com
+
+# MobTech Telemetry/API (袤博科技数据收集)
+DOMAIN-SUFFIX,hiaiabc.com
+
+# Meishu Technology RTB Ad SDK (美数科技广告实时竞价)
+DOMAIN-SUFFIX,1rtb.net

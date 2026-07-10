@@ -120,6 +120,17 @@ DOMAIN-SUFFIX,doushengapp.cn
 IP-CIDR,129.211.11.206/32,no-resolve
 IP-CIDR,120.24.71.98/32,no-resolve
 
+# Cece / Cece Group (测测/心言集团)
+DOMAIN-SUFFIX,cece.com
+DOMAIN-SUFFIX,cecelive.com
+DOMAIN-SUFFIX,tarotcat.com
+DOMAIN-SUFFIX,xxwolo.com
+
+# Ixingpan / Love Astrology (爱星盘)
+DOMAIN-SUFFIX,ixingpan.com
+DOMAIN-SUFFIX,ixingpan.cn
+DOMAIN-SUFFIX,ixingpan.net
+
 # Others
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,yunso.net
@@ -133,3 +144,29 @@ DOMAIN-SUFFIX,shopgpt.plus
 # OuO subscription service
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,oss5-china-south-bucket.selectgroup.click
+
+# SDK Services (一键登录与即时通讯 SDK)
+# MobTech SecVerify (秒验一键登录)
+DOMAIN-SUFFIX,zztfly.com
+
+# RongCloud (融云即时通讯)
+DOMAIN-SUFFIX,rong-edge.com
+
+# Chuanglan Shanyan (创蓝闪验一键登录)
+DOMAIN-SUFFIX,cl2009.com
+
+# UBiX Ad-tech (广告联盟/移动广告SDK)
+DOMAIN-SUFFIX,ubixioe.com
+
+# Cece Bury/Telemetry (测测星座埋点上报)
+DOMAIN,bury.cece.com
+
+# Bridge Information Technology (移动端广告与数据统计SDK)
+DOMAIN-SUFFIX,bridgeoos.com
+
+# Statistilinks (酷盈广告平台 typo/变体)
+DOMAIN-SUFFIX,statistilinks.com
+DOMAIN-SUFFIX,statisticslinks.com
+
+# MobTech Telemetry/API (袤博科技数据收集)
+DOMAIN-SUFFIX,hiaiabc.com
