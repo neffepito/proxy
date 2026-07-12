@@ -131,6 +131,14 @@ DOMAIN-SUFFIX,ixingpan.com
 DOMAIN-SUFFIX,ixingpan.cn
 DOMAIN-SUFFIX,ixingpan.net
 
+# Zhuanzhuan / Secondhand Trading (转转/二手交易)
+DOMAIN-SUFFIX,zhuanzhuan.com
+DOMAIN-SUFFIX,zhuanstatic.com
+DOMAIN-SUFFIX,zhaoliangji.com
+DOMAIN-SUFFIX,zhaoliangji.cn
+DOMAIN-SUFFIX,zhuancorp.com
+DOMAIN-SUFFIX,zhuanspirit.com
+
 # Others
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,yunso.net
