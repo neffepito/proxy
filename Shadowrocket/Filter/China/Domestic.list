@@ -138,6 +138,8 @@ DOMAIN-SUFFIX,zhaoliangji.com
 DOMAIN-SUFFIX,zhaoliangji.cn
 DOMAIN-SUFFIX,zhuancorp.com
 DOMAIN-SUFFIX,zhuanspirit.com
+# Tencent Cloud IPv6 Block (腾讯云国内 IPv6 段)
+IP-CIDR6,2402:4e00::/32,no-resolve
 
 # Others
 DOMAIN-SUFFIX,xhslink.com
