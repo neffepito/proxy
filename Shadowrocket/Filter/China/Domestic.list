@@ -141,6 +141,79 @@ DOMAIN-SUFFIX,zhuanspirit.com
 # Tencent Cloud IPv6 Block (腾讯云国内 IPv6 段)
 IP-CIDR6,2402:4e00::/32,no-resolve
 
+# Domestic AI Services (国内 AI 服务)
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.cn
+DOMAIN-SUFFIX,deepseek.ai
+
+# Kimi (Moonshot AI)
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,moonshot.ai
+DOMAIN-SUFFIX,kimi-bot.com
+
+# Zhipu AI (BigModel / ChatGLM)
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,zhipuai.com
+DOMAIN-SUFFIX,zhipu.ai
+DOMAIN-SUFFIX,z.ai
+
+# Doubao (ByteDance / Coze)
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubao.cn
+DOMAIN-SUFFIX,coze.cn
+
+# MiniMax (星野)
+DOMAIN-SUFFIX,minimax.chat
+DOMAIN-SUFFIX,minimax.ai
+DOMAIN-SUFFIX,minimax.io
+DOMAIN-SUFFIX,minimax.cn
+DOMAIN-SUFFIX,xingye.ai
+DOMAIN-SUFFIX,abab-ai.com
+
+# Baichuan AI
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,baichuan.ai
+DOMAIN-SUFFIX,baichuan-ml.com
+
+# StepFun (阶跃星辰)
+DOMAIN-SUFFIX,stepfun.com
+DOMAIN-SUFFIX,stepfun.cn
+DOMAIN-SUFFIX,stepfun.ai
+DOMAIN-SUFFIX,step.ai
+
+# 01.AI (零一万物)
+DOMAIN-SUFFIX,01.ai
+DOMAIN-SUFFIX,lingyiwanwu.com
+DOMAIN-SUFFIX,yi.co
+
+# Xunfei Spark (科大讯飞星火)
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xf-yun.com
+DOMAIN-SUFFIX,iflytek.com
+
+# Tiangong AI (天工/昆仑万维)
+DOMAIN-SUFFIX,tiangong.cn
+DOMAIN-SUFFIX,skywork.ai
+
+# SenseTime (商汤商量)
+DOMAIN-SUFFIX,sensetime.com
+
+# Tongyi Qianwen / Qwen (通义千问 / 阿里云)
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,tongyi.cn
+
+# Vidu (Shengshu / 生数科技)
+DOMAIN-SUFFIX,vidu.com
+
+# SiliconFlow (硅基流动)
+DOMAIN-SUFFIX,siliconflow.cn
+DOMAIN-SUFFIX,siliconflow.com
+
 # Others
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,yunso.net
