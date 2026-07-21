@@ -56,12 +56,18 @@
 *.weibo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.xiaohongshu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.bilibili.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bilibili.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.b23.tv = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.kuaishou.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.zhihu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.sina.com.cn = server:223.5.5.5,server:119.29.29.29
 *.kuaishoupay.com = server:223.5.5.5,server:119.29.29.29
 *.xhslink.com = server:223.5.5.5,server:119.29.29.29
+*.bilivideo.com = server:223.5.5.5,server:119.29.29.29
+*.bilivideo.cn = server:223.5.5.5,server:119.29.29.29
 *.hdslb.com = server:223.5.5.5,server:119.29.29.29
+*.acgvideo.com = server:223.5.5.5,server:119.29.29.29
+*.szbdyd.com = server:223.5.5.5,server:119.29.29.29
 *.zhimg.com = server:223.5.5.5,server:119.29.29.29
 
 # 8. 地图导航（高德）
