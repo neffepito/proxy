@@ -4127,7 +4127,7 @@ https://.+\.gamersky.com/v1/statisticAd data-type=text data="{}" status-code=200
 # > 转转
 ^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+#^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 ^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzlogic\/getOpenScreen data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
