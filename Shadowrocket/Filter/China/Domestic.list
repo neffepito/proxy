@@ -24,7 +24,18 @@ IP-CIDR,47.91.0.0/16,no-resolve
 IP-CIDR,47.88.0.0/16,no-resolve
 IP-CIDR,47.89.0.0/16,no-resolve
 
-# Streaming Media
+# Streaming Media & Bilibili (哔哩哔哩/B站音视频及 CDN 直连加速)
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.cn
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,szbdyd.com
+DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,bilivideo
 DOMAIN-SUFFIX,yiys01.com
 DOMAIN-SUFFIX,yiys02.com
 DOMAIN-SUFFIX,yiys03.com
@@ -216,6 +227,7 @@ DOMAIN-SUFFIX,siliconflow.com
 
 # Others
 DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhslink.cn
 DOMAIN-SUFFIX,yunso.net
 DOMAIN-SUFFIX,aipanso.com
 DOMAIN-SUFFIX,axure.com

@@ -50,7 +50,11 @@
 *.meituan.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.dpfile.com = server:223.5.5.5,server:119.29.29.29
 *.yangkeduo.com = server:223.5.5.5,server:119.29.29.29
-*.zhuanzhuan.com = server:sys
+*.zhuanzhuan.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zhuanstatic.com = server:223.5.5.5,server:119.29.29.29
+*.zhaoliangji.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zhuancorp.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zhuanspirit.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 
 # 7. 社交与内容平台（新浪微博/小红书/哔哩哔哩/快手/知乎）
 *.weibo.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
@@ -63,6 +67,7 @@
 *.sina.com.cn = server:223.5.5.5,server:119.29.29.29
 *.kuaishoupay.com = server:223.5.5.5,server:119.29.29.29
 *.xhslink.com = server:223.5.5.5,server:119.29.29.29
+*.xhslink.cn = server:223.5.5.5,server:119.29.29.29
 *.bilivideo.com = server:223.5.5.5,server:119.29.29.29
 *.bilivideo.cn = server:223.5.5.5,server:119.29.29.29
 *.hdslb.com = server:223.5.5.5,server:119.29.29.29
