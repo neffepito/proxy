@@ -986,7 +986,7 @@ URL-REGEX, "^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/", REJECT-DROP
 ^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzusercenter\/myprofilevariouscards$ - reject-dict
 ^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/popwindow\/getallpopwin\? - reject-dict
 ^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/ptuserlogic\/subscribehotrecommend$ - reject-dict
-^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/ypmall\/listData$ - reject-dict
+#^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/ypmall\/listData$ - reject-dict
 ^https?:\/\/app\.zhuanzhuan\.com\/zzopen\/zzbmlogic\/queryFrontPageWindowInfo\? - reject-dict
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject
 ^https?:\/\/appapi\.51jobapp\.com\/api\/market\/get_launch\.php\? - reject-dict
