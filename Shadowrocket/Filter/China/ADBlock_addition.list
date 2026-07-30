@@ -16,3 +16,9 @@ DOMAIN-SUFFIX,hiaiabc.com
 
 # Meishu Technology RTB Ad SDK (美数科技广告实时竞价)
 DOMAIN-SUFFIX,1rtb.net
+
+# Bilibili PCDN / MCDN Block (Forces fallback to official high-speed CDNs)
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,mcdn.bilivideo.com
+DOMAIN-SUFFIX,mcdn.bilivideo.net
+DOMAIN-SUFFIX,szbdyd.com
