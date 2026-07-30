@@ -1,4 +1,4 @@
-#!name=China & TikTok DNS
+#!name=国内DNS分流
 #!desc=国内域名 DNS 分流解析优化（阿里/腾讯 DoH）及 TikTok 境外安全解析。提升国内域名解析速度与 CDN 选点。
 #!system=ios
 
