@@ -1,11 +1,25 @@
 # AI Services
 
+# Groq
 DOMAIN-SUFFIX,groq.com
 DOMAIN-KEYWORD,groq
+
+# Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-KEYWORD,perplexity
 DOMAIN-KEYWORD,pplx-res
+
+# Sora
 DOMAIN-SUFFIX,sora.com
 DOMAIN-KEYWORD,sora
+
+# Dia Browser
 DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-KEYWORD,diabrowser
+
+# Nous Research & Hermes Agent
+DOMAIN-SUFFIX,nousresearch.com
+DOMAIN-SUFFIX,nousresearch.ai
+DOMAIN-SUFFIX,nous.ai
+DOMAIN-KEYWORD,nousresearch
+DOMAIN-KEYWORD,hermes-agent
