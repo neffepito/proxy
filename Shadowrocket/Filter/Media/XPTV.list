@@ -378,6 +378,9 @@ DOMAIN,play.xluuss.com
 # 八戒播放
 DOMAIN-SUFFIX,monidai.com
 DOMAIN-SUFFIX,hdslb.pro
+# 金牌影院主页与播放
+DOMAIN-SUFFIX,3688baihuo.com
+DOMAIN-SUFFIX,jiabaide.cn
 # XPAV源
 # Hanime1播放
 DOMAIN,vdownload.hembed.com
