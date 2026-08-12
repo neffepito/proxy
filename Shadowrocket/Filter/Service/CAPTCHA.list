@@ -1,0 +1,27 @@
+# CAPTCHA & Anti-Bot Protection Services List
+# 人机验证与风控服务规则列表
+# 适用策略：建议指向 🌐Overseas 或通用代理策略组 (如 🧭Other / 🚀Proxy)，避免与主请求分流节点产生跨国 IP Mismatch 导致的验证死循环或校验失败。
+
+# hCaptcha
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,hcaptcha.net
+
+# Google reCAPTCHA
+DOMAIN-SUFFIX,recaptcha.net
+
+# Cloudflare Turnstile & Security Challenge
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
+# Arkose Labs / Enforcement (FunCaptcha - 用于 OpenAI, LinkedIn, GitHub 等)
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,funcaptcha.com
+
+# GeeTest (极验海外服务)
+DOMAIN-SUFFIX,geetest.com
+DOMAIN-SUFFIX,geevisit.com
+
+# Imperva / PerimeterX / DataDome / Kasada 等国际风控服务
+DOMAIN-SUFFIX,datadome.co
+DOMAIN-SUFFIX,perimeterx.net
+DOMAIN-SUFFIX,humansecurity.com
+DOMAIN-SUFFIX,kasada.io
