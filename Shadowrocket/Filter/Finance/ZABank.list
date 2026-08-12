@@ -1,0 +1,30 @@
+# ZA Bank (众安银行 & 众安集团生态)
+
+# ZA Bank Main Official Domains
+DOMAIN-SUFFIX,bank.za.group
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zabank.com.hk
+DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,zabank.hk
+DOMAIN-SUFFIX,za.bank
+
+# ZA Ecosystem & Financial Services
+DOMAIN-SUFFIX,zabricks.com
+DOMAIN-SUFFIX,zainsur.com
+DOMAIN-SUFFIX,insur.za.group
+DOMAIN-SUFFIX,zainvest.com
+DOMAIN-SUFFIX,zainvest.hk
+DOMAIN-SUFFIX,za.family
+DOMAIN-SUFFIX,za-tech.com
+
+# ZhongAn Technologies & Asset Management
+DOMAIN-SUFFIX,zhongansam.com
+DOMAIN-SUFFIX,zhongan.com
+DOMAIN-SUFFIX,zhongan.io
+DOMAIN-SUFFIX,zhongan.org
+DOMAIN-SUFFIX,zhongan.org.cn
+
+# ZA Bank Keywords
+DOMAIN-KEYWORD,zabank
+DOMAIN-KEYWORD,za.group
+DOMAIN-KEYWORD,zhongan

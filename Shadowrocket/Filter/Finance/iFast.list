@@ -1,0 +1,38 @@
+# iFAST Global Bank (iFAST GB 银行 & iFAST 集团)
+
+# iFAST Global Bank Official Domains (UK Digital Bank)
+DOMAIN-SUFFIX,ifastgb.com
+DOMAIN-SUFFIX,ifastgb.co.uk
+DOMAIN-SUFFIX,bfcbank.co.uk
+
+# iFAST Group Financial & Wealth Platforms (Global / HK / SG / MY)
+DOMAIN-SUFFIX,ifastfinancial.com
+DOMAIN-SUFFIX,ifastfinancial.com.hk
+DOMAIN-SUFFIX,ifastfinancial.com.sg
+DOMAIN-SUFFIX,ifastcorp.com
+DOMAIN-SUFFIX,ifastgp.com
+DOMAIN-SUFFIX,ifastps.com
+DOMAIN-SUFFIX,ifastnetwork.com
+DOMAIN-SUFFIX,ifastcapital.com
+DOMAIN-SUFFIX,ifast.io
+
+# FSMOne / Fundsupermart (iFAST Investment Platforms)
+DOMAIN-SUFFIX,fsmone.com
+DOMAIN-SUFFIX,fsmone.com.hk
+DOMAIN-SUFFIX,fsmone.com.sg
+DOMAIN-SUFFIX,fsmone.com.my
+DOMAIN-SUFFIX,fundsupermart.com
+DOMAIN-SUFFIX,fundsupermart.com.hk
+DOMAIN-SUFFIX,fundsupermart.com.sg
+DOMAIN-SUFFIX,fundsupermart.com.my
+
+# iFAST Keywords
+DOMAIN-KEYWORD,ifastgb
+DOMAIN-KEYWORD,ifast
+DOMAIN-KEYWORD,fsmone
+DOMAIN-KEYWORD,fundsupermart
+
+# iFAST Corporation & Financial ASNs & IP Ranges (AS139269 / AS55601)
+IP-CIDR,103.24.164.0/22,no-resolve
+IP-CIDR,103.253.28.0/22,no-resolve
+IP-CIDR,202.172.48.0/21,no-resolve
