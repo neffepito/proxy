@@ -61,6 +61,10 @@ DOMAIN-SUFFIX,online-metrix.net
 DOMAIN-SUFFIX,eum-appdynamics.com
 DOMAIN-SUFFIX,omtrdc.net
 
+# HSBC Live Chat & Customer Support (LivePerson)
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,lpsnmedia.net
+
 # HSBC Keywords
 DOMAIN-KEYWORD,hsbc
 DOMAIN-KEYWORD,payme
