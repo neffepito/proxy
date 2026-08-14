@@ -1,18 +1,23 @@
 # 核心域名（DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）
 DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,anthropicusercontent.com
 
 # CDN 和静态资源
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.com.cdn.cloudflare.net
 
-# 认证 / 内容
+# 认证 / 内容（含 Sanity 专属租户 CMS）
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
+DOMAIN,4zrzovbb.api.sanity.io
+DOMAIN,4zrzovbb.apicdn.sanity.io
+DOMAIN-KEYWORD,4zrzovbb
 
 # 监控和遥测
 DOMAIN-SUFFIX,sentry.io
