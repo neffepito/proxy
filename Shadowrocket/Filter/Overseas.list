@@ -261,3 +261,30 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-KEYWORD,greasyfork
 DOMAIN-KEYWORD,sleazyfork
+
+# Service: TheTVDB
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,www.thetvdb.com
+DOMAIN-SUFFIX,api.thetvdb.com
+DOMAIN-SUFFIX,artworks.thetvdb.com
+DOMAIN-KEYWORD,thetvdb
+
+# Service: Trakt
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN-SUFFIX,www.trakt.tv
+DOMAIN-SUFFIX,api.trakt.tv
+DOMAIN-KEYWORD,trakt
+
+# Service: TheMovieDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,www.themoviedb.org
+DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-KEYWORD,themoviedb
+DOMAIN-KEYWORD,tmdb
+
+# Service: MovieWeb
+DOMAIN-SUFFIX,movieweb.com
+DOMAIN-SUFFIX,www.movieweb.com
+DOMAIN-KEYWORD,movieweb
