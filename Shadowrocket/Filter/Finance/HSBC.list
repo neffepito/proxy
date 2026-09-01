@@ -54,16 +54,6 @@ DOMAIN-SUFFIX,hsbc.fr
 
 # HSBC Security, Risk Control & WAF SDK
 DOMAIN,hsbc.edge.sdk.awswaf.com
-DOMAIN-SUFFIX,awswaf.com
-DOMAIN-SUFFIX,online-metrix.net
-
-# HSBC Performance Monitoring & Analytics (APM)
-DOMAIN-SUFFIX,eum-appdynamics.com
-DOMAIN-SUFFIX,omtrdc.net
-
-# HSBC Live Chat & Customer Support (LivePerson)
-DOMAIN-SUFFIX,liveperson.net
-DOMAIN-SUFFIX,lpsnmedia.net
 
 # HSBC Keywords
 DOMAIN-KEYWORD,hsbc

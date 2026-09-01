@@ -281,18 +281,5 @@ DOMAIN-SUFFIX,rong-edge.com
 # Chuanglan Shanyan (创蓝闪验一键登录)
 DOMAIN-SUFFIX,cl2009.com
 
-# UBiX Ad-tech (广告联盟/移动广告SDK)
-DOMAIN-SUFFIX,ubixioe.com
-
 # Cece Bury/Telemetry (测测星座埋点上报)
 DOMAIN,bury.cece.com
-
-# Bridge Information Technology (移动端广告与数据统计SDK)
-DOMAIN-SUFFIX,bridgeoos.com
-
-# Statistilinks (酷盈广告平台 typo/变体)
-DOMAIN-SUFFIX,statistilinks.com
-DOMAIN-SUFFIX,statisticslinks.com
-
-# MobTech Telemetry/API (袤博科技数据收集)
-DOMAIN-SUFFIX,hiaiabc.com
