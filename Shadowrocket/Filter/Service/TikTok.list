@@ -1,17 +1,17 @@
 # NAME: TikTok
-# DESCRIPTION: Pure TikTok Ruleset without domestic ByteDance collision
-# UPDATED: 2026-08-02
+# DESCRIPTION: Pure TikTok & CapCut Ruleset without domestic ByteDance collision
+# UPDATED: 2026-09-01
 # TOTAL: 31
 
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,trae-api-sg.mchost.guru
-DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ipstatp.com
@@ -30,7 +30,7 @@ DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
 USER-AGENT,TikTok*
+USER-AGENT,CapCut*

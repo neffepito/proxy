@@ -118,8 +118,39 @@ DOMAIN-SUFFIX,jddj.com
 DOMAIN-SUFFIX,daojia.com
 DOMAIN-SUFFIX,imdada.cn
 
-# ByteDance / Douyin (字节跳动/国内抖音)
+# ByteDance / Douyin / JianYing (字节跳动/国内抖音/剪映)
+# 剪映与轻颜（国内版）
+DOMAIN-SUFFIX,jianying.com
+DOMAIN-SUFFIX,capcut.cn
+DOMAIN-SUFFIX,ulikecam.com
+DOMAIN-SUFFIX,ulikecam.cn
+DOMAIN-SUFFIX,lvvids.com
+# 抖音与国内流媒体
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,amemv.com
+# 字节跳动国内核心基础设施与 API
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytedanceapi.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,zijieimg.com
+DOMAIN-SUFFIX,zijiecdn.com
 DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,ttwebview.com
+# 火山引擎（云服务与 AI 算力）
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN-SUFFIX,volcengine.com
 
 # Dousheng / Doushengsheng (抖省/抖省省)
 DOMAIN-SUFFIX,aolinuoke.com
