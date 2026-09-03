@@ -288,3 +288,10 @@ DOMAIN-KEYWORD,tmdb
 DOMAIN-SUFFIX,movieweb.com
 DOMAIN-SUFFIX,www.movieweb.com
 DOMAIN-KEYWORD,movieweb
+
+# Service: Raycast
+DOMAIN-SUFFIX,raycast.com
+DOMAIN-SUFFIX,raycast.app
+DOMAIN-SUFFIX,raycast.ai
+DOMAIN-SUFFIX,ray.so
+DOMAIN-KEYWORD,raycast
