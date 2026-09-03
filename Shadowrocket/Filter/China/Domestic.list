@@ -125,6 +125,14 @@ DOMAIN-SUFFIX,capcut.cn
 DOMAIN-SUFFIX,ulikecam.com
 DOMAIN-SUFFIX,ulikecam.cn
 DOMAIN-SUFFIX,lvvids.com
+# 即梦 AI（剪映图像与视频生成平台）
+DOMAIN-SUFFIX,jimeng.com
+DOMAIN-SUFFIX,vlabimg.com
+DOMAIN-SUFFIX,vlabstatic.com
+DOMAIN-SUFFIX,vlabvod.com
+# 豆包与开发工具（国内版）
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,trae.cn
 # 抖音与国内流媒体
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
@@ -208,13 +216,14 @@ DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubao.cn
 DOMAIN-SUFFIX,coze.cn
 
-# MiniMax (星野)
+# MiniMax (星野/海螺)
 DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,minimax.ai
 DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,minimax.cn
 DOMAIN-SUFFIX,xingye.ai
 DOMAIN-SUFFIX,abab-ai.com
+DOMAIN-SUFFIX,hailuoai.com
 
 # Baichuan AI
 DOMAIN-SUFFIX,baichuan-ai.com
@@ -254,6 +263,10 @@ DOMAIN-SUFFIX,vidu.com
 # SiliconFlow (硅基流动)
 DOMAIN-SUFFIX,siliconflow.cn
 DOMAIN-SUFFIX,siliconflow.com
+
+# Kling AI (快手可灵 AI)
+DOMAIN-SUFFIX,klingai.cn
+DOMAIN-SUFFIX,klingai.com
 
 # Others
 DOMAIN-SUFFIX,xhslink.com

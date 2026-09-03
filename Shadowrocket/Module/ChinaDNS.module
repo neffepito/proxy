@@ -4,10 +4,30 @@
 
 [Host]
 # ═══ 1. 境外特定服务安全解析（防污染与分流纠正） ═══
+# TikTok & CapCut 境外核心业务与 CDN 安全解析
 *.tiktok.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
 *.tiktokv.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokcdn.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokcdn-us.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokcdn-eu.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokd.net = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokd.org = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tiktokmusic.app = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.tik-tokapi.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.capcut.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.capcut-us.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.capcutcdn-us.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.capcutapi.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.musical.ly = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.muscdn.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
 *.byteoversea.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.byteoversea.net = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
 *.ibytedtos.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.ibyteimg.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.ipstatp.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.isnssdk.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.sgpstatp.com = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
+*.trae.ai = server:https://1.1.1.1/dns-query,server:https://8.8.8.8/dns-query
 
 # ═══ 2. 金融、银行与核心支付安全（双 DoH 加密安全解析） ═══
 *.95516.com = server:https://119.29.29.29/dns-query,server:https://223.5.5.5/dns-query
@@ -48,9 +68,23 @@
 # ═══ 5. 字节跳动系 ═══
 *.douyin.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.bytedance.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.jianying.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.capcut.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.jimeng.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zijieapi.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.volcengine.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.volces.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.volccdn.com = server:223.5.5.5,server:119.29.29.29
+*.iesdouyin.com = server:223.5.5.5,server:119.29.29.29
+*.douyincdn.com = server:223.5.5.5,server:119.29.29.29
+*.douyinpic.com = server:223.5.5.5,server:119.29.29.29
+*.douyinstatic.com = server:223.5.5.5,server:119.29.29.29
+*.douyinvod.com = server:223.5.5.5,server:119.29.29.29
 *.snssdk.com = server:223.5.5.5,server:119.29.29.29
 *.pstatp.com = server:223.5.5.5,server:119.29.29.29
 *.byteimg.com = server:223.5.5.5,server:119.29.29.29
+*.bytetos.com = server:223.5.5.5,server:119.29.29.29
+*.bytegecko.com = server:223.5.5.5,server:119.29.29.29
 
 # ═══ 6. 百度系 ═══
 *.baidu.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
@@ -196,7 +230,21 @@
 *.bh3.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.wanmei.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 
-# ═══ 18. 国别及中文根域名（广谱兜底，置于最底部防止误覆盖精确子域名） ═══
+# ═══ 18. 国内核心 AI 服务（双 DoH 加密安全解析与防劫持） ═══
+*.deepseek.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.kimi.ai = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.moonshot.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.doubao.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.coze.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.zhipuai.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.bigmodel.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.minimax.chat = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.hailuoai.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.klingai.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.stepfun.com = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+*.xfyun.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
+
+# ═══ 19. 国别及中文根域名（广谱兜底，置于最底部防止误覆盖精确子域名） ═══
 *.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.com.cn = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
 *.xn--fiqs8s = server:https://223.5.5.5/dns-query,server:https://119.29.29.29/dns-query
