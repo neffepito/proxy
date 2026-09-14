@@ -268,9 +268,35 @@ DOMAIN-SUFFIX,siliconflow.com
 DOMAIN-SUFFIX,klingai.cn
 DOMAIN-SUFFIX,klingai.com
 
-# Others
+# Xiaohongshu (小红书核心生态与音视频 CDN)
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xhslink.cn
+DOMAIN-SUFFIX,300hu.com
+DOMAIN-SUFFIX,xycdn.com
+DOMAIN-SUFFIX,fengkongcloud.com
+
+# Ticketing & Live Entertainment (麦座与大麦网票务生态)
+DOMAIN-SUFFIX,maitix.com
+DOMAIN-SUFFIX,imaitix.com
+DOMAIN-SUFFIX,damai.cn
+
+# Steam China & Perfect World (Steam 国区蒸汽平台与完美世界国服服务)
+DOMAIN-SUFFIX,steamchina.com
+DOMAIN-SUFFIX,wmsj.cn
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-SUFFIX,clngaa.com
+DOMAIN-SUFFIX,ksyna.com
+DOMAIN-SUFFIX,8686c.com
+
+# LinkedIn China (领英中国)
+DOMAIN-SUFFIX,licdn.cn
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN,licdn.cn.cdn20.com
+
+# Others
 DOMAIN-SUFFIX,yunso.net
 DOMAIN-SUFFIX,aipanso.com
 DOMAIN-SUFFIX,axure.com
