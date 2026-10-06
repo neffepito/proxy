@@ -22,3 +22,7 @@ DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN-SUFFIX,mcdn.bilivideo.com
 DOMAIN-SUFFIX,mcdn.bilivideo.net
 DOMAIN-SUFFIX,szbdyd.com
+
+# Umeng Cloud Telemetry & Logs (友盟云日志与追踪埋点)
+DOMAIN,cnlogs.umengcloud.com
+DOMAIN,ulogs.umengcloud.com
