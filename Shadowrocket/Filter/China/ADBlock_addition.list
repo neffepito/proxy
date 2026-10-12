@@ -26,3 +26,12 @@ DOMAIN-SUFFIX,szbdyd.com
 # Umeng Cloud Telemetry & Logs (友盟云日志与追踪埋点)
 DOMAIN,cnlogs.umengcloud.com
 DOMAIN,ulogs.umengcloud.com
+
+# Huya Live Ads & DSP (虎牙直播商业化广告与推广)
+DOMAIN,business.msstatic.com
+DOMAIN,live-ads.huya.com
+DOMAIN,livewebbs2.msstatic.com
+DOMAIN,livewebbs2pcdn.msstatic.com
+
+# ByteDance Pangolin Ad SDK Failover (字节跳动穿山甲广告SDK容灾备用域名)
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
